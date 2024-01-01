@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cven8pkqkpti5"
+path="res://.godot/imported/punch soft thud 6.wav-8ac650344b99cb9a921ec5682d110ced.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/punch soft thud 6.wav"
+dest_files=["res://.godot/imported/punch soft thud 6.wav-8ac650344b99cb9a921ec5682d110ced.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

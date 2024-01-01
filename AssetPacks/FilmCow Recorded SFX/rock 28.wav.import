@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dkgw31ce2v67x"
+path="res://.godot/imported/rock 28.wav-68f1aa112d4a55e916f422e926c86d3c.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/rock 28.wav"
+dest_files=["res://.godot/imported/rock 28.wav-68f1aa112d4a55e916f422e926c86d3c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

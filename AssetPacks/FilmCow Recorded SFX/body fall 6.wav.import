@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ch22qti34h6ik"
+path="res://.godot/imported/body fall 6.wav-ca2b88d97c12d597966c7abf5a93e78c.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/body fall 6.wav"
+dest_files=["res://.godot/imported/body fall 6.wav-ca2b88d97c12d597966c7abf5a93e78c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

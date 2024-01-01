@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d1vcrxtk2h617"
+path="res://.godot/imported/bubbles 6.wav-1b0346e320945881b775e9c5cd4216b8.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/bubbles 6.wav"
+dest_files=["res://.godot/imported/bubbles 6.wav-1b0346e320945881b775e9c5cd4216b8.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

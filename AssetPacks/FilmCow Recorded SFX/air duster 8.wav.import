@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bhrdeyx1ucxu7"
+path="res://.godot/imported/air duster 8.wav-703117c29f7536c7c8bd5e21a7f32a18.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/air duster 8.wav"
+dest_files=["res://.godot/imported/air duster 8.wav-703117c29f7536c7c8bd5e21a7f32a18.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

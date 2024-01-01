@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dtpa1ll5ghy6v"
+path="res://.godot/imported/cereal being violently grabbed from bowl 2.wav-926f20941d0ec2f4288ab9ab42b27486.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/cereal being violently grabbed from bowl 2.wav"
+dest_files=["res://.godot/imported/cereal being violently grabbed from bowl 2.wav-926f20941d0ec2f4288ab9ab42b27486.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

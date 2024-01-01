@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://canclxuoq1cnl"]
+
+[ext_resource type="PackedScene" uid="uid://bdgllqnnrh8vj" path="res://AssetPacks/Survival Kit/Models/GLTF format/box.glb" id="1_jc3sg"]
+[ext_resource type="Script" path="res://Scenes/Testing/killable_box.gd" id="1_vp8xt"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_bjwp8"]
+size = Vector3(0.276367, 0.263123, 0.266602)
+
+[node name="KillableBox" type="StaticBody3D"]
+script = ExtResource("1_vp8xt")
+
+[node name="box2" parent="." instance=ExtResource("1_jc3sg")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.123444, 0)
+shape = SubResource("BoxShape3D_bjwp8")
+
+[node name="Label3D" type="Label3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.351748, 0)
+billboard = 1
+alpha_cut = 1
+text = "HP"

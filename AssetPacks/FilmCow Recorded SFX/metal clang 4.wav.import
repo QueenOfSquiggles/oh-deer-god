@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b7glbt5b5ilda"
+path="res://.godot/imported/metal clang 4.wav-f5f925e27e09e5ebb17a4e68374a0f75.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/metal clang 4.wav"
+dest_files=["res://.godot/imported/metal clang 4.wav-f5f925e27e09e5ebb17a4e68374a0f75.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

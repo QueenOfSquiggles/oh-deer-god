@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dkscp32chwaj"
+path="res://.godot/imported/gun movement 12.wav-2be3128010c78ffae99c7ddd51e4b80a.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/gun movement 12.wav"
+dest_files=["res://.godot/imported/gun movement 12.wav-2be3128010c78ffae99c7ddd51e4b80a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cja6130xt3gqi"
+path="res://.godot/imported/glass of beads falling to ground 3.wav-be931451c8abe0ea9f18100b7a8ddf75.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/glass of beads falling to ground 3.wav"
+dest_files=["res://.godot/imported/glass of beads falling to ground 3.wav-be931451c8abe0ea9f18100b7a8ddf75.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

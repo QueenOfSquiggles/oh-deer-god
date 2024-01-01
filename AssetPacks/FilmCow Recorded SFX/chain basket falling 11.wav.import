@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://mb5ymknb0y8e"
+path="res://.godot/imported/chain basket falling 11.wav-89414103d8af45558913067c2d07499f.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/chain basket falling 11.wav"
+dest_files=["res://.godot/imported/chain basket falling 11.wav-89414103d8af45558913067c2d07499f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

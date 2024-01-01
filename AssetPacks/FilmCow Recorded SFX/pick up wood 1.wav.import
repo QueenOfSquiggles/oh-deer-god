@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ckgahkqdwqgcs"
+path="res://.godot/imported/pick up wood 1.wav-325390e3c2c2a7ed4b0c540911a297ec.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/pick up wood 1.wav"
+dest_files=["res://.godot/imported/pick up wood 1.wav-325390e3c2c2a7ed4b0c540911a297ec.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

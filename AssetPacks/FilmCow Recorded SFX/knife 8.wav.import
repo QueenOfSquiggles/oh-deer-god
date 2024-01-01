@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ch73hgcipk5ca"
+path="res://.godot/imported/knife 8.wav-1a74862be80c0a1d8e8245c0a804d579.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/knife 8.wav"
+dest_files=["res://.godot/imported/knife 8.wav-1a74862be80c0a1d8e8245c0a804d579.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

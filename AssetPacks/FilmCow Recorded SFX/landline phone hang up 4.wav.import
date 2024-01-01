@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://lmgpqmtn4d6"
+path="res://.godot/imported/landline phone hang up 4.wav-43c768d3f44863b2105c4bd131d33ea4.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/landline phone hang up 4.wav"
+dest_files=["res://.godot/imported/landline phone hang up 4.wav-43c768d3f44863b2105c4bd131d33ea4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

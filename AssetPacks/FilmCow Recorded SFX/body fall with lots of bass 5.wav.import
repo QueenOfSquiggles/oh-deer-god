@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b8p2kreiep0ri"
+path="res://.godot/imported/body fall with lots of bass 5.wav-34c2923300d2df0c4e1a6e0b79eceaec.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/body fall with lots of bass 5.wav"
+dest_files=["res://.godot/imported/body fall with lots of bass 5.wav-34c2923300d2df0c4e1a6e0b79eceaec.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dq462nl0iemg3"
+path="res://.godot/imported/metal dinging underwater 14.wav-236addda33362a1a344157d991517923.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/metal dinging underwater 14.wav"
+dest_files=["res://.godot/imported/metal dinging underwater 14.wav-236addda33362a1a344157d991517923.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

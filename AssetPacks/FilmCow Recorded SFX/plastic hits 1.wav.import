@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://tcug3b1bj6nu"
+path="res://.godot/imported/plastic hits 1.wav-e411cc78dd5e95559952db8f39755b11.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/plastic hits 1.wav"
+dest_files=["res://.godot/imported/plastic hits 1.wav-e411cc78dd5e95559952db8f39755b11.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

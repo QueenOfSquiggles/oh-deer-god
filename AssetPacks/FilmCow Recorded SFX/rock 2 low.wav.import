@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b26ft64dqbvom"
+path="res://.godot/imported/rock 2 low.wav-8dc3dc3caae9d1d4a86d72c1e9f6dfa1.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/rock 2 low.wav"
+dest_files=["res://.godot/imported/rock 2 low.wav-8dc3dc3caae9d1d4a86d72c1e9f6dfa1.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

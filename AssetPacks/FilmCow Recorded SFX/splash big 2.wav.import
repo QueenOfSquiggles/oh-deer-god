@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bmua2y61bqn6h"
+path="res://.godot/imported/splash big 2.wav-e72792089c9f731df67945c7dfcd152d.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/splash big 2.wav"
+dest_files=["res://.godot/imported/splash big 2.wav-e72792089c9f731df67945c7dfcd152d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

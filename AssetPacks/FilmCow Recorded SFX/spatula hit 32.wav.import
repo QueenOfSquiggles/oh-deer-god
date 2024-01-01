@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c6wu22l8h82e5"
+path="res://.godot/imported/spatula hit 32.wav-fd39c47da523454011cc6e79e3de5d71.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/spatula hit 32.wav"
+dest_files=["res://.godot/imported/spatula hit 32.wav-fd39c47da523454011cc6e79e3de5d71.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

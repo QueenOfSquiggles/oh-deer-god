@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b0jwe21j2m4by"
+path="res://.godot/imported/plastic grinding 8.wav-783a0f8e0f85c364096c3bc8d183b0f0.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/plastic grinding 8.wav"
+dest_files=["res://.godot/imported/plastic grinding 8.wav-783a0f8e0f85c364096c3bc8d183b0f0.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

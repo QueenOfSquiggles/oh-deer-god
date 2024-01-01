@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cnfrlgqh1ca5r"
+path="res://.godot/imported/branch moved 7.wav-e66a19da4b4601f5ef7a99ec8d12c34a.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/branch moved 7.wav"
+dest_files=["res://.godot/imported/branch moved 7.wav-e66a19da4b4601f5ef7a99ec8d12c34a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

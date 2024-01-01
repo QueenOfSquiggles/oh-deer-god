@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c0y0xs6jiiquy"
+path="res://.godot/imported/plastic drawer shut 5.wav-738ef7d695596c6a5e48197c6b21c6ea.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/plastic drawer shut 5.wav"
+dest_files=["res://.godot/imported/plastic drawer shut 5.wav-738ef7d695596c6a5e48197c6b21c6ea.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

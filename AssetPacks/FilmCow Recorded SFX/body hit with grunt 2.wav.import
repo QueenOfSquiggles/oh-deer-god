@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c0dyjlpnp88ci"
+path="res://.godot/imported/body hit with grunt 2.wav-64f4f45da639efbabf2712e2dab4e609.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/body hit with grunt 2.wav"
+dest_files=["res://.godot/imported/body hit with grunt 2.wav-64f4f45da639efbabf2712e2dab4e609.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

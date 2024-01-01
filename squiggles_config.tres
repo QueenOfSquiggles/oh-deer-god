@@ -1,0 +1,22 @@
+[gd_resource type="SquigglesCoreConfig" load_steps=6 format=3 uid="uid://bnsygfbrsktjd"]
+
+[sub_resource type="GameAudioSettings" id="GameAudioSettings_ye62f"]
+
+[sub_resource type="GameControlsSettings" id="GameControlsSettings_qcma3"]
+mappings_style = 1
+
+[sub_resource type="GameGameplaySettings" id="GameGameplaySettings_iclqp"]
+
+[sub_resource type="GameGraphicsSettings" id="GameGraphicsSettings_lavqm"]
+use_ssil = true
+use_ssr = true
+window_fullscreen_mode = 0
+
+[sub_resource type="VFXStack" id="VFXStack_fqcjh"]
+
+[resource]
+graphics = SubResource("GameGraphicsSettings_lavqm")
+controls = SubResource("GameControlsSettings_qcma3")
+gameplay = SubResource("GameGameplaySettings_iclqp")
+audio = SubResource("GameAudioSettings_ye62f")
+vfx_stack = SubResource("VFXStack_fqcjh")

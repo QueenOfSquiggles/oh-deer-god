@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c8os66yfjvc77"
+path="res://.godot/imported/paper rough handling 18.wav-8ebc4550e34659da0a1f72fd46acf0fb.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/paper rough handling 18.wav"
+dest_files=["res://.godot/imported/paper rough handling 18.wav-8ebc4550e34659da0a1f72fd46acf0fb.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

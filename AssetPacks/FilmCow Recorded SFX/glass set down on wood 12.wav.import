@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d3okbqabcg8wy"
+path="res://.godot/imported/glass set down on wood 12.wav-cbd2d95061b06efd2f4e9dc1833f3dc9.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/glass set down on wood 12.wav"
+dest_files=["res://.godot/imported/glass set down on wood 12.wav-cbd2d95061b06efd2f4e9dc1833f3dc9.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

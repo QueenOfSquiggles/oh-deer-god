@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ntiv2rftnu11"
+path="res://.godot/imported/suitcase unzipped 1.wav-fedbb9ab76baae57942ae0b6b556a0eb.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/suitcase unzipped 1.wav"
+dest_files=["res://.godot/imported/suitcase unzipped 1.wav-fedbb9ab76baae57942ae0b6b556a0eb.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dty3an0ig1w58"
+path="res://.godot/imported/umbrella handling 9.wav-0d3e04e0b065f36ced42517903ebe8a5.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/umbrella handling 9.wav"
+dest_files=["res://.godot/imported/umbrella handling 9.wav-0d3e04e0b065f36ced42517903ebe8a5.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

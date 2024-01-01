@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bf2bja6rc7i2"
+path="res://.godot/imported/rope let go 5.wav-158119fae97566cd8d15cc3519f26b31.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/rope let go 5.wav"
+dest_files=["res://.godot/imported/rope let go 5.wav-158119fae97566cd8d15cc3519f26b31.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

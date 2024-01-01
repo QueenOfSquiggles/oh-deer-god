@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dqg1kripe3kej"
+path="res://.godot/imported/umbrella opening 3.wav-49b0c22fe6e591fb22dcab86231c9bf9.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/umbrella opening 3.wav"
+dest_files=["res://.godot/imported/umbrella opening 3.wav-49b0c22fe6e591fb22dcab86231c9bf9.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

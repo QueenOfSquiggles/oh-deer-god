@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dravp7sgrvro2"
+path="res://.godot/imported/fan friction 5.wav-b4726f130de5523277052e4267c04217.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/fan friction 5.wav"
+dest_files=["res://.godot/imported/fan friction 5.wav-b4726f130de5523277052e4267c04217.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

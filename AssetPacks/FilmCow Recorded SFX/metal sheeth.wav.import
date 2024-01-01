@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dux6bagfglr42"
+path="res://.godot/imported/metal sheeth.wav-845c3fa7d690c6ecd52f355d648b6cab.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/metal sheeth.wav"
+dest_files=["res://.godot/imported/metal sheeth.wav-845c3fa7d690c6ecd52f355d648b6cab.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

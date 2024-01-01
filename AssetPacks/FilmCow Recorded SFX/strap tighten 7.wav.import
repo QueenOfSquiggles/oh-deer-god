@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dx1vmkglo16hr"
+path="res://.godot/imported/strap tighten 7.wav-55f25b4def795c50050b66f66d31e2c4.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/strap tighten 7.wav"
+dest_files=["res://.godot/imported/strap tighten 7.wav-55f25b4def795c50050b66f66d31e2c4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

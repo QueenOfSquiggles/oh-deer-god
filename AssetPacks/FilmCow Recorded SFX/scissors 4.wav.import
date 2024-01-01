@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bvgnvlfgk2mul"
+path="res://.godot/imported/scissors 4.wav-b6eeae602540a950c4acc80987d6c978.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/scissors 4.wav"
+dest_files=["res://.godot/imported/scissors 4.wav-b6eeae602540a950c4acc80987d6c978.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://wsi34qrl54cf"
+path="res://.godot/imported/button assorted 54.wav-80d56fe0737c84ec4123b1e159d7e74d.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/button assorted 54.wav"
+dest_files=["res://.godot/imported/button assorted 54.wav-80d56fe0737c84ec4123b1e159d7e74d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

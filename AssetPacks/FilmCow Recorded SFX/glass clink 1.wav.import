@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://7nyax2l8dhnc"
+path="res://.godot/imported/glass clink 1.wav-3e7ba615e42b7824ccf21f55dce58ae8.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/glass clink 1.wav"
+dest_files=["res://.godot/imported/glass clink 1.wav-3e7ba615e42b7824ccf21f55dce58ae8.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

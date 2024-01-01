@@ -1,0 +1,278 @@
+[gd_scene load_steps=41 format=3 uid="uid://du4krrf5hup3v"]
+
+[ext_resource type="PackedScene" uid="uid://73twqmabyckh" path="res://Assets/player_house.glb" id="1_v8id4"]
+[ext_resource type="PackedScene" uid="uid://bfnr4bui4yiee" path="res://AssetPacks/Furniture Kit/Models/GLTF format/table.glb" id="2_7merr"]
+[ext_resource type="PackedScene" uid="uid://bkjwdyvrgflq8" path="res://AssetPacks/Furniture Kit/Models/GLTF format/rugDoormat.glb" id="3_j32md"]
+[ext_resource type="PackedScene" uid="uid://b4pgd2cnko74h" path="res://AssetPacks/Furniture Kit/Models/GLTF format/pottedPlant.glb" id="4_55r5o"]
+[ext_resource type="PackedScene" uid="uid://cwmobfg2ikh7" path="res://AssetPacks/Furniture Kit/Models/GLTF format/lampWall.glb" id="5_roebr"]
+[ext_resource type="PackedScene" uid="uid://bvo4lhl8m65mr" path="res://AssetPacks/Furniture Kit/Models/GLTF format/lampSquareFloor.glb" id="6_wrxn5"]
+[ext_resource type="PackedScene" uid="uid://rwsegatsio2h" path="res://AssetPacks/Furniture Kit/Models/GLTF format/kitchenSink.glb" id="7_swmvl"]
+[ext_resource type="PackedScene" uid="uid://dkc2g7n5ajh7b" path="res://AssetPacks/Furniture Kit/Models/GLTF format/kitchenStoveElectric.glb" id="8_g0mah"]
+[ext_resource type="PackedScene" uid="uid://vxsymi6fii4c" path="res://AssetPacks/Furniture Kit/Models/GLTF format/kitchenFridgeSmall.glb" id="9_gi7ac"]
+[ext_resource type="PackedScene" uid="uid://8oq7kwhgi78e" path="res://Scenes/Interactables/dialog_provider.tscn" id="10_cjyf1"]
+[ext_resource type="PackedScene" uid="uid://bmpawy6w3k4i" path="res://AssetPacks/Furniture Kit/Models/GLTF format/kitchenCoffeeMachine.glb" id="11_001w7"]
+[ext_resource type="PackedScene" uid="uid://b32px7ks2pvto" path="res://AssetPacks/Furniture Kit/Models/GLTF format/kitchenCabinetUpperCorner.glb" id="12_v2eyv"]
+[ext_resource type="PackedScene" uid="uid://tvdb41e7mwh0" path="res://AssetPacks/Furniture Kit/Models/GLTF format/kitchenCabinetUpper.glb" id="13_8ubdr"]
+[ext_resource type="PackedScene" uid="uid://krdg3etmrauq" path="res://AssetPacks/Furniture Kit/Models/GLTF format/desk.glb" id="14_o73sw"]
+[ext_resource type="PackedScene" uid="uid://c6lf7t2fmsrk2" path="res://AssetPacks/Furniture Kit/Models/GLTF format/computerScreen.glb" id="15_256ex"]
+[ext_resource type="PackedScene" uid="uid://lfn71xt54b8r" path="res://AssetPacks/Furniture Kit/Models/GLTF format/computerMouse.glb" id="16_fyfle"]
+[ext_resource type="PackedScene" uid="uid://b1uamn1ou4d4h" path="res://AssetPacks/Furniture Kit/Models/GLTF format/computerKeyboard.glb" id="17_62lkm"]
+[ext_resource type="PackedScene" uid="uid://dh2komjla5qfp" path="res://AssetPacks/Furniture Kit/Models/GLTF format/chairModernFrameCushion.glb" id="18_5uxjq"]
+[ext_resource type="PackedScene" uid="uid://dgbkb0t48tsgq" path="res://AssetPacks/Furniture Kit/Models/GLTF format/chair.glb" id="19_xp187"]
+[ext_resource type="PackedScene" uid="uid://bu7ihem31ihx2" path="res://AssetPacks/Furniture Kit/Models/GLTF format/bookcaseOpen.glb" id="20_ao2ha"]
+[ext_resource type="PackedScene" uid="uid://by4jxvdf4o1n2" path="res://AssetPacks/Furniture Kit/Models/GLTF format/books.glb" id="21_bj1wh"]
+[ext_resource type="PackedScene" uid="uid://bhwv1sgjsyl38" path="res://AssetPacks/Furniture Kit/Models/GLTF format/bedSingle.glb" id="22_ew2jr"]
+[ext_resource type="PackedScene" uid="uid://dbfxwdk3i5jog" path="res://AssetPacks/Furniture Kit/Models/GLTF format/toilet.glb" id="23_25ii5"]
+[ext_resource type="PackedScene" uid="uid://wi6ipi3arh2p" path="res://AssetPacks/Furniture Kit/Models/GLTF format/trashcan.glb" id="24_w1e42"]
+[ext_resource type="PackedScene" uid="uid://bom1r6n1fygqr" path="res://AssetPacks/Furniture Kit/Models/GLTF format/washerDryerStacked.glb" id="25_4d3j3"]
+[ext_resource type="PackedScene" uid="uid://b25q2k1n8dsx8" path="res://AssetPacks/Furniture Kit/Models/GLTF format/kitchenCabinet.glb" id="26_bq5n4"]
+[ext_resource type="PackedScene" uid="uid://bt37egcynb8u2" path="res://AssetPacks/Furniture Kit/Models/GLTF format/kitchenMicrowave.glb" id="27_x4wie"]
+[ext_resource type="PackedScene" uid="uid://darde284hbky4" path="res://AssetPacks/Furniture Kit/Models/GLTF format/tableCoffeeSquare.glb" id="28_to8lf"]
+[ext_resource type="PackedScene" uid="uid://ct25iaixc6rn3" path="res://AssetPacks/Furniture Kit/Models/GLTF format/loungeDesignSofa.glb" id="29_l8smh"]
+[ext_resource type="PackedScene" uid="uid://tk1sc4xa2s02" path="res://AssetPacks/Furniture Kit/Models/GLTF format/televisionModern.glb" id="30_0c2ly"]
+[ext_resource type="PackedScene" uid="uid://dtsds2lecyhwa" path="res://AssetPacks/Furniture Kit/Models/GLTF format/plantSmall2.glb" id="31_o5ruf"]
+[ext_resource type="PackedScene" uid="uid://bvwseeyypv6s2" path="res://AssetPacks/Furniture Kit/Models/GLTF format/plantSmall3.glb" id="32_pg3l4"]
+[ext_resource type="PackedScene" uid="uid://bmh4jsfy55ngm" path="res://AssetPacks/Furniture Kit/Models/GLTF format/plantSmall1.glb" id="33_5284p"]
+[ext_resource type="PackedScene" uid="uid://d1eypn85o7n7s" path="res://Scenes/Interactables/openable_door.tscn" id="34_n5c5w"]
+[ext_resource type="PackedScene" uid="uid://coxhu3hqs5n8x" path="res://AssetPacks/Furniture Kit/Models/GLTF format/doorwayOpen.glb" id="35_wnwqp"]
+[ext_resource type="LightmapGIData" uid="uid://bkkjqoh6jepn6" path="res://Scenes/Bootstrap/player_house_baked.lmbake" id="36_kbqqm"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_aryxj"]
+size = Vector3(1.69312, 1.16992, 1.71283)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_amw1i"]
+size = Vector3(1.18799, 1.64014, 1.11572)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_eod2j"]
+size = Vector3(0.421387, 1, 3.11719)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_fbdd2"]
+size = Vector3(1.58267, 1.37793, 1.28273)
+
+[node name="PlayerHouseStuff" type="Node3D"]
+
+[node name="player_house" parent="." instance=ExtResource("1_v8id4")]
+transform = Transform3D(-1, 0, -8.74227e-08, 0, 1, 0, 8.74227e-08, 0, -1, 0, 0, 0)
+
+[node name="table" parent="player_house" instance=ExtResource("2_7merr")]
+transform = Transform3D(0.997585, 0, -0.0694605, 0, 1, 0, 0.0694605, 0, 0.997585, 0.943718, 0.00999991, 3.12916)
+
+[node name="rugDoormat" parent="player_house" instance=ExtResource("3_j32md")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.670876, 0, -3.60263)
+
+[node name="pottedPlant" parent="player_house" instance=ExtResource("4_55r5o")]
+transform = Transform3D(1, 0, -4.9738e-14, 0, 1, 0, 4.9738e-14, 0, 1, 0.39402, 0.00999967, -2.86695)
+
+[node name="lampWall" parent="player_house" instance=ExtResource("5_roebr")]
+transform = Transform3D(1, 0, -9.9476e-14, 0, 1, 0, 9.9476e-14, 0, 1, -3.62249, 2.27776, -3.21431)
+
+[node name="OmniLight3D" type="OmniLight3D" parent="player_house/lampWall"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.160225, 0.0836487)
+light_color = Color(0.870588, 0.839216, 0.694118, 1)
+light_energy = 0.5
+light_size = 0.201
+light_bake_mode = 1
+shadow_enabled = true
+omni_shadow_mode = 0
+
+[node name="lampWall2" parent="player_house" instance=ExtResource("5_roebr")]
+transform = Transform3D(1, 0, -1.27898e-13, 0, 1, 0, 1.27898e-13, 0, 1, 2.88993, 2.3432, -3.21431)
+
+[node name="OmniLight3D" type="OmniLight3D" parent="player_house/lampWall2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.160225, 0.0836487)
+light_color = Color(0.870588, 0.839216, 0.694118, 1)
+light_energy = 0.5
+light_size = 0.201
+light_bake_mode = 1
+shadow_enabled = true
+omni_shadow_mode = 0
+
+[node name="lampWall3" parent="player_house" instance=ExtResource("5_roebr")]
+transform = Transform3D(-1, 0, -8.74227e-08, 0, 1, 0, 8.74227e-08, 0, -1, 2.88993, 2.3432, 3.17664)
+
+[node name="OmniLight3D" type="OmniLight3D" parent="player_house/lampWall3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.160225, 0.0836487)
+light_color = Color(0.870588, 0.839216, 0.694118, 1)
+light_energy = 0.5
+light_size = 0.201
+light_bake_mode = 1
+shadow_enabled = true
+omni_shadow_mode = 0
+
+[node name="lampWall4" parent="player_house" instance=ExtResource("5_roebr")]
+transform = Transform3D(-1, 0, -8.74227e-08, 0, 1, 0, 8.74227e-08, 0, -1, -2.58483, 2.31721, 3.17665)
+
+[node name="OmniLight3D" type="OmniLight3D" parent="player_house/lampWall4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.160225, 0.0836487)
+light_color = Color(0.870588, 0.839216, 0.694118, 1)
+light_energy = 0.5
+light_size = 0.201
+light_bake_mode = 1
+shadow_enabled = true
+omni_shadow_mode = 0
+
+[node name="lampSquareFloor" parent="player_house" instance=ExtResource("6_wrxn5")]
+transform = Transform3D(0.964221, 0, 0.265102, 0, 1, 0, -0.265102, 0, 0.964221, -4.73576, 0.0100001, 3.10263)
+
+[node name="OmniLight3D" type="OmniLight3D" parent="player_house/lampSquareFloor"]
+transform = Transform3D(1, 0, 8.9407e-08, 0, 1, 0, -8.9407e-08, 0, 1, 0, 1.89059, 0)
+light_color = Color(0.870588, 0.839216, 0.694118, 1)
+light_energy = 0.5
+light_size = 0.201
+light_bake_mode = 1
+shadow_enabled = true
+omni_shadow_mode = 0
+
+[node name="kitchenSink" parent="player_house" instance=ExtResource("7_swmvl")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 3.77197, 0.00999991, -0.295994)
+
+[node name="kitchenStoveElectric" parent="player_house" instance=ExtResource("8_g0mah")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 3.7658, 0.00999991, 0.79052)
+
+[node name="kitchenFridgeSmall" parent="player_house" instance=ExtResource("9_gi7ac")]
+transform = Transform3D(-0.0661869, 0, -0.997808, 0, 1, 0, 0.997808, 0, -0.0661869, 4.08033, 0.00999991, 1.97926)
+
+[node name="kitchenCoffeeMachine" parent="player_house" instance=ExtResource("11_001w7")]
+transform = Transform3D(0.610394, 0, -0.792098, 0, 1, 0, 0.792098, 0, 0.610394, 4.03607, 1.10466, -0.946594)
+
+[node name="kitchenCabinetUpperCorner" parent="player_house" instance=ExtResource("12_v2eyv")]
+transform = Transform3D(-4.37115e-08, 0, -1, 0, 1, 0, 1, 0, -4.37115e-08, 4.37831, 1.83194, -1.79218)
+
+[node name="kitchenCabinetUpper2" parent="player_house" instance=ExtResource("13_8ubdr")]
+transform = Transform3D(-4.37115e-08, 0, -1, 0, 1, 0, 1, 0, -4.37115e-08, 4.37428, 1.83546, 0.871613)
+
+[node name="kitchenCabinetUpper3" parent="player_house" instance=ExtResource("13_8ubdr")]
+transform = Transform3D(-4.37115e-08, 0, -1, 0, 1, 0, 1, 0, -4.37115e-08, 4.37429, 1.83546, -0.1973)
+
+[node name="kitchenCabinetUpper4" parent="player_house" instance=ExtResource("13_8ubdr")]
+transform = Transform3D(-4.37115e-08, 0, -1, 0, 1, 0, 1, 0, -4.37115e-08, 4.37431, 1.83546, -1.26105)
+
+[node name="desk" parent="player_house" instance=ExtResource("14_o73sw")]
+transform = Transform3D(1, 0, -4.9738e-14, 0, 1, 0, 4.9738e-14, 0, 1, -3.15601, 0.01, -2.23178)
+
+[node name="computerScreen" parent="player_house" instance=ExtResource("15_256ex")]
+transform = Transform3D(0.996683, 0, 0.0813819, 0, 1, 0, -0.0813819, 0, 0.996683, -2.55213, 0.97881, -2.79393)
+
+[node name="computerMouse" parent="player_house" instance=ExtResource("16_fyfle")]
+transform = Transform3D(-0.92723, 0, -0.374493, 0, 1, 0, 0.374493, 0, -0.92723, -2.54351, 0.97041, -2.55505)
+
+[node name="computerKeyboard" parent="player_house" instance=ExtResource("17_62lkm")]
+transform = Transform3D(0.980292, 0, -0.197555, 0, 1, 0, 0.197555, 0, 0.980292, -2.2053, 0.971019, -2.44683)
+
+[node name="chairModernFrameCushion" parent="player_house" instance=ExtResource("18_5uxjq")]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -1.73792, 0.00999991, -2.32341)
+
+[node name="chair" parent="player_house" instance=ExtResource("19_xp187")]
+transform = Transform3D(0.981037, 0, 0.193824, 0, 1, 0, -0.193824, 0, 0.981037, 1.69807, 0.0100001, 2.42566)
+
+[node name="bookcaseOpen" parent="player_house" instance=ExtResource("20_ao2ha")]
+transform = Transform3D(1, 0, -2.84217e-14, 0, 1, 0, 2.84217e-14, 0, 1, -1.13137, 0.00999991, -2.52163)
+
+[node name="books" parent="player_house" instance=ExtResource("21_bj1wh")]
+transform = Transform3D(1, 0, -1.27898e-13, 0, 1, 0, 1.27898e-13, 0, 1, -0.639626, 0.935, -2.74222)
+
+[node name="books2" parent="player_house" instance=ExtResource("21_bj1wh")]
+transform = Transform3D(-0.998834, 0, 0.0482745, 0, 1, 0, 0.0482745, 0, 0.998834, -0.637184, 0.341147, -2.74222)
+
+[node name="bedSingle" parent="player_house" instance=ExtResource("22_ew2jr")]
+transform = Transform3D(0.999981, 0, 0.00623079, 0, 1, 0, -0.00623079, 0, 0.999981, -5.80583, 0.00999991, -0.366375)
+
+[node name="toilet" parent="player_house" instance=ExtResource("23_25ii5")]
+transform = Transform3D(1, 0, -2.84217e-14, 0, 1, 0, 2.84217e-14, 0, 1, 1.50327, 0.00999991, -3.04298)
+
+[node name="trashcan" parent="player_house" instance=ExtResource("24_w1e42")]
+transform = Transform3D(-0.99126, 0, 0.131928, 0, 1, 0, -0.131928, 0, -0.99126, -3.41217, 0.00999991, 2.78085)
+
+[node name="washerDryerStacked" parent="player_house" instance=ExtResource("25_4d3j3")]
+transform = Transform3D(-4.37115e-08, 0, -1, 0, 1, 0, 1, 0, -4.37115e-08, 3.8504, 0.00999848, -2.83333)
+
+[node name="kitchenCabinet" parent="player_house" instance=ExtResource("26_bq5n4")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 3.8697, 0.0169491, -1.32908)
+
+[node name="kitchenMicrowave" parent="player_house" instance=ExtResource("27_x4wie")]
+transform = Transform3D(-0.228096, 0, -0.973639, 0, 1, 0, 0.973639, 0, -0.228096, 4.13338, 1.50505, 2.06736)
+
+[node name="tableCoffeeSquare" parent="player_house" instance=ExtResource("28_to8lf")]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -2.62603, 0.00999991, 1.06021)
+
+[node name="loungeDesignSofa" parent="player_house" instance=ExtResource("29_l8smh")]
+transform = Transform3D(1.31134e-07, 0, 1, 0, 1, 0, -1, 0, 1.31134e-07, -3.63741, 0.00999991, 2.69806)
+
+[node name="televisionModern" parent="player_house" instance=ExtResource("30_0c2ly")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -1.77715, 0.587233, 1.32743)
+
+[node name="plantSmall2" parent="player_house" instance=ExtResource("31_o5ruf")]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -0.908203, 1.535, -2.83068)
+
+[node name="plantSmall3" parent="player_house" instance=ExtResource("32_pg3l4")]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -0.855629, 0.935, -2.79673)
+
+[node name="plantSmall1" parent="player_house" instance=ExtResource("33_5284p")]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -0.387558, 0.335, -2.75004)
+
+[node name="OpenableDoor" parent="player_house" instance=ExtResource("34_n5c5w")]
+transform = Transform3D(1, 0, -7.81597e-14, 0, 0.905525, 0, 7.81597e-14, 0, 1, -0.593307, 0.00999967, 3.42486)
+
+[node name="doorwayOpen" parent="player_house" instance=ExtResource("35_wnwqp")]
+transform = Transform3D(-1.12, 0, 2.34798e-07, 0, 0.9, 0, -1.69115e-07, 0, -1.555, 0.686, 0.01, 3.171)
+
+[node name="LightmapGI" type="LightmapGI" parent="."]
+interior = true
+environment_mode = 0
+light_data = ExtResource("36_kbqqm")
+
+[node name="ComputerDialogInitial" parent="." instance=ExtResource("10_cjyf1")]
+is_active = true
+transform = Transform3D(-0.996683, 0, -0.081382, 0, 1, 0, 0.081382, 0, -0.996683, 2.55213, 0.97881, 2.79393)
+dialogic_track = "story_01_hungry"
+active_story_beat = Array[int]([0])
+trigger_mode = 2
+is_one_shot = true
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ComputerDialogInitial"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.270275, 0.351254, 0.466991)
+shape = SubResource("BoxShape3D_aryxj")
+
+[node name="FridgeDialog" parent="." instance=ExtResource("10_cjyf1")]
+active_name = "Fridge"
+transform = Transform3D(0.0661868, 0, 0.997808, 0, 1, 0, -0.997808, 0, 0.0661868, -4.08033, 0.00999991, -1.97926)
+dialogic_track = "story_01_fridge_empty"
+active_story_beat = Array[int]([0])
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="FridgeDialog"]
+transform = Transform3D(1, 0, -5.21541e-08, 0, 1, 0, 5.21541e-08, 0, 1, 0.264866, 1.01302, 0.0340424)
+shape = SubResource("BoxShape3D_amw1i")
+
+[node name="GetBowl" parent="." instance=ExtResource("10_cjyf1")]
+active_name = "Get bowl"
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.15735, 2.36202, 0)
+dialogic_track = "story_04_get_bowl"
+active_story_beat = Array[int]([3])
+is_one_shot = true
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GetBowl"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.289307, 0, 0)
+shape = SubResource("BoxShape3D_eod2j")
+
+[node name="Eat Food" parent="." instance=ExtResource("10_cjyf1")]
+active_name = "Eat cereal"
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.29166, 0.515001, -2.90598)
+dialogic_track = "story_04_eat_cereal"
+active_story_beat = Array[int]([3])
+is_one_shot = true
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Eat Food"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.36644, 0.188965, 0.379265)
+shape = SubResource("BoxShape3D_fbdd2")
+
+[node name="ComputerNeedPapers" parent="." instance=ExtResource("10_cjyf1")]
+is_active = true
+active_name = "Do homework"
+transform = Transform3D(-0.996683, 0, -0.081382, 0, 1, 0, 0.081382, 0, -0.996683, 2.55213, 0.97881, 2.79393)
+dialogic_track = "story_05_need_papers"
+active_story_beat = Array[int]([4])
+is_one_shot = true
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ComputerNeedPapers"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.270275, 0.351254, 0.466991)
+shape = SubResource("BoxShape3D_aryxj")

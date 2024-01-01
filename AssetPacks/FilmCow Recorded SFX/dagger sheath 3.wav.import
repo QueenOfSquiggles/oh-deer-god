@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c0ufj5uso4pjx"
+path="res://.godot/imported/dagger sheath 3.wav-6d8b4ce9ec411277ed049b36afbddc73.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/dagger sheath 3.wav"
+dest_files=["res://.godot/imported/dagger sheath 3.wav-6d8b4ce9ec411277ed049b36afbddc73.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

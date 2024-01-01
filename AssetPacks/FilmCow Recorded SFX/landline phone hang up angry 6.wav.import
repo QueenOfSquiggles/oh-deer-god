@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cf6n7ig30bj2p"
+path="res://.godot/imported/landline phone hang up angry 6.wav-e5229e1bf0819da42c91673c5adc8322.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/landline phone hang up angry 6.wav"
+dest_files=["res://.godot/imported/landline phone hang up angry 6.wav-e5229e1bf0819da42c91673c5adc8322.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c50rxpcknbts6"
+path="res://.godot/imported/metal hatch 6.wav-8a07118fdd84578647f536614a6912b4.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/metal hatch 6.wav"
+dest_files=["res://.godot/imported/metal hatch 6.wav-8a07118fdd84578647f536614a6912b4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

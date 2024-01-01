@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bdc2vksfdooe"
+path="res://.godot/imported/balloon let out air.wav-9d7a4ab8b6067a1423a9710fee62a324.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/balloon let out air.wav"
+dest_files=["res://.godot/imported/balloon let out air.wav-9d7a4ab8b6067a1423a9710fee62a324.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bfi8tta5k8563"
+path="res://.godot/imported/thick paper twanging under tension 1.wav-05bcdbafdad4dfdd1d0e1fab395e6268.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/thick paper twanging under tension 1.wav"
+dest_files=["res://.godot/imported/thick paper twanging under tension 1.wav-05bcdbafdad4dfdd1d0e1fab395e6268.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

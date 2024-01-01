@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://i50ifd4ni2vp"
+path="res://.godot/imported/toilet flushing lid down 2.wav-c9f4ba5935a8f68b91837288e1a91c62.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/toilet flushing lid down 2.wav"
+dest_files=["res://.godot/imported/toilet flushing lid down 2.wav-c9f4ba5935a8f68b91837288e1a91c62.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

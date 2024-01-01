@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cth052qd7vfk0"
+path="res://.godot/imported/cereal box violently opened 4.wav-273c0e0602e73e943306d4f194b01701.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/cereal box violently opened 4.wav"
+dest_files=["res://.godot/imported/cereal box violently opened 4.wav-273c0e0602e73e943306d4f194b01701.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

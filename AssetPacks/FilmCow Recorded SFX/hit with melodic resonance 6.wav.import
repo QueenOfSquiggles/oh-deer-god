@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c0jpxmu2h87c0"
+path="res://.godot/imported/hit with melodic resonance 6.wav-9bb28c0a39b111e12e9c2c4c03f04e3e.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/hit with melodic resonance 6.wav"
+dest_files=["res://.godot/imported/hit with melodic resonance 6.wav-9bb28c0a39b111e12e9c2c4c03f04e3e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

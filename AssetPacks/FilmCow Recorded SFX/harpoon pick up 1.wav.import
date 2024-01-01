@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b7rbn63e3lctf"
+path="res://.godot/imported/harpoon pick up 1.wav-b0a60479b52fdd16841e6d177ef90bc4.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/harpoon pick up 1.wav"
+dest_files=["res://.godot/imported/harpoon pick up 1.wav-b0a60479b52fdd16841e6d177ef90bc4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

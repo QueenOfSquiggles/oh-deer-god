@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://osh47n26typ3"
+path="res://.godot/imported/plastic wrapped item lifted off wood 5.wav-5dc61b9b3cb6947d48537990d7d75917.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/plastic wrapped item lifted off wood 5.wav"
+dest_files=["res://.godot/imported/plastic wrapped item lifted off wood 5.wav-5dc61b9b3cb6947d48537990d7d75917.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

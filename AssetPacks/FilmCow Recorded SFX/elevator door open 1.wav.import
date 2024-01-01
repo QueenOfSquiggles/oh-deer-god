@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cxup4582v41dr"
+path="res://.godot/imported/elevator door open 1.wav-4fe64df366d88735800d1e0bf31e4f4c.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/elevator door open 1.wav"
+dest_files=["res://.godot/imported/elevator door open 1.wav-4fe64df366d88735800d1e0bf31e4f4c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

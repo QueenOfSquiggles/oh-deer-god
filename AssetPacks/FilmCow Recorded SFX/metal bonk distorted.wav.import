@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://8444ec1egr3v"
+path="res://.godot/imported/metal bonk distorted.wav-b4cf89e0a225c03de22b63164bcff845.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/metal bonk distorted.wav"
+dest_files=["res://.godot/imported/metal bonk distorted.wav-b4cf89e0a225c03de22b63164bcff845.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

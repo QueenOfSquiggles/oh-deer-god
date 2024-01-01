@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ctr3x0de2twnn"
+path="res://.godot/imported/water moving through 6.wav-ff49bf28e970c45dac9dc20abae43881.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/water moving through 6.wav"
+dest_files=["res://.godot/imported/water moving through 6.wav-ff49bf28e970c45dac9dc20abae43881.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

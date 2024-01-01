@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b3xjqd1w2bt7q"
+path="res://.godot/imported/book handled 1.wav-8328334bc47df7b3fa0d8464325bf6c2.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/book handled 1.wav"
+dest_files=["res://.godot/imported/book handled 1.wav-8328334bc47df7b3fa0d8464325bf6c2.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://6cjyf3bgqmhv"]
+
+[ext_resource type="Script" path="res://Scenes/Interactables/story_reactive_interactable.gd" id="1_4mpc6"]
+
+[node name="StoryReactiveInteractable" type="InteractionObjectArea3D"]
+script = ExtResource("1_4mpc6")

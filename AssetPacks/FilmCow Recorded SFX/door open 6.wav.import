@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d3pw4k20jfqxr"
+path="res://.godot/imported/door open 6.wav-a56341d303d1d0748638ec1dc0cf6562.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/door open 6.wav"
+dest_files=["res://.godot/imported/door open 6.wav-a56341d303d1d0748638ec1dc0cf6562.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

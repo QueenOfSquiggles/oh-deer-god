@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bchu20raskv86"
+path="res://.godot/imported/garbage pile hit 21.wav-634f53d2e48297c37ecc6755f1abfb5f.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/garbage pile hit 21.wav"
+dest_files=["res://.godot/imported/garbage pile hit 21.wav-634f53d2e48297c37ecc6755f1abfb5f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

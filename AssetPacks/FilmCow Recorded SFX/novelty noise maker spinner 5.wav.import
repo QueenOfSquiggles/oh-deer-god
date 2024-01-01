@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d1smn3mqbmqft"
+path="res://.godot/imported/novelty noise maker spinner 5.wav-b786baf1241a0b0113fe5aeccf8c465a.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/novelty noise maker spinner 5.wav"
+dest_files=["res://.godot/imported/novelty noise maker spinner 5.wav-b786baf1241a0b0113fe5aeccf8c465a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cbaoy3rpsp6j"
+path="res://.godot/imported/paper handled 3.wav-6b252d680df8584beadbf4aa3bf89489.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/paper handled 3.wav"
+dest_files=["res://.godot/imported/paper handled 3.wav-6b252d680df8584beadbf4aa3bf89489.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://hi33ahuxob4n"
+path="res://.godot/imported/metal dragged on floor 12.wav-cb0e895cc88ed5c73b54ebe8076b4045.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/metal dragged on floor 12.wav"
+dest_files=["res://.godot/imported/metal dragged on floor 12.wav-cb0e895cc88ed5c73b54ebe8076b4045.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

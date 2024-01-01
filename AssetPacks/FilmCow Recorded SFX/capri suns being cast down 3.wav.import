@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dvw0sir7lea3b"
+path="res://.godot/imported/capri suns being cast down 3.wav-e09a653cbb2ba8ae365c44c1a402bb1c.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/capri suns being cast down 3.wav"
+dest_files=["res://.godot/imported/capri suns being cast down 3.wav-e09a653cbb2ba8ae365c44c1a402bb1c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

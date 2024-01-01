@@ -1,0 +1,167 @@
+[gd_scene load_steps=17 format=3 uid="uid://c7alnk3l0of1t"]
+
+[ext_resource type="Script" path="res://Scenes/Bootstrap/InputEventRelay.gd" id="1_ea622"]
+[ext_resource type="PackedScene" uid="uid://yxbf4sqhbxii" path="res://Scenes/level/overworld.tscn" id="1_s7fub"]
+[ext_resource type="Script" path="res://Scenes/Bootstrap/GUI.gd" id="2_g20lx"]
+[ext_resource type="Shader" path="res://PostProcess/retro_pbr.gdshader" id="2_y87h6"]
+[ext_resource type="Texture2D" uid="uid://inccqnmw5y25" path="res://AssetPacks/Crosshair Pack/PNG/crosshair193.png" id="3_yegfv"]
+[ext_resource type="Script" path="res://Scenes/Bootstrap/Reticle.gd" id="4_mrw7j"]
+[ext_resource type="Texture2D" uid="uid://bybtn81u77v0p" path="res://AssetPacks/Crosshair Pack/PNG/crosshair200.png" id="5_qpgpv"]
+[ext_resource type="Script" path="res://Scenes/Bootstrap/InteractLabel.gd" id="6_dn3fb"]
+[ext_resource type="Script" path="res://Scenes/Bootstrap/InputAllocators.gd" id="8_j41ld"]
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_6e5ja"]
+noise_type = 2
+frequency = 0.026
+fractal_octaves = 3
+domain_warp_amplitude = -11.665
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_v4v8k"]
+invert = true
+generate_mipmaps = false
+seamless = true
+seamless_blend_skirt = 0.2
+noise = SubResource("FastNoiseLite_6e5ja")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_80ov3"]
+shader = ExtResource("2_y87h6")
+shader_parameter/film_grain_speed = 10.0
+shader_parameter/film_grain_factor = 0.03
+shader_parameter/vignette_alpha = 1.0
+shader_parameter/vignette_inner_radius = 0.2
+shader_parameter/vignette_outer_radius = 1.25
+shader_parameter/dither_color_depth = 5
+shader_parameter/dither_texture_scale = 10.0
+shader_parameter/dither_texture_strength = 10.0
+shader_parameter/dither_texture = SubResource("NoiseTexture2D_v4v8k")
+
+[sub_resource type="InputAxisAllocatorResource" id="InputAxisAllocatorResource_t46bq"]
+factor = 0.03
+
+[sub_resource type="InputAxisAllocatorResource" id="InputAxisAllocatorResource_lj8m5"]
+input_type = 1
+factor = 1.0
+event_left = &"look_left"
+event_right = &"look_right"
+event_up = &"look_up"
+event_down = &"look_down"
+
+[sub_resource type="InputAxisAllocatorResource" id="InputAxisAllocatorResource_5egrn"]
+input_type = 1
+factor = 1.0
+event_left = &"move_left"
+event_right = &"move_right"
+event_up = &"move_forwards"
+event_down = &"move_back"
+
+[sub_resource type="LabelSettings" id="LabelSettings_xxepb"]
+font_size = 26
+outline_size = 6
+outline_color = Color(0, 0, 0, 1)
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+color = Color(0, 0, 0, 1)
+
+[node name="ViewportTexture" type="SubViewportContainer" parent="."]
+texture_filter = 1
+texture_repeat = 1
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+stretch = true
+stretch_shrink = 3
+script = ExtResource("1_ea622")
+
+[node name="SubViewport" type="SubViewport" parent="ViewportTexture"]
+handle_input_locally = false
+audio_listener_enable_3d = true
+size = Vector2i(384, 216)
+render_target_update_mode = 4
+
+[node name="WorldRoot" parent="ViewportTexture/SubViewport" instance=ExtResource("1_s7fub")]
+
+[node name="PostProcess" type="ColorRect" parent="ViewportTexture/SubViewport"]
+material = SubResource("ShaderMaterial_80ov3")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="InputAllocators" type="Node" parent="ViewportTexture/SubViewport"]
+script = ExtResource("8_j41ld")
+
+[node name="LookAxisAlloc" type="InputAxisAllocator" parent="ViewportTexture/SubViewport/InputAllocators"]
+events = Array[InputAxisAllocatorResource]([SubResource("InputAxisAllocatorResource_t46bq"), SubResource("InputAxisAllocatorResource_lj8m5")])
+
+[node name="MoveAxisAlloc" type="InputAxisAllocator" parent="ViewportTexture/SubViewport/InputAllocators"]
+events = Array[InputAxisAllocatorResource]([SubResource("InputAxisAllocatorResource_5egrn")])
+
+[node name="GUI" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+script = ExtResource("2_g20lx")
+
+[node name="CenterContainer" type="CenterContainer" parent="GUI"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Reticle" type="TextureRect" parent="GUI/CenterContainer"]
+texture_filter = 1
+custom_minimum_size = Vector2(0, 64)
+layout_mode = 2
+texture = ExtResource("3_yegfv")
+expand_mode = 3
+stretch_mode = 4
+script = ExtResource("4_mrw7j")
+texture_normal = ExtResource("3_yegfv")
+texture_aiming = ExtResource("5_qpgpv")
+
+[node name="InteractLabel" type="Label" parent="GUI"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -233.0
+offset_top = 38.0
+offset_right = 233.0
+offset_bottom = 61.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Some Interactable Object"
+label_settings = SubResource("LabelSettings_xxepb")
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("6_dn3fb")

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://86scgro58olb"
+path="res://.godot/imported/toilet lid closed 2.wav-884d211da779263aee89bb63f727451e.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/toilet lid closed 2.wav"
+dest_files=["res://.godot/imported/toilet lid closed 2.wav-884d211da779263aee89bb63f727451e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

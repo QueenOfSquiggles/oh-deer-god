@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ce1xhkg6ln0kk"
+path="res://.godot/imported/metal sliding 6.wav-52e4cd05c04be5f0b5e9224ba6460c78.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/metal sliding 6.wav"
+dest_files=["res://.godot/imported/metal sliding 6.wav-52e4cd05c04be5f0b5e9224ba6460c78.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

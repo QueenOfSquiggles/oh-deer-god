@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bqjobv57t25rq"
+path="res://.godot/imported/pouring water down sink 2.wav-f111ea1eee3cf0ef743c8ec1b23e7a04.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/pouring water down sink 2.wav"
+dest_files=["res://.godot/imported/pouring water down sink 2.wav-f111ea1eee3cf0ef743c8ec1b23e7a04.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

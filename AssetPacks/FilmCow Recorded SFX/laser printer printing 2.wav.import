@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cdhponpon500n"
+path="res://.godot/imported/laser printer printing 2.wav-97150e7e7af7f93c87c38bdeb4c4f7d5.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/laser printer printing 2.wav"
+dest_files=["res://.godot/imported/laser printer printing 2.wav-97150e7e7af7f93c87c38bdeb4c4f7d5.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dflvrv4nxafgb"
+path="res://.godot/imported/scream 18.wav-4413bcce604c6ac911c26f9b8a3ef48f.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/scream 18.wav"
+dest_files=["res://.godot/imported/scream 18.wav-4413bcce604c6ac911c26f9b8a3ef48f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

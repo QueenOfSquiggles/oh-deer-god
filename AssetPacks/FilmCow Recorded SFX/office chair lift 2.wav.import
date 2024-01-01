@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://pw5yku5ylutr"
+path="res://.godot/imported/office chair lift 2.wav-686b1cc0933174919da551284c6b71ba.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/office chair lift 2.wav"
+dest_files=["res://.godot/imported/office chair lift 2.wav-686b1cc0933174919da551284c6b71ba.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

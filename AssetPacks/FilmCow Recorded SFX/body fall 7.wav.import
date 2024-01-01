@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cxdlrp058bdk3"
+path="res://.godot/imported/body fall 7.wav-a91a27f1ce8a3e84c3490299cb69e329.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/body fall 7.wav"
+dest_files=["res://.godot/imported/body fall 7.wav-a91a27f1ce8a3e84c3490299cb69e329.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://be6ba6gkmwrrs"
+path="res://.godot/imported/framed picture slid 2.wav-fef99793a52c8ee74795b33287f64732.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/framed picture slid 2.wav"
+dest_files=["res://.godot/imported/framed picture slid 2.wav-fef99793a52c8ee74795b33287f64732.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

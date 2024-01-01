@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://celx50sp3run4"
+path="res://.godot/imported/fudge pop 6.wav-a128342075e1341c0bb508e1089290d9.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/fudge pop 6.wav"
+dest_files=["res://.godot/imported/fudge pop 6.wav-a128342075e1341c0bb508e1089290d9.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

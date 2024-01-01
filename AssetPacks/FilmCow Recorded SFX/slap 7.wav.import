@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bqrl2i3iq16t7"
+path="res://.godot/imported/slap 7.wav-d8e10f32d4d4acea04cd4c6d0fd7c088.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/slap 7.wav"
+dest_files=["res://.godot/imported/slap 7.wav-d8e10f32d4d4acea04cd4c6d0fd7c088.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

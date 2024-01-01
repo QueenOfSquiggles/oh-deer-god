@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cfqwalt7l4n7i"
+path="res://.godot/imported/cutting.wav-b5b8f48f298e4a17e18acfef87c605de.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/cutting.wav"
+dest_files=["res://.godot/imported/cutting.wav-b5b8f48f298e4a17e18acfef87c605de.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

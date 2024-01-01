@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ccloy57b0s33l"
+path="res://.godot/imported/plastic case closed 5.wav-9a00cd61dcd6cc3899c45a773a62b140.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/plastic case closed 5.wav"
+dest_files=["res://.godot/imported/plastic case closed 5.wav-9a00cd61dcd6cc3899c45a773a62b140.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

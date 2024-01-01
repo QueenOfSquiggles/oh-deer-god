@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://chib081imytni"
+path="res://.godot/imported/rc car sounds assorted 3.wav-b4a2c2d2d0e2b636ece5fc0d81b65df7.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/rc car sounds assorted 3.wav"
+dest_files=["res://.godot/imported/rc car sounds assorted 3.wav-b4a2c2d2d0e2b636ece5fc0d81b65df7.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

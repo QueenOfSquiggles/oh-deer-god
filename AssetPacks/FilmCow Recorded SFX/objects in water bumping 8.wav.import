@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bffcqq8twokt6"
+path="res://.godot/imported/objects in water bumping 8.wav-a9560d6c82a40d3815ba13e81e8a89d4.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/objects in water bumping 8.wav"
+dest_files=["res://.godot/imported/objects in water bumping 8.wav-a9560d6c82a40d3815ba13e81e8a89d4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

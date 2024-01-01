@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://46jq4r87wtbu"
+path="res://.godot/imported/measuring tape extend 3.wav-020dfd32cde40dcbef014fa474e45dde.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/measuring tape extend 3.wav"
+dest_files=["res://.godot/imported/measuring tape extend 3.wav-020dfd32cde40dcbef014fa474e45dde.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

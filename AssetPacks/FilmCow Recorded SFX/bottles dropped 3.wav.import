@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://sxgkruk64gob"
+path="res://.godot/imported/bottles dropped 3.wav-0c270e3fcb6cfba541459270bb282441.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/bottles dropped 3.wav"
+dest_files=["res://.godot/imported/bottles dropped 3.wav-0c270e3fcb6cfba541459270bb282441.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d4j8pndfm3n40"
+path="res://.godot/imported/party blower 16.wav-e6ce8f663493ff169fc6c845007bcabd.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/party blower 16.wav"
+dest_files=["res://.godot/imported/party blower 16.wav-e6ce8f663493ff169fc6c845007bcabd.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

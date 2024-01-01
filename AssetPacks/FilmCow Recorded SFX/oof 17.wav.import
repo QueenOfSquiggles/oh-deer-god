@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://sr3128cy2j0r"
+path="res://.godot/imported/oof 17.wav-5b157daec3166a6d7e85fe22fc4e9042.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/oof 17.wav"
+dest_files=["res://.godot/imported/oof 17.wav-5b157daec3166a6d7e85fe22fc4e9042.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

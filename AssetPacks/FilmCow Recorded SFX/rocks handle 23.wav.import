@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://doe2dqoo3uag3"
+path="res://.godot/imported/rocks handle 23.wav-a7bdca2deb24e01eb46302a3fa9f697c.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/rocks handle 23.wav"
+dest_files=["res://.godot/imported/rocks handle 23.wav-a7bdca2deb24e01eb46302a3fa9f697c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

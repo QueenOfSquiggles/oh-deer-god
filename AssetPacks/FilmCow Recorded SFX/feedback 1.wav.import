@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cjmfrbc7jowen"
+path="res://.godot/imported/feedback 1.wav-1382a1ec2e54aa39f82956c9c350279c.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/feedback 1.wav"
+dest_files=["res://.godot/imported/feedback 1.wav-1382a1ec2e54aa39f82956c9c350279c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

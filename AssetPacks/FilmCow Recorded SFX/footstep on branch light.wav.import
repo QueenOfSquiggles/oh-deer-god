@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dc32rjo18dium"
+path="res://.godot/imported/footstep on branch light.wav-6a446375598baa621d77da8c23fda657.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/footstep on branch light.wav"
+dest_files=["res://.godot/imported/footstep on branch light.wav-6a446375598baa621d77da8c23fda657.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

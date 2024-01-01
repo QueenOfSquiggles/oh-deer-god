@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://chxgm8n7x7r0s"
+path="res://.godot/imported/flamethrower_short.obj-7cbf26bfb3c914488e525e7b11048673.mesh"
+
+[deps]
+
+files=["res://.godot/imported/flamethrower_short.obj-7cbf26bfb3c914488e525e7b11048673.mesh"]
+
+source_file="res://AssetPacks/Weapon Pack/Models/OBJ format/flamethrower_short.obj"
+dest_files=["res://.godot/imported/flamethrower_short.obj-7cbf26bfb3c914488e525e7b11048673.mesh", "res://.godot/imported/flamethrower_short.obj-7cbf26bfb3c914488e525e7b11048673.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

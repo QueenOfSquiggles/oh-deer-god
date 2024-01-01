@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://buxnnkq6exxyl"
+path="res://.godot/imported/drinking and swallowing 2.wav-98db3d8cc2f3774690a2ba83ab25c916.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/drinking and swallowing 2.wav"
+dest_files=["res://.godot/imported/drinking and swallowing 2.wav-98db3d8cc2f3774690a2ba83ab25c916.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

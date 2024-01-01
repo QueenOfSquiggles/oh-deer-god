@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dyu61bro65yag"
+path="res://.godot/imported/sliding door 10.wav-c57f61f46f1857a9350e16da43d5553b.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/sliding door 10.wav"
+dest_files=["res://.godot/imported/sliding door 10.wav-c57f61f46f1857a9350e16da43d5553b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

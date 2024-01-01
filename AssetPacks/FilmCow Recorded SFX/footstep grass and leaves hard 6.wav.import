@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dlrp453aiyvmb"
+path="res://.godot/imported/footstep grass and leaves hard 6.wav-f51679d7f0077f56758104627ba1b4de.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/footstep grass and leaves hard 6.wav"
+dest_files=["res://.godot/imported/footstep grass and leaves hard 6.wav-f51679d7f0077f56758104627ba1b4de.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

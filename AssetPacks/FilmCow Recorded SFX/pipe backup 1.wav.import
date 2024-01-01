@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://obde2orapabc"
+path="res://.godot/imported/pipe backup 1.wav-07ba926abc44d846f685ed4623b12804.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/pipe backup 1.wav"
+dest_files=["res://.godot/imported/pipe backup 1.wav-07ba926abc44d846f685ed4623b12804.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://74vq6xd6liri"
+path="res://.godot/imported/paper being cut 9.wav-41f3bd495cfbc871d28bc9fa0e9b8fb9.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/paper being cut 9.wav"
+dest_files=["res://.godot/imported/paper being cut 9.wav-41f3bd495cfbc871d28bc9fa0e9b8fb9.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

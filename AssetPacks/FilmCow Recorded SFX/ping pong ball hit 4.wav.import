@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cy3bar84ohceu"
+path="res://.godot/imported/ping pong ball hit 4.wav-2b7ec3ec3f4d346a3d96f9313aa591c2.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/ping pong ball hit 4.wav"
+dest_files=["res://.godot/imported/ping pong ball hit 4.wav-2b7ec3ec3f4d346a3d96f9313aa591c2.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://se55j2w60mcn"
+path="res://.godot/imported/filling up a cup at the sink 1.wav-08dbe3f724236ef488926ee54b9b5776.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/filling up a cup at the sink 1.wav"
+dest_files=["res://.godot/imported/filling up a cup at the sink 1.wav-08dbe3f724236ef488926ee54b9b5776.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

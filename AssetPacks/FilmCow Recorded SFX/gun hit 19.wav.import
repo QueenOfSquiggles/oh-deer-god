@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cwfbp7ovh8cfy"
+path="res://.godot/imported/gun hit 19.wav-5bc0785b4e1bc37c5c22a1061ea3c2b2.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/gun hit 19.wav"
+dest_files=["res://.godot/imported/gun hit 19.wav-5bc0785b4e1bc37c5c22a1061ea3c2b2.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

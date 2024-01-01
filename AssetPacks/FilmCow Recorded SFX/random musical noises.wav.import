@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ojt4sjk8gsf8"
+path="res://.godot/imported/random musical noises.wav-0968ef52a0011e6beade4f5674384a1c.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/random musical noises.wav"
+dest_files=["res://.godot/imported/random musical noises.wav-0968ef52a0011e6beade4f5674384a1c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

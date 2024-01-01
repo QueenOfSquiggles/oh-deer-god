@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://duotc6s71vda"
+path="res://.godot/imported/glass placed on shelf 4.wav-9db4b5f8278bd6279246e91b6356bd60.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/glass placed on shelf 4.wav"
+dest_files=["res://.godot/imported/glass placed on shelf 4.wav-9db4b5f8278bd6279246e91b6356bd60.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

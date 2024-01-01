@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dj4otfvn8pxkb"
+path="res://.godot/imported/juice bottle set down 5.wav-a879954acf222a733d82f915ad04c382.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/juice bottle set down 5.wav"
+dest_files=["res://.godot/imported/juice bottle set down 5.wav-a879954acf222a733d82f915ad04c382.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cslij3buqc1oh"
+path="res://.godot/imported/wood bark friction 14.wav-cd21f5e59196489b6e6ae287d53e715f.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/wood bark friction 14.wav"
+dest_files=["res://.godot/imported/wood bark friction 14.wav-cd21f5e59196489b6e6ae287d53e715f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

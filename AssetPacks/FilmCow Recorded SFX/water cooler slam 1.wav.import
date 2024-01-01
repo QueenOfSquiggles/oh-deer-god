@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dk306gcbf2oe2"
+path="res://.godot/imported/water cooler slam 1.wav-2efffe019e13a61536b4a5b90b786931.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/water cooler slam 1.wav"
+dest_files=["res://.godot/imported/water cooler slam 1.wav-2efffe019e13a61536b4a5b90b786931.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

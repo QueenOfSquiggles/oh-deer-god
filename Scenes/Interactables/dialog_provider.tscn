@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://8oq7kwhgi78e"]
+
+[ext_resource type="PackedScene" uid="uid://6cjyf3bgqmhv" path="res://Scenes/Interactables/story_reactive_interactable.tscn" id="1_qmjbb"]
+
+[node name="DialogProvider" instance=ExtResource("1_qmjbb")]
+metadata/_edit_group_ = true
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="on_interacted" from="." to="." method="_on_on_interacted"]

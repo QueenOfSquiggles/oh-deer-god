@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://yufshykl7rai"
+path="res://.godot/imported/flag 4.wav-0514b7fd9d12f9f530bf4568dd62f3a4.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/flag 4.wav"
+dest_files=["res://.godot/imported/flag 4.wav-0514b7fd9d12f9f530bf4568dd62f3a4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://byhgv7yvl28mu"
+path="res://.godot/imported/cleaver 47.wav-eeebc4bc2ef3a0b68a023988d73dc43e.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/cleaver 47.wav"
+dest_files=["res://.godot/imported/cleaver 47.wav-eeebc4bc2ef3a0b68a023988d73dc43e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

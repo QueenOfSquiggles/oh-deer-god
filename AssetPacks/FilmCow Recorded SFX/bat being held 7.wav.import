@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dd6gpo2v450oi"
+path="res://.godot/imported/bat being held 7.wav-60abfbb4527e50e7b88afd27fa096cca.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/bat being held 7.wav"
+dest_files=["res://.godot/imported/bat being held 7.wav-60abfbb4527e50e7b88afd27fa096cca.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

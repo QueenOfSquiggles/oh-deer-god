@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://da4ubxtwqmfpr"
+path="res://.godot/imported/sipping 6.wav-cf0940e32c8f675091edb375c5bc0ee7.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/sipping 6.wav"
+dest_files=["res://.godot/imported/sipping 6.wav-cf0940e32c8f675091edb375c5bc0ee7.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b5hnk06da6jbq"
+path="res://.godot/imported/suitcase dropped to floor 6.wav-18604400bd4b04a60c3b553773386396.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/suitcase dropped to floor 6.wav"
+dest_files=["res://.godot/imported/suitcase dropped to floor 6.wav-18604400bd4b04a60c3b553773386396.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

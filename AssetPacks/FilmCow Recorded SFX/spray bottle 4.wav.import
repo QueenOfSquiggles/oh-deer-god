@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dksjhg2my8s6o"
+path="res://.godot/imported/spray bottle 4.wav-af3811fb181db289dadf033ff4f22b3d.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/spray bottle 4.wav"
+dest_files=["res://.godot/imported/spray bottle 4.wav-af3811fb181db289dadf033ff4f22b3d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dthg3hpswbtju"
+path="res://.godot/imported/clothes ruffle 3.wav-f3e7d8103c7aa1fdad2dae96f440d5fd.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/clothes ruffle 3.wav"
+dest_files=["res://.godot/imported/clothes ruffle 3.wav-f3e7d8103c7aa1fdad2dae96f440d5fd.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

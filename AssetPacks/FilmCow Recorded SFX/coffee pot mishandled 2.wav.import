@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://t8wan4f3jc1f"
+path="res://.godot/imported/coffee pot mishandled 2.wav-10379aa863e2f598b28747ba63b1c046.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/coffee pot mishandled 2.wav"
+dest_files=["res://.godot/imported/coffee pot mishandled 2.wav-10379aa863e2f598b28747ba63b1c046.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c46gjc1v5nkyk"
+path="res://.godot/imported/glass ding 3.wav-f71e40268b52f4fd3c944b57ee8c2297.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/glass ding 3.wav"
+dest_files=["res://.godot/imported/glass ding 3.wav-f71e40268b52f4fd3c944b57ee8c2297.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

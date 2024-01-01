@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bqx4bmlbm2ctr"
+path="res://.godot/imported/silverware chaos 24.wav-0b22342b5386c12892b7916566c7b8c0.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/silverware chaos 24.wav"
+dest_files=["res://.godot/imported/silverware chaos 24.wav-0b22342b5386c12892b7916566c7b8c0.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://u0hn1q04fbbe"
+path="res://.godot/imported/body get up 2.wav-22d0bd8e079b2bcee2ca7549375369d4.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/body get up 2.wav"
+dest_files=["res://.godot/imported/body get up 2.wav-22d0bd8e079b2bcee2ca7549375369d4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

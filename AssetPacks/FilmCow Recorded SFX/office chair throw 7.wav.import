@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d2whvgqv5o5ja"
+path="res://.godot/imported/office chair throw 7.wav-89b9283b7fe8f842e58d1d386dee1919.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/office chair throw 7.wav"
+dest_files=["res://.godot/imported/office chair throw 7.wav-89b9283b7fe8f842e58d1d386dee1919.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

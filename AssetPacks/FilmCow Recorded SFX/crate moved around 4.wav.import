@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://vd1ulydaxbuv"
+path="res://.godot/imported/crate moved around 4.wav-c6729a93f4c060d4d5a4712b8c299a69.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/crate moved around 4.wav"
+dest_files=["res://.godot/imported/crate moved around 4.wav-c6729a93f4c060d4d5a4712b8c299a69.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

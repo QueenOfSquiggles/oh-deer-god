@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b5ncb5bq0enmi"
+path="res://.godot/imported/umbrella closing 1.wav-e0b85d3599969117560794fe42664db8.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/umbrella closing 1.wav"
+dest_files=["res://.godot/imported/umbrella closing 1.wav-e0b85d3599969117560794fe42664db8.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://drdsmkf0b7if3"
+path="res://.godot/imported/gas canister shaking 17.wav-6e74292917d236fa030d2bc34c8f2480.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/gas canister shaking 17.wav"
+dest_files=["res://.godot/imported/gas canister shaking 17.wav-6e74292917d236fa030d2bc34c8f2480.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

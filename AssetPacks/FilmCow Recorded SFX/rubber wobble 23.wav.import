@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bh12d1rimkqka"
+path="res://.godot/imported/rubber wobble 23.wav-94dabcb53028db0b1290e569b830919e.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/rubber wobble 23.wav"
+dest_files=["res://.godot/imported/rubber wobble 23.wav-94dabcb53028db0b1290e569b830919e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

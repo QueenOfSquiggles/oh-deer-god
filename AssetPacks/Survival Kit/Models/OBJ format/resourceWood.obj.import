@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://de8cd616fob2g"
+path="res://.godot/imported/resourceWood.obj-f9bd98ca64ff7021a2844cf02ab8c5c3.mesh"
+
+[deps]
+
+files=["res://.godot/imported/resourceWood.obj-f9bd98ca64ff7021a2844cf02ab8c5c3.mesh"]
+
+source_file="res://AssetPacks/Survival Kit/Models/OBJ format/resourceWood.obj"
+dest_files=["res://.godot/imported/resourceWood.obj-f9bd98ca64ff7021a2844cf02ab8c5c3.mesh", "res://.godot/imported/resourceWood.obj-f9bd98ca64ff7021a2844cf02ab8c5c3.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dagqij58um2jp"
+path="res://.godot/imported/door close 5.wav-68314895067479fb15a32d44fc2940de.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/door close 5.wav"
+dest_files=["res://.godot/imported/door close 5.wav-68314895067479fb15a32d44fc2940de.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

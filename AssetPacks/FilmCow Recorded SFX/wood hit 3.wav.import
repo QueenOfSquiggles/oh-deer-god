@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c7mho2evnf6cy"
+path="res://.godot/imported/wood hit 3.wav-e21b40183c2b5ee61a3cd5102fca416c.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/wood hit 3.wav"
+dest_files=["res://.godot/imported/wood hit 3.wav-e21b40183c2b5ee61a3cd5102fca416c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

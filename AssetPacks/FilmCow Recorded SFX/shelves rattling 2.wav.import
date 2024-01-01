@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cpf4yd3c72jhm"
+path="res://.godot/imported/shelves rattling 2.wav-60f9275a05d4079bd8192674d3466bb3.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/shelves rattling 2.wav"
+dest_files=["res://.godot/imported/shelves rattling 2.wav-60f9275a05d4079bd8192674d3466bb3.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

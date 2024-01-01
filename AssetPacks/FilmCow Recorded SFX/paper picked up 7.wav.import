@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://q7g56o5vn6kb"
+path="res://.godot/imported/paper picked up 7.wav-a858a8fa6df5e86db7c019f5a6e486cf.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/paper picked up 7.wav"
+dest_files=["res://.godot/imported/paper picked up 7.wav-a858a8fa6df5e86db7c019f5a6e486cf.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

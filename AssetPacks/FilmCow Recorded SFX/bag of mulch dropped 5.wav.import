@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b2qjlu7bl4lqd"
+path="res://.godot/imported/bag of mulch dropped 5.wav-6707f696b7e7a45cba1db27b7dafb441.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/bag of mulch dropped 5.wav"
+dest_files=["res://.godot/imported/bag of mulch dropped 5.wav-6707f696b7e7a45cba1db27b7dafb441.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

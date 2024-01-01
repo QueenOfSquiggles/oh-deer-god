@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bwxxfrlwsem0w"
+path="res://.godot/imported/plastic device lifted off wood 1.wav-de9b5549de898b69c0d6ba1da42e748c.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/plastic device lifted off wood 1.wav"
+dest_files=["res://.godot/imported/plastic device lifted off wood 1.wav-de9b5549de898b69c0d6ba1da42e748c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

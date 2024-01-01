@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://shee8ak2a3fx"
+path="res://.godot/imported/bongo falling 6.wav-8d917df2840bdf261708fa835f81a60e.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/bongo falling 6.wav"
+dest_files=["res://.godot/imported/bongo falling 6.wav-8d917df2840bdf261708fa835f81a60e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

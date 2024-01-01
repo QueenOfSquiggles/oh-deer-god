@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dr1r1ebovjyhd"
+path="res://.godot/imported/iced beverage in plastic cup 8.wav-625b3134447d45d81fe8fe778c886fcd.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/iced beverage in plastic cup 8.wav"
+dest_files=["res://.godot/imported/iced beverage in plastic cup 8.wav-625b3134447d45d81fe8fe778c886fcd.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

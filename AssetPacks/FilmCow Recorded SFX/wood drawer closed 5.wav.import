@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dsq3627ejckho"
+path="res://.godot/imported/wood drawer closed 5.wav-d069eb505ff6ffd206e329f658354fea.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/wood drawer closed 5.wav"
+dest_files=["res://.godot/imported/wood drawer closed 5.wav-d069eb505ff6ffd206e329f658354fea.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,7 @@
+if {using_bowl} > 0:
+	char_me: There, a nice bowl of cereal.
+else:
+	char_me: I'll just eat it straight out of the box. [i]Who even needs bowls?[/i]
+[wait time="0.5"]
+char_me: There all full. Now I can finally focus on my homework
+do GameManager.set_story_beat(4)

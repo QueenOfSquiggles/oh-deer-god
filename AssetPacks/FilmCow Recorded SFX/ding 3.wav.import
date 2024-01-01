@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://jk05moj5wsyr"
+path="res://.godot/imported/ding 3.wav-587cce90a767f41bd185d3dbf8eee926.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/ding 3.wav"
+dest_files=["res://.godot/imported/ding 3.wav-587cce90a767f41bd185d3dbf8eee926.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

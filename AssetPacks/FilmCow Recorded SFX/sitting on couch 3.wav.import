@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b4mcxwcmtjpfw"
+path="res://.godot/imported/sitting on couch 3.wav-ce96fc37d0a3adb72cbc6d12518c2cf6.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/sitting on couch 3.wav"
+dest_files=["res://.godot/imported/sitting on couch 3.wav-ce96fc37d0a3adb72cbc6d12518c2cf6.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

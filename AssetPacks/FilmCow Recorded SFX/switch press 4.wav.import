@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://k68r05wmuadu"
+path="res://.godot/imported/switch press 4.wav-1d544fe07d429740ef8326c28d38992e.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/switch press 4.wav"
+dest_files=["res://.godot/imported/switch press 4.wav-1d544fe07d429740ef8326c28d38992e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

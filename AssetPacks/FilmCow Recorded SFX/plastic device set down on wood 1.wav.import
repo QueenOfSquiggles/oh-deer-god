@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://lhhad5u62j26"
+path="res://.godot/imported/plastic device set down on wood 1.wav-384dfb38399cc065210c948c32c78cec.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/plastic device set down on wood 1.wav"
+dest_files=["res://.godot/imported/plastic device set down on wood 1.wav-384dfb38399cc065210c948c32c78cec.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

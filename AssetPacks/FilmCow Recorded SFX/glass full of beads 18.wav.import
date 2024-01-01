@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://pqw0kryo1j4a"
+path="res://.godot/imported/glass full of beads 18.wav-f54ea48b79afa8070472b96bb993f676.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/glass full of beads 18.wav"
+dest_files=["res://.godot/imported/glass full of beads 18.wav-f54ea48b79afa8070472b96bb993f676.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

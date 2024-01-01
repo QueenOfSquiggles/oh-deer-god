@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://tugbms4rqnrq"
+path="res://.godot/imported/fencing hit 3.wav-f9622f7a2ea44d7b3bd129f9dea2ae53.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/fencing hit 3.wav"
+dest_files=["res://.godot/imported/fencing hit 3.wav-f9622f7a2ea44d7b3bd129f9dea2ae53.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

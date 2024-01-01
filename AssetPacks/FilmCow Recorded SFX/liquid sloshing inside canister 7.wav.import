@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b8ldyymrha3tc"
+path="res://.godot/imported/liquid sloshing inside canister 7.wav-7ae441b1846657809d66c3eaa9a7f2eb.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/liquid sloshing inside canister 7.wav"
+dest_files=["res://.godot/imported/liquid sloshing inside canister 7.wav-7ae441b1846657809d66c3eaa9a7f2eb.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

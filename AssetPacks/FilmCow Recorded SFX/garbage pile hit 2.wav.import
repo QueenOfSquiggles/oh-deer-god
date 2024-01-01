@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://4wiyqer25fvc"
+path="res://.godot/imported/garbage pile hit 2.wav-3d3badd496cea9c564f503e55968dbae.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/garbage pile hit 2.wav"
+dest_files=["res://.godot/imported/garbage pile hit 2.wav-3d3badd496cea9c564f503e55968dbae.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

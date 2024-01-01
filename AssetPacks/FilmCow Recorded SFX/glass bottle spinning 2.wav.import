@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dtnqba65i4ydi"
+path="res://.godot/imported/glass bottle spinning 2.wav-38b1fd9bb02ce0077a265203783dcca0.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/glass bottle spinning 2.wav"
+dest_files=["res://.godot/imported/glass bottle spinning 2.wav-38b1fd9bb02ce0077a265203783dcca0.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

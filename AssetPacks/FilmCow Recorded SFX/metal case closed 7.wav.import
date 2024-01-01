@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d4hup154oeb76"
+path="res://.godot/imported/metal case closed 7.wav-a0c08e7689dc60a6a2e7e84fb8862c25.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/metal case closed 7.wav"
+dest_files=["res://.godot/imported/metal case closed 7.wav-a0c08e7689dc60a6a2e7e84fb8862c25.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://gpcad0l58akc"
+path="res://.godot/imported/projector screen contracted 2.wav-875ce3c1b907ac4872fa3cd443b441f9.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/projector screen contracted 2.wav"
+dest_files=["res://.godot/imported/projector screen contracted 2.wav-875ce3c1b907ac4872fa3cd443b441f9.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

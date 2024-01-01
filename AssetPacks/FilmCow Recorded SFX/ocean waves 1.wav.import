@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c8to3ntr1hwip"
+path="res://.godot/imported/ocean waves 1.wav-36f512a3673d237d9600de35b64ef217.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/ocean waves 1.wav"
+dest_files=["res://.godot/imported/ocean waves 1.wav-36f512a3673d237d9600de35b64ef217.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://soegqssdy2tj"
+path="res://.godot/imported/gun fired no bullets 13.wav-528d7a553e787a96b3ecea94259d765b.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/gun fired no bullets 13.wav"
+dest_files=["res://.godot/imported/gun fired no bullets 13.wav-528d7a553e787a96b3ecea94259d765b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

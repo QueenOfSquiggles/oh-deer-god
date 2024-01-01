@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d1odie2i44wg1"
+path="res://.godot/imported/bananas falling on table 11.wav-ccfbb9922fd5b4207f710e553f0cd291.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/bananas falling on table 11.wav"
+dest_files=["res://.godot/imported/bananas falling on table 11.wav-ccfbb9922fd5b4207f710e553f0cd291.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

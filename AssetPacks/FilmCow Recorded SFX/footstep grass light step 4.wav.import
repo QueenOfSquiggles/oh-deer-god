@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c0pkke3ksn6rn"
+path="res://.godot/imported/footstep grass light step 4.wav-d082836305944f6bdbc52f9d9df700e7.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/footstep grass light step 4.wav"
+dest_files=["res://.godot/imported/footstep grass light step 4.wav-d082836305944f6bdbc52f9d9df700e7.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

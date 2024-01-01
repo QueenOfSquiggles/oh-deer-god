@@ -1,0 +1,11 @@
+char_margaret: Something else I can help you with??
+char_me: Yeah I need some scratch paper? These algorithms are really kicking my ass
+char_margaret: Damn, sorry to hear that. I guess we don't have much, but I can give you some receipt paper?
+char_me: It'll have to do. I literally can't afford to fail this class.
+char_margaret: Sheesh. That's rough buddy
+char_margaret: Here's some paper
+if {has_shotgun} == 1:
+	char_margaret: Just make sure you stay safe with that gun. I'm not even certain that I'm allowed to sell that to you
+else:
+	char_margaret: Have [wave]a great night![/wave]
+do GameManager.set_story_beat(7.0)

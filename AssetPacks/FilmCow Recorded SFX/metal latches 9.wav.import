@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bh8op0a4ta67a"
+path="res://.godot/imported/metal latches 9.wav-a70defc6b2ae7dc2e749fbfa932a05a1.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/metal latches 9.wav"
+dest_files=["res://.godot/imported/metal latches 9.wav-a70defc6b2ae7dc2e749fbfa932a05a1.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d0ybwbq10urx0"
+path="res://.godot/imported/measuring tape contract 6.wav-aeb2bd8c0aa2bf8307da757f9f336b67.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/measuring tape contract 6.wav"
+dest_files=["res://.godot/imported/measuring tape contract 6.wav-aeb2bd8c0aa2bf8307da757f9f336b67.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

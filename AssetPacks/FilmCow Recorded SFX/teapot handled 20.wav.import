@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cb2wdr3ox0fhy"
+path="res://.godot/imported/teapot handled 20.wav-4e17ef95d8c0f9138ac8da0890fd2604.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/teapot handled 20.wav"
+dest_files=["res://.godot/imported/teapot handled 20.wav-4e17ef95d8c0f9138ac8da0890fd2604.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

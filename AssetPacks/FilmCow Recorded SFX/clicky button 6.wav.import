@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c4hdidait5i1g"
+path="res://.godot/imported/clicky button 6.wav-abe45d0b6cd736f44f2a551923063971.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/clicky button 6.wav"
+dest_files=["res://.godot/imported/clicky button 6.wav-abe45d0b6cd736f44f2a551923063971.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b2ckrkvaoeai3"
+path="res://.godot/imported/rubbing a baked ham.wav-76d28e8ac78a8b91ac4fb036411c394c.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/rubbing a baked ham.wav"
+dest_files=["res://.godot/imported/rubbing a baked ham.wav-76d28e8ac78a8b91ac4fb036411c394c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

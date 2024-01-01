@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c61u6y7pnq0lf"
+path="res://.godot/imported/scraping across floor 1.wav-a4a9b80bddd46bc18d24a31e9e6f35aa.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/scraping across floor 1.wav"
+dest_files=["res://.godot/imported/scraping across floor 1.wav-a4a9b80bddd46bc18d24a31e9e6f35aa.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

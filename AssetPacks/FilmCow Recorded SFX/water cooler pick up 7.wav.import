@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ch6xa2dfqttx4"
+path="res://.godot/imported/water cooler pick up 7.wav-5e50abdf6f5d55117c82ce4f678985a2.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/water cooler pick up 7.wav"
+dest_files=["res://.godot/imported/water cooler pick up 7.wav-5e50abdf6f5d55117c82ce4f678985a2.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

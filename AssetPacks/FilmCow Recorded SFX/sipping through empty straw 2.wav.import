@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b7vwlim0sykk3"
+path="res://.godot/imported/sipping through empty straw 2.wav-135d5fb326845542b397d3fd0f0be3e1.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/sipping through empty straw 2.wav"
+dest_files=["res://.godot/imported/sipping through empty straw 2.wav-135d5fb326845542b397d3fd0f0be3e1.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

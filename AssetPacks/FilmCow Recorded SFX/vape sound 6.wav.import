@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://82vt3ktlufvt"
+path="res://.godot/imported/vape sound 6.wav-172b6ac43604b4b39acf996384b6d965.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/vape sound 6.wav"
+dest_files=["res://.godot/imported/vape sound 6.wav-172b6ac43604b4b39acf996384b6d965.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

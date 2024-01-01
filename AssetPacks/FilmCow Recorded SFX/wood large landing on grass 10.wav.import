@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://4yf48in78hvv"
+path="res://.godot/imported/wood large landing on grass 10.wav-3305b3905bbdec2812e83c7f9ebba38b.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/wood large landing on grass 10.wav"
+dest_files=["res://.godot/imported/wood large landing on grass 10.wav-3305b3905bbdec2812e83c7f9ebba38b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://7ky7i2f4sbem"
+path="res://.godot/imported/poweron 2.wav-b1a118bdf105f9c3db1d7a2fa9f5f0bb.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/poweron 2.wav"
+dest_files=["res://.godot/imported/poweron 2.wav-b1a118bdf105f9c3db1d7a2fa9f5f0bb.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

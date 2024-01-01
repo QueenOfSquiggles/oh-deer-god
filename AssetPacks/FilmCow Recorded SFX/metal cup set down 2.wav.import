@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bsemj5f7j14j8"
+path="res://.godot/imported/metal cup set down 2.wav-f784313f9193cfee1eeb2931a66369fb.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/metal cup set down 2.wav"
+dest_files=["res://.godot/imported/metal cup set down 2.wav-f784313f9193cfee1eeb2931a66369fb.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

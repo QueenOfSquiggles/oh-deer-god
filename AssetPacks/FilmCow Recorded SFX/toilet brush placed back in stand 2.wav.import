@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cchhu4rvad1n3"
+path="res://.godot/imported/toilet brush placed back in stand 2.wav-58911341421b294bd6684c4203af156e.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/toilet brush placed back in stand 2.wav"
+dest_files=["res://.godot/imported/toilet brush placed back in stand 2.wav-58911341421b294bd6684c4203af156e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

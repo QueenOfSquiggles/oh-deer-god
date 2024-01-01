@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bp88vi7452rx7"
+path="res://.godot/imported/stab 6.wav-9bc9fce219d4855c7bf6191490282300.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/stab 6.wav"
+dest_files=["res://.godot/imported/stab 6.wav-9bc9fce219d4855c7bf6191490282300.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

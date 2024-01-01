@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c00ccdvbf327a"
+path="res://.godot/imported/liquid pouring 5.wav-2b579bc9d5509e42da3807a8ac297562.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/liquid pouring 5.wav"
+dest_files=["res://.godot/imported/liquid pouring 5.wav-2b579bc9d5509e42da3807a8ac297562.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

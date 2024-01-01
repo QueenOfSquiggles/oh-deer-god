@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c483c6be5317d"
+path="res://.godot/imported/lever 5.wav-3858f703b2256abe2c6220bedc8d784b.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/lever 5.wav"
+dest_files=["res://.godot/imported/lever 5.wav-3858f703b2256abe2c6220bedc8d784b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

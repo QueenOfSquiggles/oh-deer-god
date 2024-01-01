@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dm44rx0aa8ql1"
+path="res://.godot/imported/hammer hits glass 6.wav-a5ec8bcd427046eec74fb1f1a8d73b06.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/hammer hits glass 6.wav"
+dest_files=["res://.godot/imported/hammer hits glass 6.wav-a5ec8bcd427046eec74fb1f1a8d73b06.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

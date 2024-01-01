@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b5hdcjf8yuqia"
+path="res://.godot/imported/metal button 3.wav-8d98e41ecbd7cbdcac143cbd84921033.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/metal button 3.wav"
+dest_files=["res://.godot/imported/metal button 3.wav-8d98e41ecbd7cbdcac143cbd84921033.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

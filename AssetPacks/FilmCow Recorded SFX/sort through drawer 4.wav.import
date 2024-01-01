@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cj6eh83ew1wgd"
+path="res://.godot/imported/sort through drawer 4.wav-ff3a89d0f1fa89d68942018238dda230.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/sort through drawer 4.wav"
+dest_files=["res://.godot/imported/sort through drawer 4.wav-ff3a89d0f1fa89d68942018238dda230.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

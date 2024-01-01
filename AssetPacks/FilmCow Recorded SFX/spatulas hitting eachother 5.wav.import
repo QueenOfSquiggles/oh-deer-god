@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d1g3tbe2bwxka"
+path="res://.godot/imported/spatulas hitting eachother 5.wav-42909fa83df9cad0025897d90c253506.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/spatulas hitting eachother 5.wav"
+dest_files=["res://.godot/imported/spatulas hitting eachother 5.wav-42909fa83df9cad0025897d90c253506.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

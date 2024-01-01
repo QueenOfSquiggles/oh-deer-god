@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bhdj4w8l0mqdk"
+path="res://.godot/imported/metal hit floor large 5.wav-0e6f07229a38c05b3fceb9a09908c48b.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/metal hit floor large 5.wav"
+dest_files=["res://.godot/imported/metal hit floor large 5.wav-0e6f07229a38c05b3fceb9a09908c48b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

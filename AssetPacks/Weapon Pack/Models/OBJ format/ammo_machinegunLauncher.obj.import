@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://coh5bgoicx7hg"
+path="res://.godot/imported/ammo_machinegunLauncher.obj-999cb9901bcd09b96a9d4ef3e3c8ab3c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/ammo_machinegunLauncher.obj-999cb9901bcd09b96a9d4ef3e3c8ab3c.mesh"]
+
+source_file="res://AssetPacks/Weapon Pack/Models/OBJ format/ammo_machinegunLauncher.obj"
+dest_files=["res://.godot/imported/ammo_machinegunLauncher.obj-999cb9901bcd09b96a9d4ef3e3c8ab3c.mesh", "res://.godot/imported/ammo_machinegunLauncher.obj-999cb9901bcd09b96a9d4ef3e3c8ab3c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

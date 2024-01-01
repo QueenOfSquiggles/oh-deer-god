@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ldm2w7hss5fy"
+path="res://.godot/imported/liquid medicine shake 2.wav-8de092cb9296c7fe2b5215a5d661eeec.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/liquid medicine shake 2.wav"
+dest_files=["res://.godot/imported/liquid medicine shake 2.wav-8de092cb9296c7fe2b5215a5d661eeec.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

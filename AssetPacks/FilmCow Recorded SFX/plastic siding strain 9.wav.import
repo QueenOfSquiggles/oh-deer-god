@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dgydagud1017q"
+path="res://.godot/imported/plastic siding strain 9.wav-199054964121c011980e5dc18d634297.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/plastic siding strain 9.wav"
+dest_files=["res://.godot/imported/plastic siding strain 9.wav-199054964121c011980e5dc18d634297.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

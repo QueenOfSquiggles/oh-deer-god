@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bmkmojhlq3k2h"
+path="res://.godot/imported/glass sliding 16.wav-492332c78062091ba92f1776708762fd.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/glass sliding 16.wav"
+dest_files=["res://.godot/imported/glass sliding 16.wav-492332c78062091ba92f1776708762fd.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cqla77qo44ek8"
+path="res://.godot/imported/office chair movement 7.wav-a7c4b1c9b5187d82c9e04ced150981a0.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/office chair movement 7.wav"
+dest_files=["res://.godot/imported/office chair movement 7.wav-a7c4b1c9b5187d82c9e04ced150981a0.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

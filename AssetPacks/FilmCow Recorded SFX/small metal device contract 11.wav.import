@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bylyyecm6owtr"
+path="res://.godot/imported/small metal device contract 11.wav-de1ccf1bdc47d123ca34e8fe499b6912.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/small metal device contract 11.wav"
+dest_files=["res://.godot/imported/small metal device contract 11.wav-de1ccf1bdc47d123ca34e8fe499b6912.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

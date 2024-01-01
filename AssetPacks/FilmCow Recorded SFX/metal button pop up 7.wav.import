@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ds2sisl3oag0o"
+path="res://.godot/imported/metal button pop up 7.wav-6363f9bd113153991171b5ca941d3ce8.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/metal button pop up 7.wav"
+dest_files=["res://.godot/imported/metal button pop up 7.wav-6363f9bd113153991171b5ca941d3ce8.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

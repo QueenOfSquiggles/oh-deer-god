@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c1823tx75ensb"
+path="res://.godot/imported/plastic cascade 12.wav-9959cf1a5c5ea521e789556032cd6a7f.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/plastic cascade 12.wav"
+dest_files=["res://.godot/imported/plastic cascade 12.wav-9959cf1a5c5ea521e789556032cd6a7f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

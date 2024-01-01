@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://sfarvgeb5e72"
+path="res://.godot/imported/wood scrape 3.wav-664718c7b935c85ac7fc57b824e5e078.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/wood scrape 3.wav"
+dest_files=["res://.godot/imported/wood scrape 3.wav-664718c7b935c85ac7fc57b824e5e078.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

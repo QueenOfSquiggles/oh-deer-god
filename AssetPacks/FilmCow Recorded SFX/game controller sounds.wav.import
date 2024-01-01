@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bt14p5gfujndq"
+path="res://.godot/imported/game controller sounds.wav-5d77683c8c29acac4c25d046c94e80c9.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/game controller sounds.wav"
+dest_files=["res://.godot/imported/game controller sounds.wav-5d77683c8c29acac4c25d046c94e80c9.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

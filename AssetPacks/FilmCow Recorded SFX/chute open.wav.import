@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ckpa8o0lbbek5"
+path="res://.godot/imported/chute open.wav-fc34118291d7c9f484284b90b2d8eed8.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/chute open.wav"
+dest_files=["res://.godot/imported/chute open.wav-fc34118291d7c9f484284b90b2d8eed8.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

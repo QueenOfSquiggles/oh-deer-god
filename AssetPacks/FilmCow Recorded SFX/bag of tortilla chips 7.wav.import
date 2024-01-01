@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bv4ebelgrhfdm"
+path="res://.godot/imported/bag of tortilla chips 7.wav-e0e602b55c463e45289b7a2e81bf9e1a.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/bag of tortilla chips 7.wav"
+dest_files=["res://.godot/imported/bag of tortilla chips 7.wav-e0e602b55c463e45289b7a2e81bf9e1a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

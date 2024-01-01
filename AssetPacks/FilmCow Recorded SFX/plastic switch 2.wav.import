@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ctqkrl1t6t4xo"
+path="res://.godot/imported/plastic switch 2.wav-db15666bcb6157c37208a353dd052a4e.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/plastic switch 2.wav"
+dest_files=["res://.godot/imported/plastic switch 2.wav-db15666bcb6157c37208a353dd052a4e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

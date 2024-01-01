@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bl5xqrk71ursi"
+path="res://.godot/imported/plastic case removed from shelf 4.wav-17e2b784f5520844add13790b97023ec.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/plastic case removed from shelf 4.wav"
+dest_files=["res://.godot/imported/plastic case removed from shelf 4.wav-17e2b784f5520844add13790b97023ec.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

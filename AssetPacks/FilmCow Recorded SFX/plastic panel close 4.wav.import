@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://xb3eykqqflee"
+path="res://.godot/imported/plastic panel close 4.wav-793afd4fa27877d1d6b1c84a44dba3f2.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/plastic panel close 4.wav"
+dest_files=["res://.godot/imported/plastic panel close 4.wav-793afd4fa27877d1d6b1c84a44dba3f2.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

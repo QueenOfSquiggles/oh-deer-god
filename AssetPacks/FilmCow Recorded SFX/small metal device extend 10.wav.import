@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dw6u73ut3ued5"
+path="res://.godot/imported/small metal device extend 10.wav-c0bc7f12cc62fa225c94f82a3bcbac00.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/small metal device extend 10.wav"
+dest_files=["res://.godot/imported/small metal device extend 10.wav-c0bc7f12cc62fa225c94f82a3bcbac00.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

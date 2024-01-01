@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dqhr6dh8b0tn3"
+path="res://.godot/imported/footstep leaves 8.wav-26e460d5e45a99013b7e2aa0703487c4.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/footstep leaves 8.wav"
+dest_files=["res://.godot/imported/footstep leaves 8.wav-26e460d5e45a99013b7e2aa0703487c4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

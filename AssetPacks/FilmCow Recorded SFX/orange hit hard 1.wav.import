@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://465rlqlxoxec"
+path="res://.godot/imported/orange hit hard 1.wav-bf0aa73e62f0a192dd49e7f02bbf6f7e.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/orange hit hard 1.wav"
+dest_files=["res://.godot/imported/orange hit hard 1.wav-bf0aa73e62f0a192dd49e7f02bbf6f7e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

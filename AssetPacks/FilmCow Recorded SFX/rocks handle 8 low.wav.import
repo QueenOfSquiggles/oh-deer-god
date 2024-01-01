@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://xr7hypusuj3n"
+path="res://.godot/imported/rocks handle 8 low.wav-22589dd8d8fbdd113b6eecadf8d00540.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/rocks handle 8 low.wav"
+dest_files=["res://.godot/imported/rocks handle 8 low.wav-22589dd8d8fbdd113b6eecadf8d00540.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

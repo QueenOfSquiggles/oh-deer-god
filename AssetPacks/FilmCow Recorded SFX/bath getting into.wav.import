@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b2aiampw1hdln"
+path="res://.godot/imported/bath getting into.wav-336dd8090b2db55a2c046f2aa2450c08.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/bath getting into.wav"
+dest_files=["res://.godot/imported/bath getting into.wav-336dd8090b2db55a2c046f2aa2450c08.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

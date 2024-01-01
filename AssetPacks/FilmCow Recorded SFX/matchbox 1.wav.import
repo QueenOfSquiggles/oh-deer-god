@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dnlruvh3tcjxf"
+path="res://.godot/imported/matchbox 1.wav-581e5a7aa137f4fdf1655ccf98071b17.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/matchbox 1.wav"
+dest_files=["res://.godot/imported/matchbox 1.wav-581e5a7aa137f4fdf1655ccf98071b17.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

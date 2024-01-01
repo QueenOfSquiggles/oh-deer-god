@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dw573va1kemey"
+path="res://.godot/imported/metal device contracted 2.wav-70dc8b59a67a9b6ef77ea33d5f37c949.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/metal device contracted 2.wav"
+dest_files=["res://.godot/imported/metal device contracted 2.wav-70dc8b59a67a9b6ef77ea33d5f37c949.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

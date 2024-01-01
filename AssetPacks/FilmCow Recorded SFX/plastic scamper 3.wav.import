@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bdiy2tmph4knm"
+path="res://.godot/imported/plastic scamper 3.wav-76e0511bfb111fb2c75dfeb5b8ddebb0.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/plastic scamper 3.wav"
+dest_files=["res://.godot/imported/plastic scamper 3.wav-76e0511bfb111fb2c75dfeb5b8ddebb0.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c6s7k8ylfjuna"
+path="res://.godot/imported/crawl on ground 2.wav-e3933a483bf9e91d9799f922aeb8070a.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/crawl on ground 2.wav"
+dest_files=["res://.godot/imported/crawl on ground 2.wav-e3933a483bf9e91d9799f922aeb8070a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

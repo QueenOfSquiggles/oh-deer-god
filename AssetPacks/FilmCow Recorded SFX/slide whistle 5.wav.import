@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d2mb3uimr1lo7"
+path="res://.godot/imported/slide whistle 5.wav-d070c936a1ef980ee30d6ee1766e95ab.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/slide whistle 5.wav"
+dest_files=["res://.godot/imported/slide whistle 5.wav-d070c936a1ef980ee30d6ee1766e95ab.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

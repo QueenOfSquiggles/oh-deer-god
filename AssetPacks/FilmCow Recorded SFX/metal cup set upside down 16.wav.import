@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bi1hnx3mdcaya"
+path="res://.godot/imported/metal cup set upside down 16.wav-25df1aafe73fce738cc4b59d835a6193.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/metal cup set upside down 16.wav"
+dest_files=["res://.godot/imported/metal cup set upside down 16.wav-25df1aafe73fce738cc4b59d835a6193.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

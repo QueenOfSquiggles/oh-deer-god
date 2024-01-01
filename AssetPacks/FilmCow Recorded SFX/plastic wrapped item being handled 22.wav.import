@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://2kbvqu3cd501"
+path="res://.godot/imported/plastic wrapped item being handled 22.wav-80cdd5fde92eefd3a0e06ab15c9699bc.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/plastic wrapped item being handled 22.wav"
+dest_files=["res://.godot/imported/plastic wrapped item being handled 22.wav-80cdd5fde92eefd3a0e06ab15c9699bc.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

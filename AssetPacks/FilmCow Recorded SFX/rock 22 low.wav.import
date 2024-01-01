@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://i2io114q4dqd"
+path="res://.godot/imported/rock 22 low.wav-7c24f36614908b1c0d40b1c33d305eb9.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/rock 22 low.wav"
+dest_files=["res://.godot/imported/rock 22 low.wav-7c24f36614908b1c0d40b1c33d305eb9.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

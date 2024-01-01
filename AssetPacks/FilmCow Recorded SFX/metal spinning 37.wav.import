@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cf4sue7xpaqqt"
+path="res://.godot/imported/metal spinning 37.wav-9836ed6bea1c1ce7e31df3b1e76340c9.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/metal spinning 37.wav"
+dest_files=["res://.godot/imported/metal spinning 37.wav-9836ed6bea1c1ce7e31df3b1e76340c9.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

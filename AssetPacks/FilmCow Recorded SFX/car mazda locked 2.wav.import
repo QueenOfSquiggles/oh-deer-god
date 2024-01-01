@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dyhsd2o6cf7yc"
+path="res://.godot/imported/car mazda locked 2.wav-3e3d27f04b45fad6f3398d7fce6992df.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/car mazda locked 2.wav"
+dest_files=["res://.godot/imported/car mazda locked 2.wav-3e3d27f04b45fad6f3398d7fce6992df.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bwcqo5yfmsgse"
+path="res://.godot/imported/tube movement 37.wav-a3a8dee397bfa82a934ccb35c6084aa5.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/tube movement 37.wav"
+dest_files=["res://.godot/imported/tube movement 37.wav-a3a8dee397bfa82a934ccb35c6084aa5.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dvds8qvwmj6qg"
+path="res://.godot/imported/screen door open 1.wav-614e4ec700135ed8dc1f1ca11fd1dc50.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/screen door open 1.wav"
+dest_files=["res://.godot/imported/screen door open 1.wav-614e4ec700135ed8dc1f1ca11fd1dc50.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

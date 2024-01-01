@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b1onumlo2t0em"
+path="res://.godot/imported/metal cup on metal tray 9.wav-27240e676f80f9c5e28dc64bfb3baeae.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/metal cup on metal tray 9.wav"
+dest_files=["res://.godot/imported/metal cup on metal tray 9.wav-27240e676f80f9c5e28dc64bfb3baeae.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

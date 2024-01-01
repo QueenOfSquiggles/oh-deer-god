@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://go0a4twvfa40"
+path="res://.godot/imported/gulp 1.wav-5ae345bcd42d0f6ecae1da51959086b3.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/gulp 1.wav"
+dest_files=["res://.godot/imported/gulp 1.wav-5ae345bcd42d0f6ecae1da51959086b3.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

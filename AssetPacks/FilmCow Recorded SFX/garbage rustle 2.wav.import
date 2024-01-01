@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bxcaue81aux0b"
+path="res://.godot/imported/garbage rustle 2.wav-aa69c0d4744c941356086b44a568306d.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/garbage rustle 2.wav"
+dest_files=["res://.godot/imported/garbage rustle 2.wav-aa69c0d4744c941356086b44a568306d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

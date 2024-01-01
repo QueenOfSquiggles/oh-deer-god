@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bk8cj35weieso"
+path="res://.godot/imported/rope tighten 1.wav-a95f7c7b946be65c28b1d114b812fda5.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/rope tighten 1.wav"
+dest_files=["res://.godot/imported/rope tighten 1.wav-a95f7c7b946be65c28b1d114b812fda5.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

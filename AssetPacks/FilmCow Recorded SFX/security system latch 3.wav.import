@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ccu8mx41vcmao"
+path="res://.godot/imported/security system latch 3.wav-7267248b4c04065b65c44c719eb0e8ee.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/security system latch 3.wav"
+dest_files=["res://.godot/imported/security system latch 3.wav-7267248b4c04065b65c44c719eb0e8ee.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

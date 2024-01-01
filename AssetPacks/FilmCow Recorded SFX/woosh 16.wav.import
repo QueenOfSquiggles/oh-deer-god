@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dqojgxb8csuym"
+path="res://.godot/imported/woosh 16.wav-31953fdb87970a3b965ca0bda1586971.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/woosh 16.wav"
+dest_files=["res://.godot/imported/woosh 16.wav-31953fdb87970a3b965ca0bda1586971.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

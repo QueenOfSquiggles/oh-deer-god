@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bjj0gkdcrau36"
+path="res://.godot/imported/paper ripping 10.wav-f91fbff453a021f20f6f5b3cba57e217.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/paper ripping 10.wav"
+dest_files=["res://.godot/imported/paper ripping 10.wav-f91fbff453a021f20f6f5b3cba57e217.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

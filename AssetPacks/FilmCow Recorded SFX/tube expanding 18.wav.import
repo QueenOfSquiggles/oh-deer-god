@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ivj44jfm5wd2"
+path="res://.godot/imported/tube expanding 18.wav-3205e6796d00444bed4a5b17188275c7.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/tube expanding 18.wav"
+dest_files=["res://.godot/imported/tube expanding 18.wav-3205e6796d00444bed4a5b17188275c7.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

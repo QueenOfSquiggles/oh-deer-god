@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bsaec5nyauqfb"
+path="res://.godot/imported/sugar thrown 3.wav-69cf45472b1efec5c3adbb05289ed50f.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/sugar thrown 3.wav"
+dest_files=["res://.godot/imported/sugar thrown 3.wav-69cf45472b1efec5c3adbb05289ed50f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://j8ltxxn4wdlv"
+path="res://.godot/imported/wood hitting ground 10.wav-e59aec5f767c1d6c6ebe812a0a1cb30c.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/wood hitting ground 10.wav"
+dest_files=["res://.godot/imported/wood hitting ground 10.wav-e59aec5f767c1d6c6ebe812a0a1cb30c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

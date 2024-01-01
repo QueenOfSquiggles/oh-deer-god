@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d2n1s1pa8dywe"
+path="res://.godot/imported/small sliding door opens 4.wav-e3e96eab3dae15aaa6b3d65726db69ab.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/small sliding door opens 4.wav"
+dest_files=["res://.godot/imported/small sliding door opens 4.wav-e3e96eab3dae15aaa6b3d65726db69ab.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

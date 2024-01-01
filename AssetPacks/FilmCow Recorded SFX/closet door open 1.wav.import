@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bw2lyqtr7m1kp"
+path="res://.godot/imported/closet door open 1.wav-9557f1ce2b9a801c5838489a37f910ad.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/closet door open 1.wav"
+dest_files=["res://.godot/imported/closet door open 1.wav-9557f1ce2b9a801c5838489a37f910ad.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

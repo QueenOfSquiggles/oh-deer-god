@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b6l5vgu6c8kbt"
+path="res://.godot/imported/anvil hit 3.wav-b75444757003cee2aeadbc006a22498d.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/anvil hit 3.wav"
+dest_files=["res://.godot/imported/anvil hit 3.wav-b75444757003cee2aeadbc006a22498d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

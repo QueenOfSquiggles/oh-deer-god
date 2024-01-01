@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://i40iqeo33cj4"
+path="res://.godot/imported/footstep grass 32.wav-1edffb55f2fbcd1691d35bc71e1442e2.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/footstep grass 32.wav"
+dest_files=["res://.godot/imported/footstep grass 32.wav-1edffb55f2fbcd1691d35bc71e1442e2.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dfojfbitylhce"
+path="res://.godot/imported/rope pulled up 5.wav-9d02bc0339f678f0bba07c0eb28372d9.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/rope pulled up 5.wav"
+dest_files=["res://.godot/imported/rope pulled up 5.wav-9d02bc0339f678f0bba07c0eb28372d9.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

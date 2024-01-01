@@ -1,0 +1,57 @@
+[gd_scene load_steps=11 format=3 uid="uid://cficfkd5kqel4"]
+
+[ext_resource type="Script" path="res://Scenes/VFX/vfx_particles_oneshot.gd" id="1_4wg03"]
+
+[sub_resource type="Gradient" id="Gradient_iyow7"]
+offsets = PackedFloat32Array(0, 0.851145, 1)
+colors = PackedColorArray(0.9, 0.87, 0, 1, 0.473976, 0.473976, 0.473976, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_3xsl2"]
+gradient = SubResource("Gradient_iyow7")
+
+[sub_resource type="Curve" id="Curve_ch6ly"]
+max_value = 5.0
+_data = [Vector2(0, 5), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveTexture" id="CurveTexture_a3e87"]
+curve = SubResource("Curve_ch6ly")
+
+[sub_resource type="Curve" id="Curve_h8sy7"]
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.106897, 1), 0.0, 0.0, 0, 0, Vector2(0.727586, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 4
+
+[sub_resource type="CurveTexture" id="CurveTexture_2nn3v"]
+curve = SubResource("Curve_h8sy7")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_romle"]
+emission_shape = 1
+emission_sphere_radius = 0.1
+direction = Vector3(0, 0, 1)
+spread = 180.0
+initial_velocity_min = 3.1
+initial_velocity_max = 7.3
+scale_min = 0.1
+scale_max = 1.5
+scale_curve = SubResource("CurveTexture_2nn3v")
+color_ramp = SubResource("GradientTexture1D_3xsl2")
+emission_curve = SubResource("CurveTexture_a3e87")
+hue_variation_min = -0.05
+hue_variation_max = 0.14
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_js1d4"]
+shading_mode = 2
+vertex_color_use_as_albedo = true
+
+[sub_resource type="SphereMesh" id="SphereMesh_ca3wf"]
+material = SubResource("StandardMaterial3D_js1d4")
+radius = 0.05
+height = 0.1
+
+[node name="ShotgunHitVFX" type="GPUParticles3D"]
+explosiveness = 1.0
+randomness = 1.0
+local_coords = true
+process_material = SubResource("ParticleProcessMaterial_romle")
+draw_pass_1 = SubResource("SphereMesh_ca3wf")
+script = ExtResource("1_4wg03")

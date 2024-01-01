@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dx8i38qetf1af"
+path="res://.godot/imported/foam friction 5.wav-f81c9869e38f88831f78787d9ba0fd11.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/foam friction 5.wav"
+dest_files=["res://.godot/imported/foam friction 5.wav-f81c9869e38f88831f78787d9ba0fd11.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

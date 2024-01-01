@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bbiun41kt273k"
+path="res://.godot/imported/clothing movement 11.wav-3ff6389ffeaa392d963eddaa4f542c3d.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/clothing movement 11.wav"
+dest_files=["res://.godot/imported/clothing movement 11.wav-3ff6389ffeaa392d963eddaa4f542c3d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

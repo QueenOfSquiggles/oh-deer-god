@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cyl0yg2jqg8o2"
+path="res://.godot/imported/gas canister dropped 5.wav-843a6726df241b2279a9487e2675aa04.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/gas canister dropped 5.wav"
+dest_files=["res://.godot/imported/gas canister dropped 5.wav-843a6726df241b2279a9487e2675aa04.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

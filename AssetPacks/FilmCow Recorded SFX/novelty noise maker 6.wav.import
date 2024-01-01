@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cruaka22k3ph"
+path="res://.godot/imported/novelty noise maker 6.wav-6c47374a8f4453d986211cfd38c5e557.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/novelty noise maker 6.wav"
+dest_files=["res://.godot/imported/novelty noise maker 6.wav-6c47374a8f4453d986211cfd38c5e557.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

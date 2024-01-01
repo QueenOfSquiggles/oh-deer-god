@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://blerrqnpvb8xc"
+path="res://.godot/imported/velcro 17.wav-5b012473ec58960c54d39589ead528cd.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/velcro 17.wav"
+dest_files=["res://.godot/imported/velcro 17.wav-5b012473ec58960c54d39589ead528cd.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

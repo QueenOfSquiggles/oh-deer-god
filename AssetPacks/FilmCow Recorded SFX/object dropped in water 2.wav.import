@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dc5245ookobgv"
+path="res://.godot/imported/object dropped in water 2.wav-a6ad55eb828b76fbc894d091f9502159.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/object dropped in water 2.wav"
+dest_files=["res://.godot/imported/object dropped in water 2.wav-a6ad55eb828b76fbc894d091f9502159.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

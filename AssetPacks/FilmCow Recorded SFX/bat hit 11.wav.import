@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cjikv0wxf7tyt"
+path="res://.godot/imported/bat hit 11.wav-e60f378a9d8712fb2d2f53f40e6df156.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/bat hit 11.wav"
+dest_files=["res://.godot/imported/bat hit 11.wav-e60f378a9d8712fb2d2f53f40e6df156.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

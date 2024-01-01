@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bm8xs0eugrvas"
+path="res://.godot/imported/chair knocked to the floor.wav-4274eebf3b167e1360d0de6cd267313c.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/chair knocked to the floor.wav"
+dest_files=["res://.godot/imported/chair knocked to the floor.wav-4274eebf3b167e1360d0de6cd267313c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cnb3s5gq3nv2x"
+path="res://.godot/imported/cardboard box hit 2.wav-cbda4965a2503aeea1803ef39a1c1731.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/cardboard box hit 2.wav"
+dest_files=["res://.godot/imported/cardboard box hit 2.wav-cbda4965a2503aeea1803ef39a1c1731.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

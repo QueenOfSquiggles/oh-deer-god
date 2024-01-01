@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bxbndfnnod8bo"
+path="res://.godot/imported/tube tv turn off 4.wav-5fdab326a53d89289e964d3cf43009f1.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/tube tv turn off 4.wav"
+dest_files=["res://.godot/imported/tube tv turn off 4.wav-5fdab326a53d89289e964d3cf43009f1.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

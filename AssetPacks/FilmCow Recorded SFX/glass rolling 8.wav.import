@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://vrh16jqnqpr4"
+path="res://.godot/imported/glass rolling 8.wav-68e149c20b99355603994fb02eb181ad.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/glass rolling 8.wav"
+dest_files=["res://.godot/imported/glass rolling 8.wav-68e149c20b99355603994fb02eb181ad.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

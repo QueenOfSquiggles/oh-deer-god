@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dc8cs0ugvxj1c"
+path="res://.godot/imported/wood hitting tree 8.wav-13d569321e8660704c89cc0ab11f413b.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/wood hitting tree 8.wav"
+dest_files=["res://.godot/imported/wood hitting tree 8.wav-13d569321e8660704c89cc0ab11f413b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

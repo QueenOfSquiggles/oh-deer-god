@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://wn2w36ytq05"
+path="res://.godot/imported/fish 19.wav-a4498086dd862e5963107fdc49b1e9c4.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/fish 19.wav"
+dest_files=["res://.godot/imported/fish 19.wav-a4498086dd862e5963107fdc49b1e9c4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

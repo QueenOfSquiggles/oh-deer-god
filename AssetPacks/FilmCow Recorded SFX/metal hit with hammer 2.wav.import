@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cqbb8snghnwx1"
+path="res://.godot/imported/metal hit with hammer 2.wav-6fd0a24c5189f177fd03abc23e2454d4.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/metal hit with hammer 2.wav"
+dest_files=["res://.godot/imported/metal hit with hammer 2.wav-6fd0a24c5189f177fd03abc23e2454d4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

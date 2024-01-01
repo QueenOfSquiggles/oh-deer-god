@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dy8sc57k7gbtf"
+path="res://.godot/imported/printer laser paper tray open 4.wav-9adba86610e88ba6f7420486b1c9b127.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/printer laser paper tray open 4.wav"
+dest_files=["res://.godot/imported/printer laser paper tray open 4.wav-9adba86610e88ba6f7420486b1c9b127.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

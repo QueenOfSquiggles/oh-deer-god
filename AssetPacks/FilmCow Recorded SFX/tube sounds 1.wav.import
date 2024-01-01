@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://j25n313agqxl"
+path="res://.godot/imported/tube sounds 1.wav-d32a0fe80cb90827bca224fb7e5dd086.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/tube sounds 1.wav"
+dest_files=["res://.godot/imported/tube sounds 1.wav-d32a0fe80cb90827bca224fb7e5dd086.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

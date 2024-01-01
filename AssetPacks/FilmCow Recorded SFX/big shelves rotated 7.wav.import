@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dy1x8srjsp134"
+path="res://.godot/imported/big shelves rotated 7.wav-6f07676a0ce4825f8b304da9b7062aed.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/big shelves rotated 7.wav"
+dest_files=["res://.godot/imported/big shelves rotated 7.wav-6f07676a0ce4825f8b304da9b7062aed.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

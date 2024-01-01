@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b5y5d7qlmkrps"
+path="res://.godot/imported/gas canister sloshing 2.wav-6d232d2b0e20c70ae2a8d539ae3a49cb.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/gas canister sloshing 2.wav"
+dest_files=["res://.godot/imported/gas canister sloshing 2.wav-6d232d2b0e20c70ae2a8d539ae3a49cb.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

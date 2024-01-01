@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b5nall5yfv04p"
+path="res://.godot/imported/mouth sounds.wav-c0bac012edabd10608852bd7577461eb.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/mouth sounds.wav"
+dest_files=["res://.godot/imported/mouth sounds.wav-c0bac012edabd10608852bd7577461eb.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

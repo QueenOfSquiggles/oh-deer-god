@@ -1,0 +1,22 @@
+if {has_shotgun} != 1:
+	# Case for when the player does not have the shotgun
+	jump story_06_papers_not_shotgun/
+	[end_timeline]
+char_margaret: H-hey... w-why do you need a gun??? I was just messing around earlier?
+- Purchase gun
+	char_margaret: I guess that makes sense.
+	char_me: Just self defense. I gotta be safe if I'm walking around late at night
+	But damn dude... I never thought anyone would actually buy it. I always figured it was there to scare off freaks
+	do GameManager.set_story_beat(7)
+	do GameManager.load_cutscene("kill_peryton")
+	[end_timeline]
+- Shoot Margaret
+	W-w-w-what are you doing?????
+	do GameManager.set_story_beat(9)
+	do GameManager.load_cutscene("kill_margaret")
+	[end_timeline]
+- Put gun back
+	char_me: Yeah.... I don't really need this I don't think
+	set {has_shotgun} = 0
+	do GameManager.set_player_has_shotgun(false)
+jump story_06_papers_not_shotgun/

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b4bm17l3xm7kt"
+path="res://.godot/imported/punch 1.wav-d8bf4f7d2fd8208e389fa49936c33314.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/punch 1.wav"
+dest_files=["res://.godot/imported/punch 1.wav-d8bf4f7d2fd8208e389fa49936c33314.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

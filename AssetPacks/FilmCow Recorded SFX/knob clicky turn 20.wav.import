@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://u632nua1vcat"
+path="res://.godot/imported/knob clicky turn 20.wav-f49c062cc0fa03b39e18ad61c59271ae.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/knob clicky turn 20.wav"
+dest_files=["res://.godot/imported/knob clicky turn 20.wav-f49c062cc0fa03b39e18ad61c59271ae.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

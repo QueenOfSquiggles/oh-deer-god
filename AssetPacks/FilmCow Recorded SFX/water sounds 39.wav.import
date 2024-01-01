@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dlqch7atsbeb3"
+path="res://.godot/imported/water sounds 39.wav-57ff881dc1141d4fa6875e923a66bc05.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/water sounds 39.wav"
+dest_files=["res://.godot/imported/water sounds 39.wav-57ff881dc1141d4fa6875e923a66bc05.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

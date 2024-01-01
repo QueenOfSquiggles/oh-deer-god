@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bv5ldvbbvg4d1"
+path="res://.godot/imported/toaster hit 2.wav-1099b7dfd243ffcd1ff90a661e444ccd.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/toaster hit 2.wav"
+dest_files=["res://.godot/imported/toaster hit 2.wav-1099b7dfd243ffcd1ff90a661e444ccd.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

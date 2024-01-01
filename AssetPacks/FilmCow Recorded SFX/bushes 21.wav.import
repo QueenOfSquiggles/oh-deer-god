@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bg06toay2ka3a"
+path="res://.godot/imported/bushes 21.wav-b9f92845cab83fd2ad0c5908e6ada0ec.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/bushes 21.wav"
+dest_files=["res://.godot/imported/bushes 21.wav-b9f92845cab83fd2ad0c5908e6ada0ec.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

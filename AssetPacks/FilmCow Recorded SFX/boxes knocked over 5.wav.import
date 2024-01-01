@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bcke5bxpsmuvx"
+path="res://.godot/imported/boxes knocked over 5.wav-1ef50c569d7240c060cbc757d4fff16c.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/boxes knocked over 5.wav"
+dest_files=["res://.godot/imported/boxes knocked over 5.wav-1ef50c569d7240c060cbc757d4fff16c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

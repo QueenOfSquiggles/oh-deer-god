@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bxi8rytq13r8s"
+path="res://.godot/imported/car sedan door shut 4.wav-9a8458a8813bb8f51668c21b2f4401cd.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/car sedan door shut 4.wav"
+dest_files=["res://.godot/imported/car sedan door shut 4.wav-9a8458a8813bb8f51668c21b2f4401cd.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ckq4ug1uo7xlc"
+path="res://.godot/imported/zipper 31.wav-e59c058ecd80a2a3146b96f234653725.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/zipper 31.wav"
+dest_files=["res://.godot/imported/zipper 31.wav-e59c058ecd80a2a3146b96f234653725.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

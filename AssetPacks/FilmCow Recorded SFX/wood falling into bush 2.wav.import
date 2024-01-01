@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cu2d0js07miop"
+path="res://.godot/imported/wood falling into bush 2.wav-33f4933a4cb38d75f5dbb8b058979002.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/wood falling into bush 2.wav"
+dest_files=["res://.godot/imported/wood falling into bush 2.wav-33f4933a4cb38d75f5dbb8b058979002.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

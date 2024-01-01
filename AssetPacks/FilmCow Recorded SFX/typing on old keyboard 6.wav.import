@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dd35auoh8jc8e"
+path="res://.godot/imported/typing on old keyboard 6.wav-bc8a738d1dd2ec83e82d4b526d26419f.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/typing on old keyboard 6.wav"
+dest_files=["res://.godot/imported/typing on old keyboard 6.wav-bc8a738d1dd2ec83e82d4b526d26419f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

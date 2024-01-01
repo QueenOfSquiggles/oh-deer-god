@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bp15s3c00ckam"
+path="res://.godot/imported/sliding door large close 1.wav-c2e02e8284b773aa35b5c4af20928b6d.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/sliding door large close 1.wav"
+dest_files=["res://.godot/imported/sliding door large close 1.wav-c2e02e8284b773aa35b5c4af20928b6d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

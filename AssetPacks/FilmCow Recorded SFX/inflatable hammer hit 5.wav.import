@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bpjltdq8c36tq"
+path="res://.godot/imported/inflatable hammer hit 5.wav-3d3a3aa51288452af4cff3e39c386ed6.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/inflatable hammer hit 5.wav"
+dest_files=["res://.godot/imported/inflatable hammer hit 5.wav-3d3a3aa51288452af4cff3e39c386ed6.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

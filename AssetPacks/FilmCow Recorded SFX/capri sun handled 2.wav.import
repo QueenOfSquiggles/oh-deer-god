@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c8hnpc1rprkm7"
+path="res://.godot/imported/capri sun handled 2.wav-fbffa79cdc20a75f2931e98394e95259.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/capri sun handled 2.wav"
+dest_files=["res://.godot/imported/capri sun handled 2.wav-fbffa79cdc20a75f2931e98394e95259.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

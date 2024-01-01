@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c2hu231pb0p6k"
+path="res://.godot/imported/metal hits metal 6.wav-2da2415b7f2cd455105437a9fb392c58.sample"
+
+[deps]
+
+source_file="res://AssetPacks/FilmCow Recorded SFX/metal hits metal 6.wav"
+dest_files=["res://.godot/imported/metal hits metal 6.wav-2da2415b7f2cd455105437a9fb392c58.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
