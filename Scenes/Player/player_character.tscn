@@ -9,6 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://cficfkd5kqel4" path="res://Scenes/VFX/shotgun_hit_vfx.tscn" id="7_rxxiv"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_gcgtu"]
+radius = 0.3
 
 [sub_resource type="Gradient" id="Gradient_4yi1w"]
 offsets = PackedFloat32Array(0, 0.588496, 0.774336)
@@ -185,7 +186,6 @@ transform = Transform3D(-1, 0, -2.53518e-06, 0, 1, 0, 2.53518e-06, 0, -1, 0.06, 
 
 [node name="shotgun2" parent="VirtualCamera3D/Marker3D" instance=ExtResource("2_7kono")]
 script = ExtResource("3_mpd6e")
-sway_max_deg = 10.0
 
 [node name="MuzzleFlash" type="GPUParticles3D" parent="VirtualCamera3D/Marker3D/shotgun2"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.41333e-07, 0.131421, 0.285838)
@@ -197,9 +197,6 @@ explosiveness = 0.91
 randomness = 1.0
 process_material = SubResource("ParticleProcessMaterial_5t6hh")
 draw_pass_1 = SubResource("SphereMesh_oyjkr")
-
-[node name="Camera3D" type="Camera3D" parent="VirtualCamera3D"]
-near = 0.001
 
 [node name="FiniteStateMachine" type="FiniteStateMachine" parent="." node_paths=PackedStringArray("current")]
 tick_mode = 1

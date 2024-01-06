@@ -2,12 +2,13 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b8xgpo5gswlve"
+uid="uid://bn3neklccihe"
 path.s3tc="res://.godot/imported/cereal_and_pesticide_jb.jpg-eba5bfbec3636410f58aa26d3c17f50c.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
+generator_parameters={}
 
 [deps]
 

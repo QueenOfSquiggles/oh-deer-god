@@ -30,6 +30,28 @@ animation/trimming=false
 animation/remove_immutable_tracks=true
 import_script/path=""
 _subresources={
+"materials": {
+"_defaultMat": {
+"use_external/enabled": false,
+"use_external/path": "res://Assets/Materials/suburbs/house_bricks.tres"
+},
+"border": {
+"use_external/enabled": false,
+"use_external/path": "res://Assets/Materials/suburbs/house_trim.tres"
+},
+"door": {
+"use_external/enabled": false,
+"use_external/path": "res://Assets/Materials/suburbs/house_bricks.tres"
+},
+"roof": {
+"use_external/enabled": false,
+"use_external/path": "res://Assets/Materials/suburbs/house_roof.tres"
+},
+"window": {
+"use_external/enabled": false,
+"use_external/path": "res://Assets/Materials/suburbs/house_bricks.tres"
+}
+},
 "nodes": {
 "PATH:tmpParent/house_type01": {
 "generate/physics": true

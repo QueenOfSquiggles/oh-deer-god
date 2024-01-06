@@ -2,12 +2,13 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bf5yd4qiiibmy"
+uid="uid://boe02dpt07rmb"
 path.s3tc="res://.godot/imported/freezer_hela.jpg-4c404c260761bf5120fcf8aad311eb0e.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
+generator_parameters={}
 
 [deps]
 

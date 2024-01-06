@@ -1,0 +1,53 @@
+[gd_scene load_steps=2 format=3 uid="uid://6sb2wpxmcpg5"]
+
+[ext_resource type="PackedScene" uid="uid://dqvtwarcg8w5j" path="res://AssetPacks/City Kit - Suburban/Models/GLTF format/path_long.glb" id="1_oq81i"]
+
+[node name="ForestPath" type="Node3D"]
+
+[node name="path_long2" parent="." instance=ExtResource("1_oq81i")]
+transform = Transform3D(0.647681, 0, 0.761911, 0, 1, 0, -0.761911, 0, 0.647681, -19.7221, 0.0128686, -49.1656)
+
+[node name="path_long3" parent="." instance=ExtResource("1_oq81i")]
+transform = Transform3D(0.687544, 0, 0.726143, 0, 1, 0, -0.726143, 0, 0.687544, -12.7536, 0.0128648, -41.2518)
+
+[node name="path_long4" parent="." instance=ExtResource("1_oq81i")]
+transform = Transform3D(0.873432, 0, 0.486945, 0, 1, 0, -0.486945, 0, 0.873432, -4.68149, 0.0128648, -31.9957)
+
+[node name="path_long5" parent="." instance=ExtResource("1_oq81i")]
+transform = Transform3D(0.925024, 0, 0.379908, 0, 1, 0, -0.379908, 0, 0.925024, -1.77552, 0.0128648, -23.4931)
+
+[node name="path_long6" parent="." instance=ExtResource("1_oq81i")]
+transform = Transform3D(0.769266, 0, 0.638929, 0, 1, 0, -0.638929, 0, 0.769266, 3.71353, 0.0128648, -14.4523)
+
+[node name="path_long7" parent="." instance=ExtResource("1_oq81i")]
+transform = Transform3D(0.769266, 0, 0.638929, 0, 1, 0, -0.638929, 0, 0.769266, 11.0323, 0.0128648, -6.16489)
+
+[node name="path_long8" parent="." instance=ExtResource("1_oq81i")]
+transform = Transform3D(0.769266, 0, 0.638929, 0, 1, 0, -0.638929, 0, 0.769266, 16.6289, 0.0128648, 1.04622)
+
+[node name="path_long9" parent="." instance=ExtResource("1_oq81i")]
+transform = Transform3D(0.513242, 0, 0.858244, 0, 1, 0, -0.858244, 0, 0.513242, 23.7324, 0.0128648, 8.79546)
+
+[node name="path_long10" parent="." instance=ExtResource("1_oq81i")]
+transform = Transform3D(-0.142853, 0, 0.989744, 0, 1, 0, -0.989744, 0, -0.142853, 36.7555, 0.0128648, 9.87174)
+
+[node name="path_long11" parent="." instance=ExtResource("1_oq81i")]
+transform = Transform3D(-0.411164, 0, 0.911561, 0, 1, 0, -0.911561, 0, -0.411164, 49.0251, 0.0128648, 7.50392)
+
+[node name="path_long12" parent="." instance=ExtResource("1_oq81i")]
+transform = Transform3D(-0.64631, 0, 0.763075, 0, 1, 0, -0.763075, 0, -0.64631, 60.9718, 0.0128648, 2.1225)
+
+[node name="path_long13" parent="." instance=ExtResource("1_oq81i")]
+transform = Transform3D(-0.759725, 0, 0.650244, 0, 1, 0, -0.650244, 0, -0.759725, 71.7347, 0.0128648, -7.3488)
+
+[node name="path_long14" parent="." instance=ExtResource("1_oq81i")]
+transform = Transform3D(-0.898641, 0, 0.438685, 0, 1, 0, -0.438685, 0, -0.898641, 78.4076, 0.0128648, -21.1252)
+
+[node name="path_long15" parent="." instance=ExtResource("1_oq81i")]
+transform = Transform3D(-0.99871, 0, 0.0507673, 0, 1, 0, -0.0507673, 0, -0.99871, 81.9594, 0.0128648, -35.978)
+
+[node name="path_long16" parent="." instance=ExtResource("1_oq81i")]
+transform = Transform3D(-0.944284, 0, -0.32913, 0, 1, 0, 0.32913, 0, -0.944284, 80.3449, 0.0128648, -50.6154)
+
+[node name="path_long17" parent="." instance=ExtResource("1_oq81i")]
+transform = Transform3D(-0.944284, 0, -0.32913, 0, 1, 0, 0.32913, 0, -0.944284, 76.3627, 0.0128648, -61.163)

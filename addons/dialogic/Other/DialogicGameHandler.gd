@@ -14,14 +14,14 @@ enum States {
 	ANIMATING, 			## Some animation is happening.
 	AWAITING_CHOICE, 	## Dialogic awaits the selection of a choice
 	WAITING 			## Dialogic is currently awaiting something.
-}
+	}
 
 ## Flags indicating what to clear when calling Dialogic.clear()
 enum ClearFlags {
 	FULL_CLEAR = 0, 		## Clears all subsystems
 	KEEP_VARIABLES = 1, 	## Clears all subsystems and info except for variables
 	TIMLEINE_INFO_ONLY = 2	## Doesn't clear subsystems but current timeline and index
-}
+	}
 
 ## Reference to the timeline that is currently being executed
 var current_timeline: DialogicTimeline = null
@@ -308,8 +308,6 @@ func _set(property, value):
 		return true
 
 #endregion
-
-
 
 
 #region HELPERS

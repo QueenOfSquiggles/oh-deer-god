@@ -30,6 +30,20 @@ animation/trimming=false
 animation/remove_immutable_tracks=true
 import_script/path=""
 _subresources={
+"materials": {
+"inside_ceil": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/Materials/player_house_internal/ceiling_interior.tres"
+},
+"inside_floor": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/Materials/player_house_internal/dirty_carpet.tres"
+},
+"inside_walls": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/Materials/player_house_internal/plastered_wall.tres"
+}
+},
 "meshes": {
 "player_house_Mesh house_type09": {
 "generate/lightmap_uv": 1,

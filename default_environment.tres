@@ -1,28 +1,26 @@
-[gd_resource type="Environment" load_steps=3 format=3 uid="uid://envushujwxdx"]
+[gd_resource type="Environment" load_steps=4 format=3 uid="uid://envushujwxdx"]
 
-[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_rcn1x"]
-sky_energy_multiplier = 0.0
-ground_bottom_color = Color(0, 0, 0, 1)
-ground_horizon_color = Color(0, 0, 0, 1)
-sun_angle_max = 12.15
-sun_curve = 2.48464
+[ext_resource type="Texture2D" uid="uid://cfvylyytgdk3x" path="res://Assets/kloppenheim_02_puresky_2k.exr" id="1_7map1"]
+
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_82kt6"]
+panorama = ExtResource("1_7map1")
 
 [sub_resource type="Sky" id="Sky_yvg0a"]
-sky_material = SubResource("ProceduralSkyMaterial_rcn1x")
+sky_material = SubResource("PanoramaSkyMaterial_82kt6")
 
 [resource]
 background_mode = 2
 sky = SubResource("Sky_yvg0a")
-reflected_light_source = 2
-tonemap_mode = 1
-ssr_enabled = true
-ssao_enabled = true
-ssil_enabled = true
+sky_rotation = Vector3(0, 2.26195, 0)
+ambient_light_source = 2
+ambient_light_color = Color(0.6, 0.678431, 0.741176, 1)
+ambient_light_sky_contribution = 0.0
+tonemap_mode = 2
+tonemap_exposure = 0.35
 sdfgi_enabled = true
+sdfgi_use_occlusion = true
+sdfgi_read_sky_light = false
 glow_enabled = true
-glow_intensity = 1.0
-glow_blend_mode = 1
-fog_enabled = true
 fog_light_color = Color(0, 0, 0, 1)
 fog_density = 0.1456
 fog_sky_affect = 0.0

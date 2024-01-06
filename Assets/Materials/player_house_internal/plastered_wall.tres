@@ -1,0 +1,11 @@
+[gd_resource type="ORMMaterial3D" load_steps=4 format=3 uid="uid://bgxaurackr802"]
+
+[ext_resource type="Texture2D" uid="uid://co3b57qghq3kl" path="res://Assets/Materials/player_house_internal/textures/plastered_wall_diff_1k.jpg" id="1_jq4ny"]
+[ext_resource type="Texture2D" uid="uid://dlovy8yu3akqb" path="res://Assets/Materials/player_house_internal/textures/plastered_wall_nor_gl_1k.png" id="2_bmxww"]
+[ext_resource type="Texture2D" uid="uid://je0aehbtvc1k" path="res://Assets/Materials/player_house_internal/textures/plastered_wall_arm_1k.jpg" id="3_8hcls"]
+
+[resource]
+albedo_texture = ExtResource("1_jq4ny")
+orm_texture = ExtResource("3_8hcls")
+normal_enabled = true
+normal_texture = ExtResource("2_bmxww")

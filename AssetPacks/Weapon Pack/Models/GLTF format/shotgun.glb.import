@@ -29,6 +29,21 @@ animation/fps=30
 animation/trimming=false
 animation/remove_immutable_tracks=true
 import_script/path=""
-_subresources={}
+_subresources={
+"materials": {
+"grey": {
+"use_external/enabled": true,
+"use_external/path": "res://AssetPacks/Weapon Pack/Models/GLTF format/shotgun_metal.tres"
+},
+"greyDark": {
+"use_external/enabled": true,
+"use_external/path": "res://AssetPacks/Weapon Pack/Models/GLTF format/shotgun_metal_dark.tres"
+},
+"wood": {
+"use_external/enabled": true,
+"use_external/path": "res://AssetPacks/Weapon Pack/Models/GLTF format/shotgun_wood.tres"
+}
+}
+}
 gltf/naming_version=1
 gltf/embedded_image_handling=1

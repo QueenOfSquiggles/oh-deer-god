@@ -2,12 +2,13 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bv53dbcys2g5f"
+uid="uid://bwidkabhbw3t0"
 path.s3tc="res://.godot/imported/laundry_shelf_pcd.jpg-4973ad8424639c40a24df3e279b01b0a.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
+generator_parameters={}
 
 [deps]
 

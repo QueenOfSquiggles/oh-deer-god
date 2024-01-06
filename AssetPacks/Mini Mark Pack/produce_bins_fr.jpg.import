@@ -2,12 +2,13 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://8w25q060f2kq"
+uid="uid://cmvp6b6hcfew7"
 path.s3tc="res://.godot/imported/produce_bins_fr.jpg-f8fabc39689c4241f4bf5c46df6b10b4.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
+generator_parameters={}
 
 [deps]
 

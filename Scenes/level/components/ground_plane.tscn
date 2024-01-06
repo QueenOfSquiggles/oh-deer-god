@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://2r13gt1wcke3"]
+
+[ext_resource type="Material" uid="uid://cuuvcukl63xwo" path="res://Assets/Materials/brown_mud_leaves_01.tres" id="1_ybf8s"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_2t1fe"]
+lightmap_size_hint = Vector2i(4002, 2502)
+add_uv2 = true
+size = Vector2(800, 500)
+subdivide_width = 16
+subdivide_depth = 16
+
+[node name="GroundPlane" type="MeshInstance3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -113.506, 0.0036087, -40.8846)
+material_override = ExtResource("1_ybf8s")
+mesh = SubResource("PlaneMesh_2t1fe")
+skeleton = NodePath("../../../..")

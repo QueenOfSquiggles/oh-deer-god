@@ -2,12 +2,13 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c2c5qscwjbjrp"
+uid="uid://hfjdb67asc1c"
 path.s3tc="res://.godot/imported/breads2_tos.jpg-84482337a4f0a95185623ed9a027f9d2.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
+generator_parameters={}
 
 [deps]
 

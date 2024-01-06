@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bs7jt5ylnjymp"]
+
+[ext_resource type="PackedScene" uid="uid://c0gvufsnyare2" path="res://Assets/world_boundaries.glb" id="1_n3eyc"]
+
+[node name="WorldBoundaries" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.60754, 0)
+
+[node name="WorldBoundaries2" parent="." instance=ExtResource("1_n3eyc")]

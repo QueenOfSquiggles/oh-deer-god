@@ -2,12 +2,13 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://jfh43hk18ety"
+uid="uid://bjrw04qjft7mo"
 path.s3tc="res://.godot/imported/breakfast_shelf_sr.jpg-5eba76188f6604f34adef5d555288db0.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
+generator_parameters={}
 
 [deps]
 

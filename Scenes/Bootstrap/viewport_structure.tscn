@@ -40,11 +40,11 @@ factor = 0.03
 
 [sub_resource type="InputAxisAllocatorResource" id="InputAxisAllocatorResource_lj8m5"]
 input_type = 1
-factor = 1.0
+factor = 50.0
 event_left = &"look_left"
 event_right = &"look_right"
-event_up = &"look_up"
-event_down = &"look_down"
+event_up = &"look_down"
+event_down = &"look_up"
 
 [sub_resource type="InputAxisAllocatorResource" id="InputAxisAllocatorResource_5egrn"]
 input_type = 1
@@ -88,13 +88,13 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 stretch = true
-stretch_shrink = 3
+stretch_shrink = 2
 script = ExtResource("1_ea622")
 
 [node name="SubViewport" type="SubViewport" parent="ViewportTexture"]
 handle_input_locally = false
 audio_listener_enable_3d = true
-size = Vector2i(384, 216)
+size = Vector2i(576, 324)
 render_target_update_mode = 4
 
 [node name="WorldRoot" parent="ViewportTexture/SubViewport" instance=ExtResource("1_s7fub")]

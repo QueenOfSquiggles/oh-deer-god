@@ -2,7 +2,7 @@ extends Node
 
 const GAME_DATA_PATH := "user://game_data.json"
 
-const STARTING_BEAT := StoryBeat.b06_GET_SHOTGUN
+const STARTING_BEAT := StoryBeat.b00_HUNGRY
 enum StoryBeat {
 	# see obsidian notes for details
 	b00_HUNGRY=0,
@@ -59,12 +59,13 @@ func set_story_beat(n_beat : StoryBeat) -> void:
 	on_story_progress_changes.emit(story_progress)
 	print(story_progress)
 
-func trigger_dialog_track(track_name : String) -> void:
+func trigger_dialog_track(track_name : String) -> Node:
 	request_player_can_move.emit(false)
 	current_track = Dialogic.start(track_name)
 	current_track.tree_exiting.connect( \
 		Callable(self, "emit_signal") \
-		.bind("request_player_can_move", true), CONNECT_DEFERRED) 
+		.bind("request_player_can_move", true), CONNECT_DEFERRED)
+	return current_track 
 
 func give_player_shotgun() -> void:
 	player_has_shotgun.emit(true)

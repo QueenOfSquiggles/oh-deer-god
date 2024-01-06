@@ -1,0 +1,19 @@
+[gd_resource type="ORMMaterial3D" load_steps=5 format=3 uid="uid://cuuvcukl63xwo"]
+
+[ext_resource type="Texture2D" uid="uid://cbcvu76g7fx4v" path="res://Assets/Materials/brown_mud_leaves_01/brown_mud_leaves_01_diff_1k.jpg" id="1_g3ssb"]
+[ext_resource type="Texture2D" uid="uid://bwnp2fks1b1qn" path="res://Assets/Materials/brown_mud_leaves_01/brown_mud_leaves_01_disp_1k.png" id="2_rnqvc"]
+[ext_resource type="Texture2D" uid="uid://dhbgkyii4akjq" path="res://Assets/Materials/brown_mud_leaves_01/brown_mud_leaves_01_arm_1k.jpg" id="3_muubt"]
+[ext_resource type="Texture2D" uid="uid://c3diuf5xx4tp2" path="res://Assets/Materials/brown_mud_leaves_01/brown_mud_leaves_01_nor_gl_1k.png" id="3_n8soj"]
+
+[resource]
+albedo_texture = ExtResource("1_g3ssb")
+orm_texture = ExtResource("3_muubt")
+normal_enabled = true
+normal_texture = ExtResource("3_n8soj")
+heightmap_enabled = true
+heightmap_scale = 3.0
+heightmap_deep_parallax = true
+heightmap_min_layers = 16
+heightmap_max_layers = 64
+heightmap_texture = ExtResource("2_rnqvc")
+uv1_scale = Vector3(60, 60, 60)

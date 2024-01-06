@@ -1,293 +1,49 @@
-[gd_scene load_steps=59 format=3 uid="uid://yxbf4sqhbxii"]
+[gd_scene load_steps=49 format=3 uid="uid://yxbf4sqhbxii"]
 
 [ext_resource type="Environment" uid="uid://envushujwxdx" path="res://default_environment.tres" id="1_h2hbf"]
 [ext_resource type="PackedScene" uid="uid://8g4rqk32k7dr" path="res://Scenes/Player/player_character.tscn" id="2_x2u1l"]
 [ext_resource type="PackedScene" uid="uid://du4krrf5hup3v" path="res://Scenes/level/player_house_stuff.tscn" id="3_a0gof"]
 [ext_resource type="PackedScene" uid="uid://gevlg8kjkcyg" path="res://Scenes/level/shop_store_mart_stuff.tscn" id="4_x03ww"]
-[ext_resource type="Script" path="res://addons/proton_scatter/src/scatter.gd" id="5_robiv"]
-[ext_resource type="Script" path="res://addons/proton_scatter/src/stack/modifier_stack.gd" id="6_2qit8"]
-[ext_resource type="Script" path="res://addons/proton_scatter/src/modifiers/create_inside_random.gd" id="7_5v8fl"]
-[ext_resource type="Script" path="res://addons/proton_scatter/src/modifiers/randomize_transforms.gd" id="8_vbn6i"]
-[ext_resource type="Script" path="res://addons/proton_scatter/src/modifiers/remove_outside_shapes.gd" id="9_jkwio"]
-[ext_resource type="Script" path="res://addons/proton_scatter/src/modifiers/project_on_geometry.gd" id="10_2y1by"]
-[ext_resource type="Script" path="res://addons/proton_scatter/src/modifiers/relax.gd" id="11_gw7ft"]
-[ext_resource type="Script" path="res://addons/proton_scatter/src/scatter_item.gd" id="12_dl1c3"]
-[ext_resource type="Script" path="res://addons/proton_scatter/src/scatter_shape.gd" id="13_isymq"]
-[ext_resource type="Script" path="res://addons/proton_scatter/src/shapes/box_shape.gd" id="14_2ylvg"]
-[ext_resource type="Script" path="res://addons/proton_scatter/src/shapes/path_shape.gd" id="15_g7h1j"]
-[ext_resource type="Script" path="res://addons/proton_scatter/src/modifiers/create_inside_grid.gd" id="16_nssrh"]
-[ext_resource type="Script" path="res://addons/proton_scatter/src/modifiers/randomize_rotation.gd" id="17_0gh3u"]
-[ext_resource type="Script" path="res://addons/proton_scatter/src/modifiers/create_along_edge_random.gd" id="18_0djwp"]
-[ext_resource type="Script" path="res://addons/proton_scatter/src/modifiers/create_along_edge_even.gd" id="19_nc4mg"]
-[ext_resource type="Script" path="res://addons/proton_scatter/src/modifiers/offset_scale.gd" id="20_bg7qa"]
-[ext_resource type="PackedScene" uid="uid://dqvtwarcg8w5j" path="res://AssetPacks/City Kit - Suburban/Models/GLTF format/path_long.glb" id="21_dxl2u"]
+[ext_resource type="Material" uid="uid://cuuvcukl63xwo" path="res://Assets/Materials/brown_mud_leaves_01.tres" id="5_x5jnt"]
+[ext_resource type="PackedScene" uid="uid://bg6hh1ql6tp37" path="res://AssetPacks/City Kit - Suburban/Models/GLTF format/house_type05.glb" id="16_o5i02"]
+[ext_resource type="PackedScene" uid="uid://bm8uxhtyqc61c" path="res://AssetPacks/City Kit - Suburban/Models/GLTF format/house_type04.glb" id="17_873qx"]
+[ext_resource type="PackedScene" uid="uid://c2upkuvkdau2t" path="res://AssetPacks/City Kit - Suburban/Models/GLTF format/house_type03.glb" id="18_nfat8"]
+[ext_resource type="PackedScene" uid="uid://debtbxqknns7p" path="res://AssetPacks/City Kit - Suburban/Models/GLTF format/house_type02.glb" id="19_qfmwv"]
+[ext_resource type="PackedScene" uid="uid://c8t3rj2086tgf" path="res://AssetPacks/City Kit - Suburban/Models/GLTF format/house_type01.glb" id="20_idum8"]
+[ext_resource type="PackedScene" uid="uid://dqvtwarcg8w5j" path="res://AssetPacks/City Kit - Suburban/Models/GLTF format/path_long.glb" id="21_v8rhs"]
+[ext_resource type="PackedScene" uid="uid://6sb2wpxmcpg5" path="res://Scenes/level/components/forest_path.tscn" id="22_c8fgq"]
+[ext_resource type="PackedScene" uid="uid://30o3lqgb7yfc" path="res://AssetPacks/City Kit - Commercial/Models/GLTF format/large_buildingA.glb" id="22_cpk63"]
 [ext_resource type="PackedScene" uid="uid://8oq7kwhgi78e" path="res://Scenes/Interactables/dialog_provider.tscn" id="22_dagnu"]
+[ext_resource type="PackedScene" uid="uid://11etc5311g7y" path="res://Assets/road.glb" id="22_lqakf"]
+[ext_resource type="PackedScene" uid="uid://c5wl3mptnrgmu" path="res://AssetPacks/City Kit - Suburban/Models/GLTF format/tree_large.glb" id="23_s5qya"]
+[ext_resource type="PackedScene" uid="uid://4vxbnpn2r38p" path="res://AssetPacks/City Kit - Commercial/Models/GLTF format/large_buildingB.glb" id="23_tkvr5"]
+[ext_resource type="PackedScene" uid="uid://bs7jt5ylnjymp" path="res://Scenes/level/components/world_boundaries.tscn" id="24_7wet8"]
+[ext_resource type="PackedScene" uid="uid://sqiywnb1qdad" path="res://AssetPacks/City Kit - Commercial/Models/GLTF format/large_buildingC.glb" id="24_e8jvf"]
+[ext_resource type="PackedScene" uid="uid://csrtusvlsmlwd" path="res://AssetPacks/City Kit - Suburban/Models/GLTF format/tree_small.glb" id="24_eehs1"]
+[ext_resource type="Script" path="res://addons/proton_scatter/src/scatter.gd" id="25_20gos"]
+[ext_resource type="PackedScene" uid="uid://c0kb75x4ffxjf" path="res://AssetPacks/City Kit - Commercial/Models/GLTF format/large_buildingD.glb" id="25_mdkl0"]
+[ext_resource type="PackedScene" uid="uid://dyx6wyus1wm2y" path="res://AssetPacks/City Kit - Commercial/Models/GLTF format/large_buildingE.glb" id="26_0qu1n"]
+[ext_resource type="Script" path="res://addons/proton_scatter/src/stack/modifier_stack.gd" id="26_353ry"]
+[ext_resource type="PackedScene" uid="uid://brc5tudsrubeo" path="res://AssetPacks/City Kit - Commercial/Models/GLTF format/large_buildingF.glb" id="27_cwtqu"]
+[ext_resource type="Script" path="res://addons/proton_scatter/src/modifiers/create_inside_grid.gd" id="27_r47ng"]
+[ext_resource type="PackedScene" uid="uid://cklx1ilpnjmt0" path="res://AssetPacks/City Kit - Commercial/Models/GLTF format/large_buildingG.glb" id="28_glwaj"]
+[ext_resource type="Script" path="res://addons/proton_scatter/src/modifiers/clusterize.gd" id="28_i5riy"]
+[ext_resource type="Script" path="res://addons/proton_scatter/src/modifiers/project_on_geometry.gd" id="28_rdfne"]
+[ext_resource type="Script" path="res://addons/proton_scatter/src/modifiers/randomize_transforms.gd" id="28_vgmip"]
+[ext_resource type="Script" path="res://addons/proton_scatter/src/scatter_item.gd" id="29_o17b6"]
+[ext_resource type="Script" path="res://addons/proton_scatter/src/scatter_shape.gd" id="30_b5714"]
+[ext_resource type="Script" path="res://addons/proton_scatter/src/shapes/box_shape.gd" id="31_sbps3"]
+[ext_resource type="Script" path="res://addons/proton_scatter/src/modifiers/remove_outside_shapes.gd" id="31_sk2cl"]
+[ext_resource type="Script" path="res://addons/proton_scatter/src/shapes/path_shape.gd" id="34_3jboe"]
 
 [sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_a0w1n"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_g7bic"]
-albedo_color = Color(0.345098, 0.494118, 0.298039, 1)
-
-[sub_resource type="PlaneMesh" id="PlaneMesh_2t1fe"]
-lightmap_size_hint = Vector2i(4002, 2502)
+[sub_resource type="PlaneMesh" id="PlaneMesh_54ujg"]
+lightmap_size_hint = Vector2i(3002, 1502)
 add_uv2 = true
-size = Vector2(800, 500)
-
-[sub_resource type="Resource" id="Resource_018fi"]
-script = ExtResource("7_5v8fl")
-amount = 1000
-enabled = true
-override_global_seed = false
-custom_seed = 0
-restrict_height = true
-reference_frame = 1
-
-[sub_resource type="Resource" id="Resource_w1wny"]
-script = ExtResource("8_vbn6i")
-position = Vector3(0.15, 0.15, 0.15)
-rotation = Vector3(0, 360, 0)
-scale = Vector3(0.1, 0.1, 0.1)
-enabled = true
-override_global_seed = false
-custom_seed = 0
-restrict_height = false
-reference_frame = 2
-
-[sub_resource type="Resource" id="Resource_mu2r5"]
-script = ExtResource("9_jkwio")
-negative_shapes_only = true
-enabled = true
-override_global_seed = false
-custom_seed = 0
-restrict_height = false
-reference_frame = 0
-
-[sub_resource type="Resource" id="Resource_gpj08"]
-script = ExtResource("10_2y1by")
-ray_direction = Vector3(0, -1, 0)
-ray_length = 5.0
-ray_offset = 5.0
-remove_points_on_miss = false
-align_with_collision_normal = false
-max_slope = 90.0
-collision_mask = 1
-exclude_mask = 0
-enabled = true
-override_global_seed = false
-custom_seed = 0
-restrict_height = false
-reference_frame = 0
-
-[sub_resource type="Resource" id="Resource_vc16b"]
-script = ExtResource("11_gw7ft")
-iterations = 3
-offset_step = 0.2
-consecutive_step_multiplier = 0.75
-use_computeshader = true
-enabled = true
-override_global_seed = false
-custom_seed = 0
-restrict_height = true
-reference_frame = 0
-
-[sub_resource type="Resource" id="Resource_vobea"]
-script = ExtResource("6_2qit8")
-stack = Array[Resource("res://addons/proton_scatter/src/modifiers/base_modifier.gd")]([SubResource("Resource_018fi"), SubResource("Resource_w1wny"), SubResource("Resource_mu2r5"), SubResource("Resource_gpj08"), SubResource("Resource_vc16b")])
-
-[sub_resource type="Resource" id="Resource_26wak"]
-script = ExtResource("14_2ylvg")
-size = Vector3(131.533, 1, 200.395)
-
-[sub_resource type="Curve3D" id="Curve3D_ol5hg"]
-_data = {
-"points": PackedVector3Array(-22.4636, 0, -21.2602, 22.4636, 0, 21.2602, -24.258, 0, -37.3148, -16.6472, 0, -9.02556, 16.6472, 0, 9.02556, 25.6835, 0, 26.4658, -5.01421, 0, 5.21477, 5.01421, 0, -5.21477, 70.009, 0, 11.8244, -2.50137, 0, 17.7447, 2.50137, 0, -17.7447, 81.3807, 0, -16.2144, 0.979141, 0, 31.3805, -0.979141, 0, -31.3805, 66.4383, 0, -85.3293),
-"tilts": PackedFloat32Array(0, 0, 0, 0, 0)
-}
-point_count = 5
-
-[sub_resource type="Resource" id="Resource_5wv10"]
-script = ExtResource("15_g7h1j")
-closed = false
-thickness = 8.0
-curve = SubResource("Curve3D_ol5hg")
-
-[sub_resource type="Resource" id="Resource_s6wxp"]
-script = ExtResource("16_nssrh")
-spacing = Vector3(20, 20, 20)
-enabled = true
-override_global_seed = false
-custom_seed = 0
-restrict_height = true
-reference_frame = 0
-
-[sub_resource type="Resource" id="Resource_0bhe5"]
-script = ExtResource("9_jkwio")
-negative_shapes_only = true
-enabled = true
-override_global_seed = false
-custom_seed = 0
-restrict_height = false
-reference_frame = 0
-
-[sub_resource type="Resource" id="Resource_dynt8"]
-script = ExtResource("17_0gh3u")
-rotation = Vector3(0, 360, 0)
-snap_angle = Vector3(0, 45, 0)
-enabled = true
-override_global_seed = false
-custom_seed = 0
-restrict_height = false
-reference_frame = 2
-
-[sub_resource type="Resource" id="Resource_050ei"]
-script = ExtResource("10_2y1by")
-ray_direction = Vector3(0, -1, 0)
-ray_length = 5.0
-ray_offset = 5.0
-remove_points_on_miss = false
-align_with_collision_normal = false
-max_slope = 90.0
-collision_mask = 1
-exclude_mask = 0
-enabled = true
-override_global_seed = false
-custom_seed = 0
-restrict_height = false
-reference_frame = 0
-
-[sub_resource type="Resource" id="Resource_uwoqn"]
-script = ExtResource("6_2qit8")
-stack = Array[Resource("res://addons/proton_scatter/src/modifiers/base_modifier.gd")]([SubResource("Resource_s6wxp"), SubResource("Resource_0bhe5"), SubResource("Resource_dynt8"), SubResource("Resource_050ei")])
-
-[sub_resource type="Resource" id="Resource_5g88v"]
-script = ExtResource("14_2ylvg")
-size = Vector3(310.595, 1, 206.771)
-
-[sub_resource type="Curve3D" id="Curve3D_3slje"]
-_data = {
-"points": PackedVector3Array(18.261, -7.62939e-06, 9.99911, -18.261, 7.62939e-06, -9.99911, 68.5906, 7.62939e-06, 5.15649, 21.9687, 0, 3.22749, -21.9687, 0, -3.22749, -36.243, 0, -17.7197, 11.4936, 0, -20.595, -11.4936, 0, 20.595, -96.4824, 0, 2.56115, 23.9387, 0, -13.3663, -23.9387, 0, 13.3663, -102.875, 0, 54.5549, 14.2416, 0, 20.1834, -14.2416, 0, -20.1834, -163.922, 0, 34.7947, -17.5893, -3.8147e-06, 26.5244, 17.5893, 3.8147e-06, -26.5244, -159.126, 3.8147e-06, -40.5669),
-"tilts": PackedFloat32Array(0, 0, 0, 0, 0, 0)
-}
-point_count = 6
-
-[sub_resource type="Resource" id="Resource_wqt8o"]
-script = ExtResource("15_g7h1j")
-closed = false
-thickness = 30.0
-curve = SubResource("Curve3D_3slje")
-
-[sub_resource type="Resource" id="Resource_vd2lg"]
-script = ExtResource("18_0djwp")
-instance_count = 20
-align_to_path = false
-align_up_axis = Vector3(0, 1, 0)
-enabled = true
-override_global_seed = false
-custom_seed = 0
-restrict_height = false
-reference_frame = 0
-
-[sub_resource type="Resource" id="Resource_k6knk"]
-script = ExtResource("19_nc4mg")
-spacing = 50.0
-offset = 0.0
-align_to_path = false
-align_up_axis = Vector3(0, 1, 0)
-enabled = true
-override_global_seed = false
-custom_seed = 0
-restrict_height = false
-reference_frame = 0
-
-[sub_resource type="Resource" id="Resource_mae5g"]
-script = ExtResource("8_vbn6i")
-position = Vector3(0, 0, 0)
-rotation = Vector3(0, 360, 0)
-scale = Vector3(0, 0, 0)
-enabled = true
-override_global_seed = true
-custom_seed = 18
-restrict_height = false
-reference_frame = 2
-
-[sub_resource type="Resource" id="Resource_1x1rt"]
-script = ExtResource("20_bg7qa")
-operation = 1
-scale = Vector3(3, 3, 3)
-enabled = true
-override_global_seed = false
-custom_seed = 0
-restrict_height = false
-reference_frame = 2
-
-[sub_resource type="Resource" id="Resource_ahpbd"]
-script = ExtResource("11_gw7ft")
-iterations = 3
-offset_step = 0.2
-consecutive_step_multiplier = 0.75
-use_computeshader = true
-enabled = true
-override_global_seed = false
-custom_seed = 0
-restrict_height = true
-reference_frame = 0
-
-[sub_resource type="Resource" id="Resource_u2tkg"]
-script = ExtResource("10_2y1by")
-ray_direction = Vector3(0, -1, 0)
-ray_length = 5.0
-ray_offset = 5.0
-remove_points_on_miss = false
-align_with_collision_normal = false
-max_slope = 90.0
-collision_mask = 1
-exclude_mask = 0
-enabled = true
-override_global_seed = false
-custom_seed = 0
-restrict_height = false
-reference_frame = 0
-
-[sub_resource type="Resource" id="Resource_kif2y"]
-script = ExtResource("6_2qit8")
-stack = Array[Resource("res://addons/proton_scatter/src/modifiers/base_modifier.gd")]([SubResource("Resource_vd2lg"), SubResource("Resource_k6knk"), SubResource("Resource_mae5g"), SubResource("Resource_1x1rt"), SubResource("Resource_ahpbd"), SubResource("Resource_u2tkg")])
-
-[sub_resource type="Resource" id="Resource_7jm30"]
-script = ExtResource("14_2ylvg")
-size = Vector3(491.606, 2.99223, 249.864)
-
-[sub_resource type="Resource" id="Resource_tux8v"]
-script = ExtResource("14_2ylvg")
-size = Vector3(424.118, 10.5432, 194.507)
-
-[sub_resource type="FastNoiseLite" id="FastNoiseLite_t1s5f"]
-frequency = 0.0809
-
-[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_ivpjb"]
-width = 64
-seamless = true
-as_normal_map = true
-bump_strength = 5.5
-noise = SubResource("FastNoiseLite_t1s5f")
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0oxw6"]
-albedo_color = Color(0.243137, 0.243137, 0.243137, 1)
-normal_enabled = true
-normal_texture = SubResource("NoiseTexture2D_ivpjb")
-
-[sub_resource type="Curve3D" id="Curve3D_xvcs4"]
-_data = {
-"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -29.75, 0, -55.25, 0, 0, 0, 0, 0, 0, -61.814, 0, -70.672, 0, 0, 0, 0, 0, 0, -98.6891, 0, -76.0312, 0, 0, 0, 0, 0, 0, -137.198, 0, -80.2431, 0, 0, 0, 0, 0, 0, -168.086, 0, -76.0312, 0, 0, 0, 0, 0, 0, -184.041, 0, -56.1591, 0, 0, 0, 0, 0, 0, -188.052, 0, -14.441, 0, 0, 0, 0, 0, 0, -210.917, 0, 6.41812, 0, 0, 0, 0, 0, 0, -232.779, 0, 0.802212, 0, 0, 0, 0, 0, 0, -252.384, 0, -20.6729, 0, 0, 0, 0, 0, 0, -271.037, 0, -47.1479, 0, 0, 0, 0, 0, 0, -254.39, 0, -76.6314, 0, 0, 0, 0, 0, 0, -235.737, 0, -96.4876),
-"tilts": PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
-}
-point_count = 13
-
-[sub_resource type="Curve3D" id="Curve3D_uhu23"]
-_data = {
-"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 36.2935, 0, 35.2755, 0, 0, 0, 0, 0, 0, -8.1543, 0, 21.5352, 0, 0, 0, 0, 0, 0, -49.3794, 0, -38.2597, 0, 0, 0, 0, 0, 0, -131.087, 0, -28.6033, 0, 0, 0, 0, 0, 0, -151.939, 0, 11.8329, 0, 0, 0, 0, 0, 0, -203.192, 0, 42.6588, 0, 0, 0, 0, 0, 0, -275.615, 0, 35.2309, 0, 0, 0, 0, 0, 0, -309.412, 0, -16.7647, 0, 0, 0, 0, 0, 0, -313.645, 0, -90.4339, 0, 0, 0, 0, 0, 0, -286.533, 0, -122.374, 0, 0, 0, 0, 0, 0, -223.766, 0, -117.546, 0, 0, 0, 0, 0, 0, -133.146, 0, -103.804, 0, 0, 0, 0, 0, 0, -66.9169, 0, -116.664, 0, 0, 0, 0, 0, 0, -13.8071, 0, -114.435, 0, 0, 0, 0, 0, 0, 46.4649, 0, -125.573, 0, 0, 0, 0, 0, 0, 82.119, 0, -125.202, 0, 0, 0, 0, 0, 0, 101.432, 0, -102.547, 0, 0, 0, 0, 0, 0, 105.888, 0, -72.0922, 0, 0, 0, 0, 0, 0, 101.803, 0, -18.6111, 0, 0, 0, 0, 0, 0, 97.7177, 0, 15.9289, 0, 0, 0, 0, 0, 0, 36.2935, 0, 35.2755),
-"tilts": PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
-}
-point_count = 21
+size = Vector2(600, 300)
+subdivide_width = 16
+subdivide_depth = 16
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_ycy41"]
 size = Vector3(12.9219, 24.226, 152.408)
@@ -295,26 +51,109 @@ size = Vector3(12.9219, 24.226, 152.408)
 [sub_resource type="BoxShape3D" id="BoxShape3D_gyofe"]
 size = Vector3(3, 31.4244, 145.322)
 
+[sub_resource type="Resource" id="Resource_xg0dg"]
+script = ExtResource("27_r47ng")
+spacing = Vector3(4, 4, 4)
+enabled = true
+override_global_seed = false
+custom_seed = 0
+restrict_height = true
+reference_frame = 0
+
+[sub_resource type="Resource" id="Resource_d8pc5"]
+script = ExtResource("28_vgmip")
+position = Vector3(1, 0, 1)
+rotation = Vector3(0, 0, 0)
+scale = Vector3(0, 0, 0)
+enabled = true
+override_global_seed = false
+custom_seed = 0
+restrict_height = false
+reference_frame = 2
+
+[sub_resource type="Resource" id="Resource_a806r"]
+script = ExtResource("28_i5riy")
+mask = "res://Assets/trees_clusterize_noise_map.tres"
+mask_rotation = 0.25
+mask_offset = Vector2(0, 0)
+mask_scale = Vector2(0.1, 0.1)
+pixel_to_unit_ratio = 1.0
+remove_below = 0.3
+remove_above = 1.0
+scale_transforms = false
+enabled = true
+override_global_seed = false
+custom_seed = 0
+restrict_height = false
+reference_frame = 0
+
+[sub_resource type="Resource" id="Resource_8hwmh"]
+script = ExtResource("28_rdfne")
+ray_direction = Vector3(0, -1, 0)
+ray_length = 10.0
+ray_offset = 1.0
+remove_points_on_miss = true
+align_with_collision_normal = false
+max_slope = 90.0
+collision_mask = 1
+exclude_mask = 0
+enabled = true
+override_global_seed = false
+custom_seed = 0
+restrict_height = false
+reference_frame = 0
+
+[sub_resource type="Resource" id="Resource_05cca"]
+script = ExtResource("31_sk2cl")
+negative_shapes_only = false
+enabled = true
+override_global_seed = false
+custom_seed = 0
+restrict_height = false
+reference_frame = 0
+
+[sub_resource type="Resource" id="Resource_bkgoa"]
+script = ExtResource("26_353ry")
+stack = Array[Resource("res://addons/proton_scatter/src/modifiers/base_modifier.gd")]([SubResource("Resource_xg0dg"), SubResource("Resource_d8pc5"), SubResource("Resource_a806r"), SubResource("Resource_8hwmh"), SubResource("Resource_05cca")])
+
+[sub_resource type="Resource" id="Resource_k05n4"]
+script = ExtResource("31_sbps3")
+size = Vector3(121.794, 20, 180.485)
+
+[sub_resource type="Curve3D" id="Curve3D_w6qjo"]
+_data = {
+"points": PackedVector3Array(-8.40726, 4.57764e-05, -8.47105, 8.40726, -4.57764e-05, 8.47105, -60.1375, 0, -27.7472, -5.43803, 1.90735e-05, -7.33589, 5.43803, -1.90735e-05, 7.33589, -38.968, -1.90735e-05, 3.37313, -9.84641, 4.57764e-05, -3.11142, 9.84641, -4.57764e-05, 3.11142, -19.1327, -1.90735e-05, 27.6023, -7.36449, 4.57764e-05, 2.87393, 7.36449, -4.57764e-05, -2.87393, 9.87529, 0, 28.3227, -3.77716, 0, 6.45839, 3.77716, 0, -6.45839, 31.2844, 0, 11.0253, -0.420471, 4.57764e-05, 7.2405, 0.420471, -4.57764e-05, -7.2405, 39.9655, 0, -13.0781, 3.23763, 4.57764e-05, 6.50566, -3.23763, -4.57764e-05, -6.50566, 36.1819, 0, -40.9664, -0.107956, 4.57764e-05, 8.28781, 0.107956, -4.57764e-05, -8.28781, 29.7545, -1.90735e-05, -53.1631, 19.7098, 0, 1.8831, -19.7098, 0, -1.8831, 20.7156, -1.90735e-05, -75.0071, -21.0907, 0, 0.251076, 21.0907, 0, -0.251076, 21.971, -1.90735e-05, -45.6307),
+"tilts": PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+}
+point_count = 10
+
+[sub_resource type="Resource" id="Resource_lot63"]
+script = ExtResource("34_3jboe")
+closed = false
+thickness = 10.0
+curve = SubResource("Curve3D_w6qjo")
+
 [node name="WorldRoot" type="Node3D"]
 
 [node name="CameraBrain3D" type="CameraBrain3D" parent="."]
 transform = Transform3D(0.89644, -0.152153, 0.416227, 0, 0.939214, 0.343332, -0.443165, -0.307776, 0.841949, -259.673, 7.24536, -61.785)
 current = true
 near = 0.001
-far = 200.0
 
 [node name="WorldEnvironmentSettingsCompliant" type="WorldEnvironmentSettingsCompliant" parent="."]
 environment = ExtResource("1_h2hbf")
 
 [node name="PlayerCharacter" parent="." instance=ExtResource("2_x2u1l")]
-transform = Transform3D(0.32129, 0, 0.946981, 0, 1, 0, -0.946981, 0, 0.32129, -257.015, 1.2, -70.9519)
+transform = Transform3D(-0.970448, 0, 0.241311, 0, 1, 0, -0.241311, 0, -0.970448, -68.0748, 1.00305, -55.8496)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(-0.353475, -0.612473, 0.707059, 0, 0.755853, 0.654741, -0.935444, 0.231434, -0.267175, 0, 3.7839, 0)
+transform = Transform3D(0.0697565, 0.274966, 0.95892, 0, -0.961261, 0.275637, 0.997564, -0.0192275, -0.0670543, 0, 3.7839, 0)
 light_color = Color(0.878431, 0.85098, 0.737255, 1)
+light_energy = 0.905
 shadow_enabled = true
+shadow_opacity = 0.7
 directional_shadow_blend_splits = true
-directional_shadow_max_distance = 150.0
+directional_shadow_max_distance = 300.0
 
 [node name="WorldGeometry" type="Node3D" parent="."]
 
@@ -332,209 +171,14 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -266.247, 0.676087, -73.7201)
 shape = SubResource("WorldBoundaryShape3D_a0w1n")
 
 [node name="GroundPlane" type="MeshInstance3D" parent="WorldGeometry/Decorations/WorldFloor"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -113.506, 0.0036087, -40.8846)
-material_override = SubResource("StandardMaterial3D_g7bic")
-mesh = SubResource("PlaneMesh_2t1fe")
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -113.506, 0.002, -40.885)
+material_override = ExtResource("5_x5jnt")
+mesh = SubResource("PlaneMesh_54ujg")
 skeleton = NodePath("../../../..")
 
-[node name="TreeScatter" type="Node3D" parent="WorldGeometry/Decorations"]
-script = ExtResource("5_robiv")
-render_mode = 1
-keep_static_colliders = true
-modifier_stack = SubResource("Resource_vobea")
-Performance/use_chunks = true
-Performance/chunk_dimensions = Vector3(15, 15, 15)
+[node name="ForestPath" parent="WorldGeometry/Decorations" instance=ExtResource("22_c8fgq")]
 
-[node name="ScatterItem" type="Node3D" parent="WorldGeometry/Decorations/TreeScatter"]
-script = ExtResource("12_dl1c3")
-path = "res://AssetPacks/City Kit - Suburban/Models/GLTF format/tree_large.glb"
-
-[node name="ScatterItem2" type="Node3D" parent="WorldGeometry/Decorations/TreeScatter"]
-script = ExtResource("12_dl1c3")
-path = "res://AssetPacks/City Kit - Suburban/Models/GLTF format/tree_small.glb"
-
-[node name="ScatterShape" type="Node3D" parent="WorldGeometry/Decorations/TreeScatter"]
-transform = Transform3D(1, 0, -2.98023e-08, 0, 1, 0, 2.98023e-08, 0, 1, 45.8176, 0, -31.2743)
-script = ExtResource("13_isymq")
-shape = SubResource("Resource_26wak")
-
-[node name="ScatterShape2" type="Node3D" parent="WorldGeometry/Decorations/TreeScatter"]
-transform = Transform3D(1, 0, -2.98023e-08, 0, 1, 0, 2.98023e-08, 0, 1, 0.120306, 0, -17.5294)
-script = ExtResource("13_isymq")
-negative = true
-shape = SubResource("Resource_5wv10")
-
-[node name="HouseScatter" type="Node3D" parent="WorldGeometry/Decorations"]
-script = ExtResource("5_robiv")
-render_mode = 1
-keep_static_colliders = true
-modifier_stack = SubResource("Resource_uwoqn")
-Performance/use_chunks = false
-Performance/chunk_dimensions = Vector3(50, 50, 50)
-
-[node name="House5" type="Node3D" parent="WorldGeometry/Decorations/HouseScatter"]
-script = ExtResource("12_dl1c3")
-path = "res://AssetPacks/City Kit - Suburban/Models/GLTF format/house_type05.glb"
-
-[node name="House4" type="Node3D" parent="WorldGeometry/Decorations/HouseScatter"]
-script = ExtResource("12_dl1c3")
-path = "res://AssetPacks/City Kit - Suburban/Models/GLTF format/house_type04.glb"
-
-[node name="House3" type="Node3D" parent="WorldGeometry/Decorations/HouseScatter"]
-script = ExtResource("12_dl1c3")
-path = "res://AssetPacks/City Kit - Suburban/Models/GLTF format/house_type03.glb"
-
-[node name="House2" type="Node3D" parent="WorldGeometry/Decorations/HouseScatter"]
-script = ExtResource("12_dl1c3")
-path = "res://AssetPacks/City Kit - Suburban/Models/GLTF format/house_type02.glb"
-
-[node name="House1" type="Node3D" parent="WorldGeometry/Decorations/HouseScatter"]
-script = ExtResource("12_dl1c3")
-path = "res://AssetPacks/City Kit - Suburban/Models/GLTF format/house_type01.glb"
-
-[node name="ScatterShape" type="Node3D" parent="WorldGeometry/Decorations/HouseScatter"]
-transform = Transform3D(1, 0, -2.98023e-08, 0, 1, 0, 2.98023e-08, 0, 1, -178.154, -3.8147e-06, -35.6323)
-script = ExtResource("13_isymq")
-shape = SubResource("Resource_5g88v")
-
-[node name="ScatterShape2" type="Node3D" parent="WorldGeometry/Decorations/HouseScatter"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -88.6558, 0, -58.7641)
-script = ExtResource("13_isymq")
-negative = true
-shape = SubResource("Resource_wqt8o")
-
-[node name="CityScatter" type="Node3D" parent="WorldGeometry/Decorations"]
-script = ExtResource("5_robiv")
-render_mode = 1
-modifier_stack = SubResource("Resource_kif2y")
-Performance/use_chunks = false
-Performance/chunk_dimensions = Vector3(15, 15, 15)
-
-[node name="A" type="Node3D" parent="WorldGeometry/Decorations/CityScatter"]
-script = ExtResource("12_dl1c3")
-path = "res://AssetPacks/City Kit - Commercial/Models/GLTF format/large_buildingA.glb"
-
-[node name="B" type="Node3D" parent="WorldGeometry/Decorations/CityScatter"]
-script = ExtResource("12_dl1c3")
-path = "res://AssetPacks/City Kit - Commercial/Models/GLTF format/large_buildingB.glb"
-
-[node name="C" type="Node3D" parent="WorldGeometry/Decorations/CityScatter"]
-script = ExtResource("12_dl1c3")
-path = "res://AssetPacks/City Kit - Commercial/Models/GLTF format/large_buildingC.glb"
-
-[node name="D" type="Node3D" parent="WorldGeometry/Decorations/CityScatter"]
-script = ExtResource("12_dl1c3")
-path = "res://AssetPacks/City Kit - Commercial/Models/GLTF format/large_buildingD.glb"
-
-[node name="E" type="Node3D" parent="WorldGeometry/Decorations/CityScatter"]
-script = ExtResource("12_dl1c3")
-path = "res://AssetPacks/City Kit - Commercial/Models/GLTF format/large_buildingE.glb"
-
-[node name="F" type="Node3D" parent="WorldGeometry/Decorations/CityScatter"]
-script = ExtResource("12_dl1c3")
-path = "res://AssetPacks/City Kit - Commercial/Models/GLTF format/low_buildingF.glb"
-
-[node name="G" type="Node3D" parent="WorldGeometry/Decorations/CityScatter"]
-script = ExtResource("12_dl1c3")
-path = "res://AssetPacks/City Kit - Commercial/Models/GLTF format/large_buildingG.glb"
-
-[node name="ScatterShape" type="Node3D" parent="WorldGeometry/Decorations/CityScatter"]
-transform = Transform3D(1, 0, -2.98023e-08, 0, 1, 0, 2.98023e-08, 0, 1, -113.882, 0, -35.8077)
-script = ExtResource("13_isymq")
-shape = SubResource("Resource_7jm30")
-
-[node name="ScatterShape2" type="Node3D" parent="WorldGeometry/Decorations/CityScatter"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -103.749, 0, -47.2687)
-script = ExtResource("13_isymq")
-negative = true
-shape = SubResource("Resource_tux8v")
-
-[node name="ForestPath" type="Node3D" parent="WorldGeometry/Decorations"]
-
-[node name="path_long2" parent="WorldGeometry/Decorations/ForestPath" instance=ExtResource("21_dxl2u")]
-transform = Transform3D(0.647681, 0, 0.761911, 0, 1, 0, -0.761911, 0, 0.647681, -19.7221, 0.0128686, -49.1656)
-
-[node name="path_long3" parent="WorldGeometry/Decorations/ForestPath" instance=ExtResource("21_dxl2u")]
-transform = Transform3D(0.687544, 0, 0.726143, 0, 1, 0, -0.726143, 0, 0.687544, -12.7536, 0.0128648, -41.2518)
-
-[node name="path_long4" parent="WorldGeometry/Decorations/ForestPath" instance=ExtResource("21_dxl2u")]
-transform = Transform3D(0.873432, 0, 0.486945, 0, 1, 0, -0.486945, 0, 0.873432, -4.68149, 0.0128648, -31.9957)
-
-[node name="path_long5" parent="WorldGeometry/Decorations/ForestPath" instance=ExtResource("21_dxl2u")]
-transform = Transform3D(0.925024, 0, 0.379908, 0, 1, 0, -0.379908, 0, 0.925024, -1.77552, 0.0128648, -23.4931)
-
-[node name="path_long6" parent="WorldGeometry/Decorations/ForestPath" instance=ExtResource("21_dxl2u")]
-transform = Transform3D(0.769266, 0, 0.638929, 0, 1, 0, -0.638929, 0, 0.769266, 3.71353, 0.0128648, -14.4523)
-
-[node name="path_long7" parent="WorldGeometry/Decorations/ForestPath" instance=ExtResource("21_dxl2u")]
-transform = Transform3D(0.769266, 0, 0.638929, 0, 1, 0, -0.638929, 0, 0.769266, 11.0323, 0.0128648, -6.16489)
-
-[node name="path_long8" parent="WorldGeometry/Decorations/ForestPath" instance=ExtResource("21_dxl2u")]
-transform = Transform3D(0.769266, 0, 0.638929, 0, 1, 0, -0.638929, 0, 0.769266, 16.6289, 0.0128648, 1.04622)
-
-[node name="path_long9" parent="WorldGeometry/Decorations/ForestPath" instance=ExtResource("21_dxl2u")]
-transform = Transform3D(0.513242, 0, 0.858244, 0, 1, 0, -0.858244, 0, 0.513242, 23.7324, 0.0128648, 8.79546)
-
-[node name="path_long10" parent="WorldGeometry/Decorations/ForestPath" instance=ExtResource("21_dxl2u")]
-transform = Transform3D(-0.142853, 0, 0.989744, 0, 1, 0, -0.989744, 0, -0.142853, 36.7555, 0.0128648, 9.87174)
-
-[node name="path_long11" parent="WorldGeometry/Decorations/ForestPath" instance=ExtResource("21_dxl2u")]
-transform = Transform3D(-0.411164, 0, 0.911561, 0, 1, 0, -0.911561, 0, -0.411164, 49.0251, 0.0128648, 7.50392)
-
-[node name="path_long12" parent="WorldGeometry/Decorations/ForestPath" instance=ExtResource("21_dxl2u")]
-transform = Transform3D(-0.64631, 0, 0.763075, 0, 1, 0, -0.763075, 0, -0.64631, 60.9718, 0.0128648, 2.1225)
-
-[node name="path_long13" parent="WorldGeometry/Decorations/ForestPath" instance=ExtResource("21_dxl2u")]
-transform = Transform3D(-0.759725, 0, 0.650244, 0, 1, 0, -0.650244, 0, -0.759725, 71.7347, 0.0128648, -7.3488)
-
-[node name="path_long14" parent="WorldGeometry/Decorations/ForestPath" instance=ExtResource("21_dxl2u")]
-transform = Transform3D(-0.898641, 0, 0.438685, 0, 1, 0, -0.438685, 0, -0.898641, 78.4076, 0.0128648, -21.1252)
-
-[node name="path_long15" parent="WorldGeometry/Decorations/ForestPath" instance=ExtResource("21_dxl2u")]
-transform = Transform3D(-0.99871, 0, 0.0507673, 0, 1, 0, -0.0507673, 0, -0.99871, 81.9594, 0.0128648, -35.978)
-
-[node name="path_long16" parent="WorldGeometry/Decorations/ForestPath" instance=ExtResource("21_dxl2u")]
-transform = Transform3D(-0.944284, 0, -0.32913, 0, 1, 0, 0.32913, 0, -0.944284, 80.3449, 0.0128648, -50.6154)
-
-[node name="path_long17" parent="WorldGeometry/Decorations/ForestPath" instance=ExtResource("21_dxl2u")]
-transform = Transform3D(-0.944284, 0, -0.32913, 0, 1, 0, 0.32913, 0, -0.944284, 76.3627, 0.0128648, -61.163)
-
-[node name="Road" type="CSGPolygon3D" parent="WorldGeometry/Decorations"]
-material_override = SubResource("StandardMaterial3D_0oxw6")
-use_collision = true
-polygon = PackedVector2Array(-3, 0, -1.8, 0.2, 1.8, 0.2, 3, 0)
-mode = 2
-path_node = NodePath("Path3D")
-path_interval_type = 0
-path_interval = 1.0
-path_simplify_angle = 0.2
-path_rotation = 1
-path_local = false
-path_continuous_u = true
-path_u_distance = 1.0
-path_joined = false
-
-[node name="Path3D" type="Path3D" parent="WorldGeometry/Decorations/Road"]
-curve = SubResource("Curve3D_xvcs4")
-
-[node name="WorldBoundaries" type="CSGPolygon3D" parent="WorldGeometry/Decorations"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.60754, 0)
-layers = 0
-use_collision = true
-polygon = PackedVector2Array(0, 0, 0, 30, 1, 30, 1, 0)
-mode = 2
-path_node = NodePath("Path3D")
-path_interval_type = 0
-path_interval = 1.0
-path_simplify_angle = 1.2
-path_rotation = 2
-path_local = false
-path_continuous_u = true
-path_u_distance = 1.0
-path_joined = true
-
-[node name="Path3D" type="Path3D" parent="WorldGeometry/Decorations/WorldBoundaries"]
-curve = SubResource("Curve3D_uhu23")
+[node name="WorldBoundaries" parent="WorldGeometry/Decorations" instance=ExtResource("24_7wet8")]
 
 [node name="DontGoInForestEarly" parent="WorldGeometry/Decorations" instance=ExtResource("22_dagnu")]
 dialogic_track = "story_01_dont_go_in_forest"
@@ -550,3 +194,1628 @@ shape = SubResource("BoxShape3D_ycy41")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="WorldGeometry/Decorations/DontGoInForestEarly/StaticBody3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.3497, 10.7977, -45.3986)
 shape = SubResource("BoxShape3D_gyofe")
+
+[node name="CityBuildings" type="Node3D" parent="WorldGeometry/Decorations"]
+
+[node name="large_buildingA2" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("22_cpk63")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -297.787, 0, 79.1686)
+
+[node name="large_buildingA3" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("22_cpk63")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -231.243, 0, 81.7414)
+
+[node name="large_buildingB2" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -172.751, 0, 89.913)
+
+[node name="large_buildingA4" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("22_cpk63")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -141.785, 0, 83.8919)
+
+[node name="large_buildingA5" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("22_cpk63")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -45.4462, 0, 83.0317)
+
+[node name="large_buildingA6" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("22_cpk63")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.56803, 0, 81.9734)
+
+[node name="large_buildingA7" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("22_cpk63")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 74.557, 0, 110.789)
+
+[node name="large_buildingA8" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("22_cpk63")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 126.597, 0, 85.414)
+
+[node name="large_buildingA9" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("22_cpk63")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 135.199, 0, 41.1153)
+
+[node name="large_buildingA10" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("22_cpk63")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 137.779, 0, -25.1177)
+
+[node name="large_buildingA11" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("22_cpk63")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 165.305, 0, -78.4482)
+
+[node name="large_buildingA12" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("22_cpk63")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 131.343, 0, -143.88)
+
+[node name="large_buildingA13" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("22_cpk63")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.8004, 0, -160.223)
+
+[node name="large_buildingA14" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("22_cpk63")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -75.0979, 0, -140.44)
+
+[node name="large_buildingA15" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("22_cpk63")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -138.75, 0, -162.804)
+
+[node name="large_buildingA16" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("22_cpk63")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -176.872, 0, -147.675)
+
+[node name="large_buildingA17" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("22_cpk63")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -248.697, 0, -161.867)
+
+[node name="large_buildingA18" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("22_cpk63")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -325.252, 0, -166.598)
+
+[node name="large_buildingA19" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("22_cpk63")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -368.69, 0, -143.374)
+
+[node name="large_buildingA20" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("22_cpk63")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -364.819, 0, -89.1831)
+
+[node name="large_buildingA21" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("22_cpk63")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -376.432, 0, -34.1322)
+
+[node name="large_buildingA22" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("22_cpk63")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -352.777, 0, 1.13469)
+
+[node name="large_buildingA23" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("22_cpk63")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -388.044, 0, 35.5415)
+
+[node name="large_buildingA24" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("22_cpk63")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -372.1, 0, 79.5081)
+
+[node name="large_buildingA25" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("22_cpk63")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -338.554, 0, 109.184)
+
+[node name="large_buildingB3" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -255.117, 0, 87.6797)
+
+[node name="large_buildingB4" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -289.094, 0, 101.442)
+
+[node name="large_buildingB5" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -329.522, 0, 98.4318)
+
+[node name="large_buildingB6" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -342.938, 0, 79.8887)
+
+[node name="large_buildingB7" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -357.561, 0, 53.2235)
+
+[node name="large_buildingB8" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -356.27, 0, 35.1599)
+
+[node name="large_buildingB9" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -384.997, 0, 3.69878)
+
+[node name="large_buildingB10" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -351.641, 0, -12.8047)
+
+[node name="large_buildingB11" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -350.781, 0, -36.0293)
+
+[node name="large_buildingB12" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -378.737, 0, -71.7263)
+
+[node name="large_buildingB13" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -349.061, 0, -103.122)
+
+[node name="large_buildingB14" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -370.487, 0, -133.901)
+
+[node name="large_buildingB15" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -349.413, 0, -155.405)
+
+[node name="large_buildingB16" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -308.985, 0, -160.566)
+
+[node name="large_buildingB17" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -285.76, 0, -157.556)
+
+[node name="large_buildingB18" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -233.72, 0, -145.513)
+
+[node name="large_buildingB19" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -215.657, 0, -139.492)
+
+[node name="large_buildingB20" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -186.886, 0, -128.973)
+
+[node name="large_buildingB21" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -144.482, 0, -134.135)
+
+[node name="large_buildingB22" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -116.09, 0, -134.135)
+
+[node name="large_buildingB23" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -92.6413, 0, -159.79)
+
+[node name="large_buildingB24" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -56.506, 0, -136.191)
+
+[node name="large_buildingB25" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.6892, 0, -158.315)
+
+[node name="large_buildingB26" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.5771, 0, -141.722)
+
+[node name="large_buildingB27" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30.9112, 0, -143.074)
+
+[node name="large_buildingB28" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.430641, 0, -171.098)
+
+[node name="large_buildingB29" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 56.3535, 0, -168.517)
+
+[node name="large_buildingB30" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 53.035, 0, -153.03)
+
+[node name="large_buildingB31" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 91.3827, 0, -146.393)
+
+[node name="large_buildingB32" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 117.562, 0, -161.511)
+
+[node name="large_buildingB33" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 138.211, 0, -130.906)
+
+[node name="large_buildingB34" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 131.522, 0, -111.801)
+
+[node name="large_buildingB35" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 140.466, 0, -79.5488)
+
+[node name="large_buildingB36" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 136.943, 0, -43.2313)
+
+[node name="large_buildingB37" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 150.223, 0, -0.409172)
+
+[node name="large_buildingB38" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 149.811, 0, 33.0161)
+
+[node name="large_buildingB39" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 127.858, 0, 70.1467)
+
+[node name="large_buildingB40" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 101.492, 0, 100.611)
+
+[node name="large_buildingB41" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 38.343, 0, 112.265)
+
+[node name="large_buildingB42" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -72.7885, 0, 90.0761)
+
+[node name="large_buildingB43" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.9663, 0, 116.637)
+
+[node name="large_buildingB44" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -112.629, 0, 91.1602)
+
+[node name="large_buildingB45" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -198.33, 0, 105.501)
+
+[node name="large_buildingB46" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("23_tkvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -240.339, 0, 120.407)
+
+[node name="large_buildingC2" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -366.652, 0, 105.149)
+
+[node name="large_buildingC3" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -376.026, 0, 64.7056)
+
+[node name="large_buildingC4" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -367.353, 0, 25.9489)
+
+[node name="large_buildingC5" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -372.132, 0, 2.58787)
+
+[node name="large_buildingC6" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -367.254, 0, -18.2811)
+
+[node name="large_buildingC7" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -357.898, 0, -51.0372)
+
+[node name="large_buildingC8" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -379.038, 0, -48.327)
+
+[node name="large_buildingC9" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -362.776, 0, -64.3175)
+
+[node name="large_buildingC10" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -387.054, 0, -86.717)
+
+[node name="large_buildingC11" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -354.26, 0, -75.3339)
+
+[node name="large_buildingC12" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -380.549, 0, -101.352)
+
+[node name="large_buildingC13" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -361.577, 0, -104.063)
+
+[node name="large_buildingC14" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -382.446, 0, -125.203)
+
+[node name="large_buildingC15" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -358.054, 0, -115.175)
+
+[node name="large_buildingC16" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -350.21, 0, -130.74)
+
+[node name="large_buildingC17" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -327.714, 0, -151.338)
+
+[node name="large_buildingC18" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -269.986, 0, -157.029)
+
+[node name="large_buildingC19" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -250.743, 0, -144.02)
+
+[node name="large_buildingC20" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -213.883, 0, -153.235)
+
+[node name="large_buildingC21" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -169.156, 0, -131.441)
+
+[node name="large_buildingC22" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -162.652, 0, -162.067)
+
+[node name="large_buildingC23" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -132.568, 0, -144.721)
+
+[node name="large_buildingC24" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -115.222, 0, -159.628)
+
+[node name="large_buildingC25" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -100.611, 0, -140.073)
+
+[node name="large_buildingC26" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -67.2743, 0, -159.045)
+
+[node name="large_buildingC27" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.2091, 0, -136.55)
+
+[node name="large_buildingC28" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.599373, 0, -141.304)
+
+[node name="large_buildingC29" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.4589, 0, -175.183)
+
+[node name="large_buildingC30" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 68.3559, 0, -139.949)
+
+[node name="large_buildingC31" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 106.029, 0, -177.893)
+
+[node name="large_buildingC32" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 119.309, 0, -130.463)
+
+[node name="large_buildingC33" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 158.227, 0, -100.861)
+
+[node name="large_buildingC34" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 123.807, 0, -63.7305)
+
+[node name="large_buildingC35" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 165.003, 0, -44.2166)
+
+[node name="large_buildingC36" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 122.452, 0, -7.35702)
+
+[node name="large_buildingC37" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 173.133, 0, -3.83368)
+
+[node name="large_buildingC38" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 122.994, 0, 22.7269)
+
+[node name="large_buildingC39" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 161.77, 0, 61.1221)
+
+[node name="large_buildingC40" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 99.1632, 0, 77.6547)
+
+[node name="large_buildingC41" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 95.3689, 0, 128.879)
+
+[node name="large_buildingC42" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19.9462, 0, 88.2379)
+
+[node name="large_buildingC43" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.18893, 0, 137.237)
+
+[node name="large_buildingC44" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.8339, 0, 80.9671)
+
+[node name="large_buildingC45" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -89.4331, 0, 87.6057)
+
+[node name="large_buildingC46" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -58.4688, 0, 96.4292)
+
+[node name="large_buildingC47" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -152.674, 0, 98.9582)
+
+[node name="large_buildingC48" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -200.409, 0, 90.1067)
+
+[node name="large_buildingC49" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -235.497, 0, 97.2149)
+
+[node name="large_buildingC50" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -281.968, 0, 79.5119)
+
+[node name="large_buildingC51" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -309.787, 0, 96.2665)
+
+[node name="large_buildingC52" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("24_e8jvf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -380.325, 0, 90.9698)
+
+[node name="large_buildingD2" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -353.462, 0, 68.5236)
+
+[node name="large_buildingD3" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -351.759, 0, 17.4212)
+
+[node name="large_buildingD4" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -376.964, 0, -9.95244)
+
+[node name="large_buildingD5" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -377.326, 0, -59.996)
+
+[node name="large_buildingD6" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -369.138, 0, -116.733)
+
+[node name="large_buildingD7" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -345.83, 0, -89.9015)
+
+[node name="large_buildingD8" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -351.799, 0, -145.154)
+
+[node name="large_buildingD9" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -297.323, 0, -161.416)
+
+[node name="large_buildingD10" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -232.277, 0, -158.706)
+
+[node name="large_buildingD11" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -193.308, 0, -140.016)
+
+[node name="large_buildingD12" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -153.738, 0, -151.399)
+
+[node name="large_buildingD13" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -113.085, 0, -146.487)
+
+[node name="large_buildingD14" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -89.3538, 0, -149.37)
+
+[node name="large_buildingD15" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -57.3727, 0, -148.286)
+
+[node name="large_buildingD16" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.1859, 0, -147.202)
+
+[node name="large_buildingD17" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.30916, 0, -152.237)
+
+[node name="large_buildingD18" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.9351, 0, -154.405)
+
+[node name="large_buildingD19" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 64.6452, 0, -152.508)
+
+[node name="large_buildingD20" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 105.812, 0, -165.288)
+
+[node name="large_buildingD21" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 115.027, 0, -141.708)
+
+[node name="large_buildingD22" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 142.758, 0, -119.827)
+
+[node name="large_buildingD23" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 148.449, 0, -90.014)
+
+[node name="large_buildingD24" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 121.347, 0, -95.9766)
+
+[node name="large_buildingD25" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 137.337, 0, -69.145)
+
+[node name="large_buildingD26" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 155.496, 0, -53.9675)
+
+[node name="large_buildingD27" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 147.365, 0, -37.7059)
+
+[node name="large_buildingD28" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 134.712, 0, -9.98834)
+
+[node name="large_buildingD29" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 135.796, 0, 26.6002)
+
+[node name="large_buildingD30" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 127.123, 0, 56.9552)
+
+[node name="large_buildingD31" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 109.258, 0, 75.4973)
+
+[node name="large_buildingD32" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 88.3888, 0, 88.2356)
+
+[node name="large_buildingD33" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.2864, 0, 96.3664)
+
+[node name="large_buildingD34" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 59.66, 0, 86.8804)
+
+[node name="large_buildingD35" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.43604, 0, 95.8243)
+
+[node name="large_buildingD36" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -123.737, 0, 81.0765)
+
+[node name="large_buildingD37" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -100.971, 0, 93.8148)
+
+[node name="large_buildingD38" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -61.4011, 0, 81.6186)
+
+[node name="large_buildingE2" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -212.55, 0, 92.2299)
+
+[node name="large_buildingD39" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -161.868, 0, 80.8468)
+
+[node name="large_buildingD40" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -249.139, 0, 77.5945)
+
+[node name="large_buildingD41" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -314.265, 0, 84.0335)
+
+[node name="large_buildingD42" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("25_mdkl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -355.19, 0, 102.734)
+
+[node name="large_buildingE3" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -328.901, 0, 84.8466)
+
+[node name="large_buildingE4" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -356.003, 0, 85.0659)
+
+[node name="large_buildingE5" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -365.759, 0, 63.1128)
+
+[node name="large_buildingE6" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -367.386, 0, 44.683)
+
+[node name="large_buildingE7" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -372.784, 0, 14.152)
+
+[node name="large_buildingE8" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -344.597, 0, 32.8528)
+
+[node name="large_buildingE9" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -355.167, 0, -23.7917)
+
+[node name="large_buildingE10" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -380.915, 0, -22.1656)
+
+[node name="large_buildingE11" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -388.226, 0, -74.8056)
+
+[node name="large_buildingE12" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -348.114, 0, -63.6935)
+
+[node name="large_buildingE13" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -388.423, 0, -111.773)
+
+[node name="large_buildingE14" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -346.685, 0, -120.716)
+
+[node name="large_buildingE15" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -341.573, 0, -166.891)
+
+[node name="large_buildingE16" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -307.005, 0, -149.751)
+
+[node name="large_buildingE17" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -277.031, 0, -169.27)
+
+[node name="large_buildingE18" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -231.023, 0, -133.021)
+
+[node name="large_buildingE19" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -218.942, 0, -165.026)
+
+[node name="large_buildingE20" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -204.535, 0, -147.598)
+
+[node name="large_buildingE21" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -173.763, 0, -160.866)
+
+[node name="large_buildingE22" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -121.92, 0, -170.021)
+
+[node name="large_buildingE23" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -103.563, 0, -159.1)
+
+[node name="large_buildingE24" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -78.0035, 0, -161.424)
+
+[node name="large_buildingE25" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -44.6351, 0, -138.73)
+
+[node name="large_buildingE26" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.2219, 0, -153.827)
+
+[node name="large_buildingE27" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.0142, 0, -173.811)
+
+[node name="large_buildingE28" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.1714, 0, -141.512)
+
+[node name="large_buildingE29" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 80.5878, 0, -140.363)
+
+[node name="large_buildingE30" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 101.268, 0, -140.596)
+
+[node name="large_buildingE31" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 120.029, 0, -119.717)
+
+[node name="large_buildingE32" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 129.555, 0, -82.7716)
+
+[node name="large_buildingE33" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 124.919, 0, -36.4125)
+
+[node name="large_buildingE34" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 138.163, 0, 2.39182)
+
+[node name="large_buildingE35" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 119.814, 0, 35.4846)
+
+[node name="large_buildingE36" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 142.354, 0, 65.6916)
+
+[node name="large_buildingE37" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 77.1368, 0, 95.1611)
+
+[node name="large_buildingE38" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19.2788, 0, 108.87)
+
+[node name="large_buildingE39" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 49.0211, 0, 119.791)
+
+[node name="large_buildingE40" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.1074, 0, 94.0948)
+
+[node name="large_buildingE41" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -107.587, 0, 77.5971)
+
+[node name="large_buildingE42" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -82.0275, 0, 101.298)
+
+[node name="large_buildingE43" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -163.021, 0, 94.7007)
+
+[node name="large_buildingE44" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("26_0qu1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -183.022, 0, 82.6663)
+
+[node name="large_buildingF2" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("27_cwtqu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -207.188, 0, 120.076)
+
+[node name="large_buildingF3" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("27_cwtqu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -262.337, 0, 101.072)
+
+[node name="large_buildingF4" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("27_cwtqu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -314.413, 0, 124.764)
+
+[node name="large_buildingF5" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("27_cwtqu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -390.162, 0, 104.084)
+
+[node name="large_buildingF6" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("27_cwtqu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -393.847, 0, 51.8389)
+
+[node name="large_buildingF7" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("27_cwtqu")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -396.92, 0, -32.8107)
+
+[node name="large_buildingF8" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("27_cwtqu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -401.335, 0, -62.553)
+
+[node name="large_buildingF9" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("27_cwtqu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -366.375, 0, -169.634)
+
+[node name="large_buildingF10" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("27_cwtqu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -301.911, 0, -180.475)
+
+[node name="large_buildingF11" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("27_cwtqu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -252.65, 0, -176.292)
+
+[node name="large_buildingF12" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("27_cwtqu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -151.406, 0, -177.153)
+
+[node name="large_buildingF13" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("27_cwtqu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -76.3318, 0, -178.434)
+
+[node name="large_buildingF14" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("27_cwtqu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 51.5602, 0, -190.222)
+
+[node name="large_buildingF15" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("27_cwtqu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 80.546, 0, -166.288)
+
+[node name="large_buildingF16" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("27_cwtqu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 168.843, 0, -119.815)
+
+[node name="large_buildingF17" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("27_cwtqu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 183.531, 0, -64.0936)
+
+[node name="large_buildingF18" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("27_cwtqu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 166.26, 0, -18.6501)
+
+[node name="large_buildingF19" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("27_cwtqu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 161.148, 0, 15.9733)
+
+[node name="large_buildingF20" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("27_cwtqu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 165.155, 0, 48.2239)
+
+[node name="large_buildingF21" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("27_cwtqu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 159.81, 0, 83.5428)
+
+[node name="large_buildingF22" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("27_cwtqu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 103.811, 0, 114.447)
+
+[node name="large_buildingF23" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("27_cwtqu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.392, 0, 127.324)
+
+[node name="large_buildingF24" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("27_cwtqu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.02661, 0, 109.199)
+
+[node name="large_buildingF25" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("27_cwtqu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -67.6087, 0, 113.91)
+
+[node name="large_buildingF26" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("27_cwtqu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -127.343, 0, 104.059)
+
+[node name="large_buildingG2" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("28_glwaj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -317.319, 0, 107.693)
+
+[node name="large_buildingG3" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("28_glwaj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -288.042, 0, 116.058)
+
+[node name="large_buildingG4" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("28_glwaj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -234.134, 0, 108.39)
+
+[node name="large_buildingG5" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("28_glwaj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -183.087, 0, 103.658)
+
+[node name="large_buildingG6" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("28_glwaj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -101.414, 0, 108.812)
+
+[node name="large_buildingG7" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("28_glwaj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.3232, 0, 97.1366)
+
+[node name="large_buildingG8" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("28_glwaj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.4435, 0, 99.8338)
+
+[node name="large_buildingG9" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("28_glwaj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 115.809, 0, 98.3622)
+
+[node name="large_buildingG10" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("28_glwaj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 175.596, 0, 68.1446)
+
+[node name="large_buildingG11" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("28_glwaj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 119.597, 0, 7.26591)
+
+[node name="large_buildingG12" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("28_glwaj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 125.16, 0, -52.5982)
+
+[node name="large_buildingG13" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("28_glwaj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 172.491, 0, -104.846)
+
+[node name="large_buildingG14" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("28_glwaj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 78.1309, 0, -183.563)
+
+[node name="large_buildingG15" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("28_glwaj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 129.948, 0, -158.468)
+
+[node name="large_buildingG16" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("28_glwaj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 152.254, 0, -135.929)
+
+[node name="large_buildingG17" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("28_glwaj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.3759, 0, -171.293)
+
+[node name="large_buildingG18" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("28_glwaj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -48.5974, 0, -162.015)
+
+[node name="large_buildingG19" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("28_glwaj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -108.374, 0, -174.549)
+
+[node name="large_buildingG20" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("28_glwaj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -194.232, 0, -161.008)
+
+[node name="large_buildingG21" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("28_glwaj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -335.655, 0, -180.095)
+
+[node name="large_buildingG22" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("28_glwaj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -390.725, 0, -154.767)
+
+[node name="large_buildingG23" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("28_glwaj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -392.351, 0, -137.108)
+
+[node name="large_buildingG24" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("28_glwaj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -397.323, 0, -97.3749)
+
+[node name="large_buildingG25" parent="WorldGeometry/Decorations/CityBuildings" instance=ExtResource("28_glwaj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -417.306, 0, -78.5536)
+
+[node name="SuburbsHouses" type="Node3D" parent="WorldGeometry/Decorations"]
+
+[node name="house_type052" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("16_o5i02")]
+transform = Transform3D(-0.918798, 0, 0.394728, 0, 1, 0, -0.394728, 0, -0.918798, -49.9444, 0, -50.6657)
+
+[node name="house_type042" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("17_873qx")]
+transform = Transform3D(0.837414, 0, -0.54657, 0, 1, 0, 0.54657, 0, 0.837414, -48.6447, 0, -72.68)
+
+[node name="house_type032" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("18_nfat8")]
+transform = Transform3D(0.996405, 0, -0.0847213, 0, 1, 0, 0.0847213, 0, 0.996405, -75.4442, 0, -85.2725)
+
+[node name="house_type022" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("19_qfmwv")]
+transform = Transform3D(0.95884, 0, -0.283948, 0, 1, 0, 0.283948, 0, 0.95884, -57.7932, 0, -84.7344)
+
+[node name="house_type012" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("20_idum8")]
+transform = Transform3D(-0.999992, 0, -0.00408401, 0, 1, 0, 0.00408401, 0, -0.999992, -89.3837, 0, -65.0226)
+
+[node name="house_type043" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("17_873qx")]
+transform = Transform3D(-0.992764, 0, 0.120085, 0, 1, 0, -0.120085, 0, -0.992764, -111.396, 0, -67.4103)
+
+[node name="house_type013" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("20_idum8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.399, 0, -85.3589)
+
+[node name="house_type053" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("16_o5i02")]
+transform = Transform3D(0.997454, 0, -0.0713059, 0, 1, 0, 0.0713059, 0, 0.997454, -126.474, 0, -92.0742)
+
+[node name="house_type033" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("18_nfat8")]
+transform = Transform3D(-0.99974, 0, -0.0228096, 0, 1, 0, 0.0228096, 0, -0.99974, -138.67, 0, -67.062)
+
+[node name="house_type023" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("19_qfmwv")]
+transform = Transform3D(-0.965926, 0, -0.258819, 0, 1, 0, 0.258819, 0, -0.965926, -158.688, 0, -61.2501)
+
+[node name="house_type044" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("17_873qx")]
+transform = Transform3D(0.996041, 0, 0.0888943, 0, 1, 0, -0.0888943, 0, 0.996041, -154.913, 1.90735e-06, -87.2048)
+
+[node name="house_type054" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("16_o5i02")]
+transform = Transform3D(0.99664, 0, 0.0819037, 0, 1, 0, -0.0819037, 0, 0.99664, -170.2, 0, -88.1166)
+
+[node name="house_type024" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("19_qfmwv")]
+transform = Transform3D(0.549767, 0, 0.835318, 0, 1, 0, -0.835318, 0, 0.549767, -189.469, 0, -74.9523)
+
+[node name="house_type014" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("20_idum8")]
+transform = Transform3D(-0.610118, 0, -0.792311, 0, 1, 0, 0.792311, 0, -0.610118, -171.668, 0, -55.6209)
+
+[node name="house_type034" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("18_nfat8")]
+transform = Transform3D(0.321555, 0, 0.946891, 0, 1, 0, -0.946891, 0, 0.321555, -196.142, 0, -58.0546)
+
+[node name="house_type055" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("16_o5i02")]
+transform = Transform3D(-0.100014, 0, -0.994986, 0, 1, 0, 0.994986, 0, -0.100014, -173.541, 0, -33.8382)
+
+[node name="house_type025" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("19_qfmwv")]
+transform = Transform3D(-0.455452, 0, -0.89026, 0, 1, 0, 0.89026, 0, -0.455452, -175.8, 0, -18.2321)
+
+[node name="house_type015" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("20_idum8")]
+transform = Transform3D(0.351335, 0, 0.93625, 0, 1, 0, -0.93625, 0, 0.351335, -199.342, 0, -28.7336)
+
+[node name="house_type026" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("19_qfmwv")]
+transform = Transform3D(0.733943, 0, -0.679211, 0, 1, 0, 0.679211, 0, 0.733943, -231.59, 0, -22.6757)
+
+[node name="house_type035" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("18_nfat8")]
+transform = Transform3D(0.621161, 0, -0.783683, 0, 1, 0, 0.783683, 0, 0.621161, -244.827, 0, -36.2427)
+
+[node name="house_type046" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("17_873qx")]
+transform = Transform3D(-0.115717, 0, -0.993282, 0, 1, 0, 0.993282, 0, -0.115717, -254.505, 0, -58.1943)
+
+[node name="house_type027" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("19_qfmwv")]
+transform = Transform3D(-0.559829, 0, -0.828608, 0, 1, 0, 0.828608, 0, -0.559829, -241.31, 0, -67.917)
+
+[node name="house_type047" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("17_873qx")]
+transform = Transform3D(-0.593321, 0, -0.804966, 0, 1, 0, 0.804966, 0, -0.593321, -228.426, 0, -84.9173)
+
+[node name="house_type056" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("16_o5i02")]
+transform = Transform3D(0.650946, 0, 0.759124, 0, 1, 0, -0.759124, 0, 0.650946, -248.114, -3.8147e-06, -103.211)
+
+[node name="house_type036" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("18_nfat8")]
+transform = Transform3D(0.603584, 0, 0.7973, 0, 1, 0, -0.7973, 0, 0.603584, -261.361, 0, -90.2987)
+
+[node name="house_type048" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("17_873qx")]
+transform = Transform3D(0.538727, 0, 0.842481, 0, 1, 0, -0.842481, 0, 0.538727, -277.889, 0, -51.6895)
+
+[node name="house_type028" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("19_qfmwv")]
+transform = Transform3D(0.0587314, 0, 0.998274, 0, 1, 0, -0.998274, 0, 0.0587314, -284.57, 0, -40.334)
+
+[node name="house_type016" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("20_idum8")]
+transform = Transform3D(-0.30217, 0, 0.953254, 0, 1, 0, -0.953254, 0, -0.30217, -264.961, 0, -16.6877)
+
+[node name="house_type029" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("19_qfmwv")]
+transform = Transform3D(-0.685297, 0, 0.728263, 0, 1, 0, -0.728263, 0, -0.685297, -255.351, 0, -2.61258)
+
+[node name="house_type057" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("16_o5i02")]
+transform = Transform3D(-0.648519, 0, 0.761199, 0, 1, 0, -0.761199, 0, -0.648519, -242.651, 0, 10.1952)
+
+[node name="house_type049" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("17_873qx")]
+transform = Transform3D(-0.987762, 0, -0.155969, 0, 1, 0, 0.155969, 0, -0.987762, -205.288, 0, 12.9546)
+
+[node name="house_type037" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("18_nfat8")]
+transform = Transform3D(-0.960172, 0, -0.27941, 0, 1, 0, 0.27941, 0, -0.960172, -194.63, 0, 9.17415)
+
+[node name="house_type030" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("19_qfmwv")]
+transform = Transform3D(-0.700934, 0, -0.713226, 0, 1, 0, 0.713226, 0, -0.700934, -178.176, 0, -1.94514)
+
+[node name="house_type017" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("20_idum8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -310.098, 0, 52.5282)
+
+[node name="house_type018" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("20_idum8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -76.5618, 0, -21.8766)
+
+[node name="house_type019" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("20_idum8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -123.441, 0, -38.2198)
+
+[node name="house_type020" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("20_idum8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -153.977, 0, -13.705)
+
+[node name="house_type021" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("20_idum8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -109.678, 0, 11.6701)
+
+[node name="house_type031" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("20_idum8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -58.9283, 0, 46.0769)
+
+[node name="house_type038" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("20_idum8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -130.322, 0, 46.9371)
+
+[node name="house_type039" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("20_idum8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -190.534, 0, 52.0982)
+
+[node name="house_type040" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("20_idum8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -304.937, 0, 12.9603)
+
+[node name="house_type041" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("20_idum8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -324.291, 0, -21.4465)
+
+[node name="house_type050" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("20_idum8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -320.42, 0, -63.1648)
+
+[node name="house_type051" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("20_idum8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -323.001, 0, -106.173)
+
+[node name="house_type058" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("20_idum8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -44.7354, -0.0116501, -118.288)
+
+[node name="house_type059" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("20_idum8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -72.2609, 0, -103.593)
+
+[node name="house_type060" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("20_idum8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -107.958, 0, -119.076)
+
+[node name="house_type061" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("20_idum8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -132.043, 0, -114.345)
+
+[node name="house_type062" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("20_idum8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -203.867, 0, -100.152)
+
+[node name="house_type063" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("20_idum8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -268.38, 0, -124.237)
+
+[node name="house_type064" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("19_qfmwv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -55.9177, 0, -14.1351)
+
+[node name="house_type065" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("19_qfmwv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -109.678, 0, -15.4253)
+
+[node name="house_type067" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("19_qfmwv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -63.2291, 0, 27.5833)
+
+[node name="house_type068" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("19_qfmwv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -94.53, 0, 34.6239)
+
+[node name="house_type069" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("19_qfmwv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -77.3266, 0, 60.8591)
+
+[node name="house_type070" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("19_qfmwv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -158.613, 0, 53.9777)
+
+[node name="house_type071" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("19_qfmwv")]
+transform = Transform3D(-0.937093, 0, 0.349079, 0, 1, 0, -0.349079, 0, -0.937093, -229.147, 0, 26.8823)
+
+[node name="house_type072" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("19_qfmwv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -250.651, 0, 56.9883)
+
+[node name="house_type073" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("19_qfmwv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -323.336, 0, 30.323)
+
+[node name="house_type074" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("19_qfmwv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -325.486, 0, -46.2322)
+
+[node name="house_type075" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("19_qfmwv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -303.982, 0, -128.379)
+
+[node name="house_type076" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("19_qfmwv")]
+transform = Transform3D(0.530023, 0, -0.847983, 0, 1, 0, 0.847983, 0, 0.530023, -223.556, 0, -104.724)
+
+[node name="house_type077" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("19_qfmwv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -157.026, 0, -118.991)
+
+[node name="house_type078" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("18_nfat8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -44.7021, 0, 16.7378)
+
+[node name="house_type079" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("18_nfat8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -91.5307, 0, -13.8668)
+
+[node name="house_type080" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("18_nfat8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -133.197, 0, 19.3189)
+
+[node name="house_type081" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("18_nfat8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -223.904, 0, 52.8732)
+
+[node name="house_type082" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("18_nfat8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -271.87, 0, 48.2326)
+
+[node name="house_type083" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("18_nfat8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -263.334, 0, 21.678)
+
+[node name="house_type084" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("18_nfat8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -324.663, 0, -4.87652)
+
+[node name="house_type085" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("18_nfat8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -287.36, 0, -14.9926)
+
+[node name="house_type086" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("18_nfat8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -329.088, 0, -77.5855)
+
+[node name="house_type087" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("18_nfat8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -300.953, 0, -82.6435)
+
+[node name="house_type088" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("18_nfat8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -327.192, 0, -94.9724)
+
+[node name="house_type089" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("18_nfat8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -281.037, 0, -109.385)
+
+[node name="house_type090" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("18_nfat8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -287.36, 0, -134.358)
+
+[node name="house_type091" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("18_nfat8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -209.593, 0, -124.559)
+
+[node name="house_type092" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("18_nfat8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -175.159, 0, -116.904)
+
+[node name="house_type093" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("18_nfat8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -95.8825, 0, -102.523)
+
+[node name="house_type094" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("17_873qx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -81.9871, 0, -122.498)
+
+[node name="house_type095" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("17_873qx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -51.7513, 0, -100.374)
+
+[node name="house_type096" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("17_873qx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -79.406, 0, 8.40127)
+
+[node name="house_type097" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("17_873qx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -107.429, 0, 61.1296)
+
+[node name="house_type098" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("17_873qx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -162.739, 0, 37.1622)
+
+[node name="house_type099" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("17_873qx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -210.646, 0, 70.5305)
+
+[node name="house_type100" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("17_873qx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -295.085, 0, 64.2621)
+
+[node name="house_type101" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("17_873qx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -304.304, 0, 28.4954)
+
+[node name="house_type102" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("17_873qx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -337.858, 0, 15.5899)
+
+[node name="house_type103" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("17_873qx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -307.253, 0, -44.513)
+
+[node name="house_type104" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("17_873qx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -291.998, 0, -94.2913)
+
+[node name="house_type105" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("17_873qx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -329.301, 0, -128.433)
+
+[node name="house_type106" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("16_o5i02")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -151.071, 0, -40.2602)
+
+[node name="house_type107" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("16_o5i02")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -126.955, 0, 2.51616)
+
+[node name="house_type108" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("16_o5i02")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -181.423, 0, 66.0692)
+
+[node name="house_type109" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("16_o5i02")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -53.3921, 0, 63.5402)
+
+[node name="house_type110" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("16_o5i02")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -41.8793, 0, 4.33674)
+
+[node name="path_long2" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("21_v8rhs")]
+transform = Transform3D(0.711327, 0, -0.702861, 0, 1, 0, 0.702861, 0, 0.711327, -239.173, 0, -15.3852)
+
+[node name="path_long3" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("21_v8rhs")]
+transform = Transform3D(0.730925, 0, -0.682458, 0, 1, 0, 0.682458, 0, 0.730925, -249.257, 0, -9.05337)
+
+[node name="path_long4" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("21_v8rhs")]
+transform = Transform3D(0.531443, 0, -0.847094, 0, 1, 0, 0.847094, 0, 0.531443, -262.713, 0, -23.7432)
+
+[node name="path_long5" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("21_v8rhs")]
+transform = Transform3D(0.509973, 0, -0.860191, 0, 1, 0, 0.860191, 0, 0.509973, -252.097, 0, -33.1634)
+
+[node name="path_long6" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("21_v8rhs")]
+transform = Transform3D(0.506937, 0, -0.861983, 0, 1, 0, 0.861983, 0, 0.506937, -274.935, 0, -41.7297)
+
+[node name="path_long7" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("21_v8rhs")]
+transform = Transform3D(0.495504, 0, 0.868606, 0, 1, 0, -0.868606, 0, 0.495504, -257.653, -9.53674e-07, -57.418)
+
+[node name="path_long8" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("21_v8rhs")]
+transform = Transform3D(0.489626, 0, 0.871933, 0, 1, 0, -0.871933, 0, 0.489626, -274.58, 0, -52.3583)
+
+[node name="path_long9" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("21_v8rhs")]
+transform = Transform3D(0.411721, 0, 0.91131, 0, 1, 0, -0.91131, 0, 0.411721, -248.864, 0, -72.4069)
+
+[node name="path_long10" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("21_v8rhs")]
+transform = Transform3D(0.49611, 0, 0.868259, 0, 1, 0, -0.868259, 0, 0.49611, -256.729, 0, -84.5947)
+
+[node name="path_long11" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("21_v8rhs")]
+transform = Transform3D(0.73521, 0, 0.677839, 0, 1, 0, -0.677839, 0, 0.73521, -242.947, 0, -98.0805)
+
+[node name="path_long12" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("21_v8rhs")]
+transform = Transform3D(0.612576, 0, 0.790412, 0, 1, 0, -0.790412, 0, 0.612576, -232.847, 0, -85.354)
+
+[node name="path_long13" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("21_v8rhs")]
+transform = Transform3D(0.643496, 0, -0.76545, 0, 1, 0, 0.76545, 0, 0.643496, -231.356, 0, -99.2539)
+
+[node name="path_long14" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("21_v8rhs")]
+transform = Transform3D(0.745639, 0, -0.66635, 0, 1, 0, 0.66635, 0, 0.745639, -236.495, 0, 4.75149)
+
+[node name="path_long15" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("21_v8rhs")]
+transform = Transform3D(0.983293, 0, 0.18203, 0, 1, 0, -0.18203, 0, 0.983293, -208.441, 0, 11.5332)
+
+[node name="path_long16" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("21_v8rhs")]
+transform = Transform3D(0.782293, 0, 0.622911, 0, 1, 0, -0.622911, 0, 0.782293, -196.214, 0, 2.58787)
+
+[node name="path_long17" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("21_v8rhs")]
+transform = Transform3D(0.717154, 0, 0.696915, 0, 1, 0, -0.696915, 0, 0.717154, -185.197, 0, -8.30825)
+
+[node name="path_long18" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("21_v8rhs")]
+transform = Transform3D(0.290034, 0, 0.957016, 0, 1, 0, -0.957016, 0, 0.290034, -182.358, 4.76837e-07, -21.1863)
+
+[node name="path_long19" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("21_v8rhs")]
+transform = Transform3D(0.349733, 0, 0.936849, 0, 1, 0, -0.936849, 0, 0.349733, -193.396, 0, -32.5091)
+
+[node name="path_long20" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("21_v8rhs")]
+transform = Transform3D(-0.0541833, 0, 0.998531, 0, 1, 0, -0.998531, 0, -0.0541833, -181.036, 0, -34.5951)
+
+[node name="path_long21" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("21_v8rhs")]
+transform = Transform3D(0.346592, 0, 0.938016, 0, 1, 0, -0.938016, 0, 0.346592, -190.177, 0, -54.1054)
+
+[node name="path_long22" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("21_v8rhs")]
+transform = Transform3D(0.110758, 0, 0.993847, 0, 1, 0, -0.993847, 0, 0.110758, -177.951, 0, -52.1451)
+
+[node name="path_long23" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("21_v8rhs")]
+transform = Transform3D(0.71934, 0, 0.694658, 0, 1, 0, -0.694658, 0, 0.71934, -182.271, 0, -69.165)
+
+[node name="path_long24" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("21_v8rhs")]
+transform = Transform3D(0.957309, 0, 0.289065, 0, 1, 0, -0.289065, 0, 0.957309, -161.249, 0, -69.3776)
+
+[node name="path_long25" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("21_v8rhs")]
+transform = Transform3D(0.950255, 0, 0.311473, 0, 1, 0, -0.311473, 0, 0.950255, -169.667, 0, -80.6)
+
+[node name="path_long26" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("21_v8rhs")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -152.473, 0, -83.927)
+
+[node name="path_long27" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("21_v8rhs")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -137.207, 0, -73.3794)
+
+[node name="path_long28" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("21_v8rhs")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -126.909, -4.76837e-07, -84.107)
+
+[node name="path_long29" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("21_v8rhs")]
+transform = Transform3D(0.978238, 0, -0.207485, 0, 1, 0, 0.207485, 0, 0.978238, -113.387, 0, -69.7319)
+
+[node name="path_long30" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("21_v8rhs")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -94.8964, 0, -67.951)
+
+[node name="path_long31" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("21_v8rhs")]
+transform = Transform3D(0.995996, 0, -0.0893984, 0, 1, 0, 0.0893984, 0, 0.995996, -97.2929, 0, -81.5034)
+
+[node name="path_long32" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("21_v8rhs")]
+transform = Transform3D(0.999807, 0, -0.0196686, 0, 1, 0, 0.0196686, 0, 0.999807, -77.2643, 0.0128688, -78.648)
+
+[node name="path_long33" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("21_v8rhs")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -71.3363, 0, -64.8036)
+
+[node name="path_long34" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("21_v8rhs")]
+transform = Transform3D(0.944342, 0, -0.328966, 0, 1, 0, 0.328966, 0, 0.944342, -60.6124, 0, -76.3726)
+
+[node name="path_long35" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("21_v8rhs")]
+transform = Transform3D(0.836803, 0, -0.547505, 0, 1, 0, 0.547505, 0, 0.836803, -48.0838, 0.0128688, -69.9712)
+
+[node name="path_long36" parent="WorldGeometry/Decorations/SuburbsHouses" instance=ExtResource("21_v8rhs")]
+transform = Transform3D(0.87384, 0, -0.486213, 0, 1, 0, 0.486213, 0, 0.87384, -46.6296, 0.0128688, -57.7143)
+
+[node name="road" parent="WorldGeometry/Decorations" instance=ExtResource("22_lqakf")]
+
+[node name="SuburbsTrees" type="Node3D" parent="WorldGeometry/Decorations"]
+
+[node name="tree_large2" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -242.365, 0, -54.7235)
+
+[node name="tree_large3" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -259.69, 0, -42.7777)
+
+[node name="tree_large4" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -278.993, 0, -48.8693)
+
+[node name="tree_large5" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -279.231, 0, -69.992)
+
+[node name="tree_large6" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -271.794, 0, -77.6658)
+
+[node name="tree_large7" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -248.061, 0, -92.9343)
+
+[node name="tree_large8" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -224.905, 0, -67.4031)
+
+[node name="tree_large9" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -220.554, 0, -90.2662)
+
+[node name="tree_large10" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -241.044, 0, -111.626)
+
+[node name="tree_large11" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -269.053, 0, -107.566)
+
+[node name="tree_large12" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -249.829, 0, -129.48)
+
+[node name="tree_large13" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -279.333, 0, -124.159)
+
+[node name="tree_large14" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -285.994, 0, -117.327)
+
+[node name="tree_large15" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -295.73, 0, -99.0521)
+
+[node name="tree_large16" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -287.873, 0, -83.6805)
+
+[node name="tree_large17" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -304.611, 0, -74.116)
+
+[node name="tree_large18" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -297.096, 0, -59.2568)
+
+[node name="tree_large19" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -300.256, 0, -35.244)
+
+[node name="tree_large20" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -285.226, 0, -26.3626)
+
+[node name="tree_large21" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -290.521, 0, 0.623022)
+
+[node name="tree_large22" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -271.734, 0, -6.89197)
+
+[node name="tree_large23" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -279.249, 0, 19.0689)
+
+[node name="tree_large24" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -257.693, 0, 12.858)
+
+[node name="tree_large25" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -241.297, 0, 33.5242)
+
+[node name="tree_large26" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -225.413, 0, 14.566)
+
+[node name="tree_large27" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -212.432, 0, 36.5986)
+
+[node name="tree_large28" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -195.889, 0, 27.3128)
+
+[node name="tree_large29" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -188.544, 0, 1.52266)
+
+[node name="tree_large30" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -195.206, 0, -19.9976)
+
+[node name="tree_large31" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -226.29, 0, -13.3365)
+
+[node name="tree_large32" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -243.541, 0, -23.7551)
+
+[node name="tree_large33" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -231.585, 0, -8.89585)
+
+[node name="tree_large34" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -248.664, 0, -26.4878)
+
+[node name="tree_large35" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -211.602, 0, -11.9702)
+
+[node name="tree_large36" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -217.75, 0, -3.08881)
+
+[node name="tree_large37" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -204.77, 0, -21.0223)
+
+[node name="tree_large38" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -177.101, 0, 14.6739)
+
+[node name="tree_large39" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -166, 0, -12.6534)
+
+[node name="tree_large40" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -162.754, 0, -1.03926)
+
+[node name="tree_large41" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -160.876, 0, -25.1214)
+
+[node name="tree_large42" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -164.462, 0, -38.9558)
+
+[node name="tree_large43" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -150.116, 0, -30.2453)
+
+[node name="tree_large44" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -139.014, 0, -35.1983)
+
+[node name="tree_large45" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -154.215, 0, -50.5699)
+
+[node name="tree_large46" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -143.113, 0, -56.0354)
+
+[node name="tree_large47" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -132.192, 0, -49.9983)
+
+[node name="tree_large48" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -109.135, 0, -64.3451)
+
+[node name="tree_large49" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -99.2289, 0, -42.8249)
+
+[node name="tree_large50" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -82.8326, 0, -66.2239)
+
+[node name="tree_large51" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -56.5435, 0, -62.923)
+
+[node name="tree_large52" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -54.1523, 0, -41.0612)
+
+[node name="tree_large53" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -88.9946, 0, -40.5488)
+
+[node name="tree_large54" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.6321, 0, -41.0612)
+
+[node name="tree_large55" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.679, 0, -65.8265)
+
+[node name="tree_large56" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.0934, 0, -93.9154)
+
+[node name="tree_large57" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -42.6331, 0, -87.7668)
+
+[node name="tree_large58" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -56.3469, 0, -99.9728)
+
+[node name="tree_large59" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -68.8149, 0, -93.3117)
+
+[node name="tree_large60" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -84.0157, 0, -105.267)
+
+[node name="tree_large61" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -103.971, 0, -82.3421)
+
+[node name="tree_large62" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -107.216, 0, -86.6119)
+
+[node name="tree_large63" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -134.202, 0, -91.9066)
+
+[node name="tree_large64" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -161.358, 0, -81.3173)
+
+[node name="tree_large65" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -179.121, 0, -86.7827)
+
+[node name="tree_large66" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -197.73, 0, -68.5886)
+
+[node name="tree_large67" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -210.881, 0, -27.7685)
+
+[node name="tree_large68" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -228.131, 0, -38.5286)
+
+[node name="tree_large69" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -221.812, 0, -47.2392)
+
+[node name="tree_large70" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -211.393, 0, -53.9002)
+
+[node name="tree_large71" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -214.297, 0, -36.6499)
+
+[node name="tree_large72" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -195.168, 0, -45.5312)
+
+[node name="tree_large73" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -209.515, 0, -69.955)
+
+[node name="tree_large74" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -207.636, 0, -82.7646)
+
+[node name="tree_large75" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -188.848, 0, -91.9876)
+
+[node name="tree_large76" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("23_s5qya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -209.515, 0, -98.4778)
+
+[node name="tree_small2" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -224.857, 0, -6.01791)
+
+[node name="tree_small3" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -219.562, 0, -9.26302)
+
+[node name="tree_small4" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -205.386, 0, -7.21347)
+
+[node name="tree_small5" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -201.458, 0, -15.0701)
+
+[node name="tree_small6" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -218.879, 0, -20.7063)
+
+[node name="tree_small7" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -219.904, 0, -31.808)
+
+[node name="tree_small8" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -218.367, 0, -38.9814)
+
+[node name="tree_small9" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -233.226, 0, -46.838)
+
+[node name="tree_small10" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -230.835, 0, -58.2813)
+
+[node name="tree_small11" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -211.193, 0, -44.9592)
+
+[node name="tree_small12" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -218.537, 0, -59.9892)
+
+[node name="tree_small13" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -208.631, 0, -62.722)
+
+[node name="tree_small14" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -205.728, 0, -49.3999)
+
+[node name="tree_small15" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -224.003, 0, -55.7194)
+
+[node name="tree_small16" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -219.05, 0, -73.8237)
+
+[node name="tree_small17" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -201.458, 0, -76.2148)
+
+[node name="tree_small18" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -220.074, 0, -83.0466)
+
+[node name="tree_small19" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -227.094, 0, -95.3018)
+
+[node name="tree_small20" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -238.537, 0, -84.7124)
+
+[node name="tree_small21" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -244.174, 0, -79.5886)
+
+[node name="tree_small22" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -272.697, 0, -94.7894)
+
+[node name="tree_small23" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -292.68, 0, -74.4647)
+
+[node name="tree_small24" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -289.75, 0, -60.0767)
+
+[node name="tree_small25" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -287.018, 0, -51.5369)
+
+[node name="tree_small26" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -272.158, 0, -37.1901)
+
+[node name="tree_small27" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -281.21, 0, -32.2371)
+
+[node name="tree_small28" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -262.935, 0, -11.5708)
+
+[node name="tree_small29" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -218.016, 0, -14.3036)
+
+[node name="tree_small30" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -237.828, 0, -41.1184)
+
+[node name="tree_small31" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -281.552, 0, -6.27617)
+
+[node name="tree_small32" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -274.037, 0, 8.92462)
+
+[node name="tree_small33" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -266.413, 0, 6.27881)
+
+[node name="tree_small34" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -248.651, 0, 22.5044)
+
+[node name="tree_small35" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -242.673, 0, 21.3088)
+
+[node name="tree_small36" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -231.684, 0, 17.2722)
+
+[node name="tree_small37" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -219.045, 0, 26.1535)
+
+[node name="tree_small38" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -203.161, 0, 27.3491)
+
+[node name="tree_small39" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -186.765, 0, 20.6881)
+
+[node name="tree_small40" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -170.368, 0, 4.97492)
+
+[node name="tree_small41" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -147.14, 0, -9.2011)
+
+[node name="tree_small42" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -168.318, 0, -59.3486)
+
+[node name="tree_small43" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -151.769, 0, -69.294)
+
+[node name="tree_small44" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -117.61, 0, -49.9941)
+
+[node name="tree_small45" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -125.808, 0, -59.2171)
+
+[node name="tree_small46" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -125.979, 0, -69.4648)
+
+[node name="tree_small47" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.84, 0, -50.0426)
+
+[node name="tree_small48" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -105.914, 0, -36.5497)
+
+[node name="tree_small49" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.0768, 0, -48.847)
+
+[node name="tree_small50" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -63.7736, 0, -40.4044)
+
+[node name="tree_small51" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -79.6576, 0, -96.0837)
+
+[node name="tree_small52" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -38.6667, 0, -39.5504)
+
+[node name="tree_small53" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.9066, 0, -24.5204)
+
+[node name="tree_small54" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.5155, 0, -75.5982)
+
+[node name="tree_small55" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.5651, 0, -82.7717)
+
+[node name="tree_small56" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -50.1074, 0, -82.6009)
+
+[node name="tree_small57" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -65.3082, 0, -98.314)
+
+[node name="tree_small58" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -88.1948, 0, -87.8955)
+
+[node name="tree_small59" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -92.2939, 0, -94.8981)
+
+[node name="tree_small60" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -105.787, 0, -97.1185)
+
+[node name="tree_small61" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -116.034, 0, -94.5565)
+
+[node name="tree_small62" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -115.264, 0, -84.2355)
+
+[node name="tree_small63" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -140.086, 0, -96.9695)
+
+[node name="tree_small64" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -138.794, 0, -87.742)
+
+[node name="tree_small65" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -151.712, 0, -99.83)
+
+[node name="tree_small66" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -161.494, 0, -95.124)
+
+[node name="tree_small67" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -176.448, 0, -99.8663)
+
+[node name="tree_small68" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -178.478, 0, -94.8834)
+
+[node name="tree_small69" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -198.133, 0, -94.9757)
+
+[node name="tree_small70" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -194.626, 0, -87.6859)
+
+[node name="tree_small71" parent="WorldGeometry/Decorations/SuburbsTrees" instance=ExtResource("24_eehs1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -208.191, 0, -91.746)
+
+[node name="ProtonScatter" type="Node3D" parent="WorldGeometry/Decorations"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 41.636, 0, -21.6541)
+script = ExtResource("25_20gos")
+keep_static_colliders = true
+modifier_stack = SubResource("Resource_bkgoa")
+Performance/use_chunks = true
+Performance/chunk_dimensions = Vector3(15, 15, 15)
+
+[node name="SmallTree" type="Node3D" parent="WorldGeometry/Decorations/ProtonScatter"]
+script = ExtResource("29_o17b6")
+path = "res://AssetPacks/City Kit - Suburban/Models/GLTF format/tree_small.glb"
+
+[node name="BigTree" type="Node3D" parent="WorldGeometry/Decorations/ProtonScatter"]
+script = ExtResource("29_o17b6")
+path = "res://AssetPacks/City Kit - Suburban/Models/GLTF format/tree_large.glb"
+
+[node name="ScatterShape" type="Node3D" parent="WorldGeometry/Decorations/ProtonScatter"]
+transform = Transform3D(1, 0, -2.98023e-08, 0, 1, 0, 2.98023e-08, 0, 1, 3.62985, 4.87167, -6.1938)
+script = ExtResource("30_b5714")
+shape = SubResource("Resource_k05n4")
+
+[node name="ScatterShape2" type="Node3D" parent="WorldGeometry/Decorations/ProtonScatter"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.713764, 0)
+script = ExtResource("30_b5714")
+negative = true
+shape = SubResource("Resource_lot63")

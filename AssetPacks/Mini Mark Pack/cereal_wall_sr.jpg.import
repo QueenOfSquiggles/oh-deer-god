@@ -2,12 +2,13 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dwntk4fehnxma"
+uid="uid://dorrs74u020xk"
 path.s3tc="res://.godot/imported/cereal_wall_sr.jpg-21e1b356e0a61f8c4a8f75ee6e589ac5.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
+generator_parameters={}
 
 [deps]
 

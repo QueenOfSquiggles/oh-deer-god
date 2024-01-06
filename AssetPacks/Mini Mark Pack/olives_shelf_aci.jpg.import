@@ -2,12 +2,13 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bsagtc578hiqf"
+uid="uid://b08lrpys8iil"
 path.s3tc="res://.godot/imported/olives_shelf_aci.jpg-94f148a2b801b3246329771068c689e9.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
+generator_parameters={}
 
 [deps]
 

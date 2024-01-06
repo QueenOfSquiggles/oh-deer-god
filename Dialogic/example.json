@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{
+			"type":"text",
+			"character":"Bob",
+			"content":"Lorem Ipsum"
+		},
+		{
+			"type":"signal",
+			"name":"on_enter_dialog",
+			"args":[
+				"with",
+				"me"
+			]
+		},
+		{
+			"type":"choice",
+			"prompt": "this is a choice",
+			"character": "Jane Doe",
+			"options":[
+				{
+					"text":"something",
+					"requires":"shotgun > 0",
+					"action":"jal 4"
+				},
+				{
+					"text":"or other",
+					"action":"end"
+				}
+			]
+		},
+		{
+			"type":"text",
+			"content":"Lorem Ipsum"
+		},
+		{
+			"type":"action",
+			"code":"CoreGlobals.config.graphics.use_bloom = false"
+		}
+	]
+}
