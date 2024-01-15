@@ -35,6 +35,6 @@ func _on_body_entered(body: Node3D) -> void:
 func _do_thing() -> void:
 	if dialogic_track.is_empty():
 		return
-	var track = GameManager.trigger_dialog_track(dialogic_track)
+	GameManager.trigger_dialog_track(dialogic_track)
 	if is_one_shot:
-		track.tree_exiting.connect(Callable(self, "queue_free"), CONNECT_ONE_SHOT)
+		CoreDialog.event_bus.track_ended.connect(Callable(self, "queue_free"), CONNECT_ONE_SHOT)

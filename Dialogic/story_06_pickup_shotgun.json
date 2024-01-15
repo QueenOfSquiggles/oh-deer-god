@@ -1,0 +1,38 @@
+{
+	"nodes": [
+		{
+			"type": "choice",
+			"prompt": "A shotgun???",
+			"character": "Me",
+			"options": [
+				{
+					"text": "I could use some self defense",
+					"action": "jump 3"
+				},
+				{
+					"text": "What would I need that for??",
+					"action": ""
+				}
+			]
+		},
+		{
+			"type": "text",
+			"content": "Yeah. No reason for that"
+		},
+		{
+			"type": "action",
+			"code": "end"
+		},
+		{
+			"type": "signal",
+			"name": "player_has_shotgun",
+			"args": [
+				"true"
+			]
+		},
+		{
+			"type": "action",
+			"code": "set shotgun true"
+		}
+	]
+}

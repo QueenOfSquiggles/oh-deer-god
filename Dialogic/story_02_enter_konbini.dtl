@@ -1,2 +1,0 @@
-char_me: I should find something that I want to eat.
-do GameManager.set_story_beat(1)

@@ -1,9 +1,24 @@
-[gd_resource type="SquigglesCoreConfig" load_steps=6 format=3 uid="uid://bnsygfbrsktjd"]
+[gd_resource type="SquigglesCoreConfig" load_steps=9 format=3 uid="uid://bnsygfbrsktjd"]
 
 [sub_resource type="GameAudioSettings" id="GameAudioSettings_ye62f"]
 
 [sub_resource type="GameControlsSettings" id="GameControlsSettings_qcma3"]
 mappings_style = 1
+
+[sub_resource type="LabelSettings" id="LabelSettings_bx1c7"]
+font_size = 32
+outline_size = 8
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="DialogSettings" id="DialogSettings_rw0j3"]
+character_name_label_style = SubResource("LabelSettings_bx1c7")
+anim_appear_ease = 2
+anim_appear_trans = 10
+anim_appear_duration = 0.5
+anim_hide_ease = 2
+anim_hide_trans = 10
+anim_hide_duration = 0.5
+words_per_minute = 500.0
 
 [sub_resource type="GameGameplaySettings" id="GameGameplaySettings_iclqp"]
 
@@ -11,6 +26,11 @@ mappings_style = 1
 use_ssil = true
 use_ssr = true
 window_fullscreen_mode = 0
+
+[sub_resource type="UserModifications" id="UserModifications_w7iwo"]
+mods_directory = "user://mods/"
+allow_mods_override_files = true
+loading_type = 1
 
 [sub_resource type="VFXStack" id="VFXStack_fqcjh"]
 
@@ -20,3 +40,5 @@ controls = SubResource("GameControlsSettings_qcma3")
 gameplay = SubResource("GameGameplaySettings_iclqp")
 audio = SubResource("GameAudioSettings_ye62f")
 vfx_stack = SubResource("VFXStack_fqcjh")
+dialog = SubResource("DialogSettings_rw0j3")
+user_mods = SubResource("UserModifications_w7iwo")

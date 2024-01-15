@@ -1,6 +1,0 @@
-char_me: I don't think I can do my homework until I've had something to eat
-- Find some food
-	char_me: Maybe there's something in the fridge?
-- Give up
-	Yeah maybe this just isn't worth it.
-	[signal arg="queue_free_me"]

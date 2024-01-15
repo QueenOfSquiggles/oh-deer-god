@@ -1,0 +1,16 @@
+{
+	"nodes": [
+		{
+			"type": "text",
+			"character": "Peryton",
+			"content": "No-no please no!!!!"
+		},
+		{
+			"type": "signal",
+			"name": "cutscene",
+			"args": [
+				"\"kill_peryton\""
+			]
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"nodes": [
+		{
+			"type": "text",
+			"character": "Me",
+			"content": "Wait.... I need some scratch paper for this. I don't have any yet. What are the chances the convenience store has some??"
+		},
+		{
+			"type": "signal",
+			"name": "story_beat",
+			"args": [
+				"6"
+			]
+		}
+	]
+}

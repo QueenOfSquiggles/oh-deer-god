@@ -1,0 +1,29 @@
+{
+	"nodes": [
+		{
+			"type": "text",
+			"character": "Creepy Person",
+			"content": "Tonight the moon is bright. Some say the borders between worlds grow thin during this full moon. Magic is more powerful..."
+		},
+		{
+			"type": "text",
+			"character": "Creepy Person",
+			"content": "..."
+		},
+		{
+			"type": "text",
+			"character": "Creepy Person",
+			"content": "You best keep yourself safe on nights like this..."
+		},
+		{
+			"type": "text",
+			"character": "Creepy Person",
+			"content": "..."
+		},
+		{
+			"type": "text",
+			"character": "Creepy Person",
+			"content": "I'll be [wave][b] watching you [/b][/wave]"
+		}
+	]
+}

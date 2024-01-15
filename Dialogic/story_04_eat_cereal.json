@@ -1,0 +1,33 @@
+{
+	"nodes": [
+		{
+			"type": "text",
+			"character": "Me",
+			"content": "There, a nice bowl of cereal.",
+			"requires": "using_bowl == true"
+		},
+		{
+			"type": "text",
+			"character": "Me",
+			"content": "I'll just eat it straight out of the box. [i]Who even needs bowls?[/i]",
+			"requires": "using_bowl == false"
+		},
+		{
+			"type": "text",
+			"character": "Me",
+			"content": "([shake][i]Munching Sounds[/i][/shake])"
+		},
+		{
+			"type": "text",
+			"character": "Me",
+			"content": "There all full. Now I can finally focus on my homework"
+		},
+		{
+			"type": "signal",
+			"name": "story_beat",
+			"args": [
+				"4"
+			]
+		}
+	]
+}

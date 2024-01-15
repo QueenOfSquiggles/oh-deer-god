@@ -1,0 +1,56 @@
+{
+	"nodes": [
+		{
+			"type": "text",
+			"character": "Margaret",
+			"content": "Hey you! How are you doing tonight? It's pretty late... do you not have school tomorrow??"
+		},
+		{
+			"type": "text",
+			"character": "Me",
+			"content": "Yeah but I got a lot of homework so I needed something to snack on I guess"
+		},
+		{
+			"type": "text",
+			"character": "Margaret",
+			"content": "Well this looks like a nice treat. Best of luck with that homework of yours...."
+		},
+		{
+			"type": "text",
+			"character": "Margaret",
+			"content": "..."
+		},
+		{
+			"type": "text",
+			"character": "Margaret",
+			"content": "Oh and by the way...."
+		},
+		{
+			"type": "text",
+			"character": "Margaret",
+			"content": "..."
+		},
+		{
+			"type": "text",
+			"character": "Margaret",
+			"content": "There's this [wave]really creepy person[/wave] hanging out around the store."
+		},
+		{
+			"type": "text",
+			"character": "Margaret",
+			"content": "I can't really do anything about it because they're not breaking any laws."
+		},
+		{
+			"type": "text",
+			"character": "Margaret",
+			"content": "But it might be best if you just don't engage with them, yeah?"
+		},
+		{
+			"type": "signal",
+			"name": "story_beat",
+			"args": [
+				"3"
+			]
+		}
+	]
+}

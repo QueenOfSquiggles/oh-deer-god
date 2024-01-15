@@ -22,69 +22,11 @@ config/icon="res://icon.png"
 
 [autoload]
 
-Dialogic="*res://addons/dialogic/Other/DialogicGameHandler.gd"
 GameManager="*res://Scripts/GameManager.gd"
-
-[dialogic]
-
-directories/dch_directory={
-"char_creepy_person": "res://Dialogic/char_creepy_person.dch",
-"char_furfur": "res://Dialogic/char_furfur.dch",
-"char_margaret": "res://Dialogic/char_margaret.dch",
-"char_me": "res://Dialogic/char_me.dch",
-"char_peryton": "res://Dialogic/char_peryton.dch"
-}
-directories/dtl_directory={
-"story_01_dont_go_in_forest": "res://Dialogic/story_01_dont_go_in_forest.dtl",
-"story_01_fridge_empty": "res://Dialogic/story_01_fridge_empty.dtl",
-"story_01_hungry": "res://Dialogic/story_01_hungry.dtl",
-"story_02_enter_konbini": "res://Dialogic/story_02_enter_konbini.dtl",
-"story_02_good_food": "res://Dialogic/story_02_good_food.dtl",
-"story_02_near_konbini": "res://Dialogic/story_02_near_konbini.dtl",
-"story_02_not_interested": "res://Dialogic/story_02_not_interested.dtl",
-"story_03_checkout": "res://Dialogic/story_03_checkout.dtl",
-"story_04_creepy_person": "res://Dialogic/story_04_creepy_person.dtl",
-"story_04_eat_cereal": "res://Dialogic/story_04_eat_cereal.dtl",
-"story_04_get_bowl": "res://Dialogic/story_04_get_bowl.dtl",
-"story_05_need_papers": "res://Dialogic/story_05_need_papers.dtl",
-"story_06_checkout": "res://Dialogic/story_06_checkout.dtl",
-"story_06_papers_not_shotgun": "res://Dialogic/story_06_papers_not_shotgun.dtl",
-"story_06_pickup_shotgun": "res://Dialogic/story_06_pickup_shotgun.dtl",
-"story_08_kill_peryton_ending": "res://Dialogic/story_08_kill_peryton_ending.dtl",
-"story_09_furfur_rises": "res://Dialogic/story_09_furfur_rises.dtl"
-}
-text/letter_speed=0.01
-text/initial_text_reveal_skippable=true
-text/text_reveal_skip_delay=0.1
-text/autoadvance_per_character_delay=0.1
-text/autoadvance_ignored_characters_enabled=true
-choices/autofocus_first=true
-choices/delay=0.2
-choices/reveal_delay=0.2
-choices/reveal_by_input=false
-save/autosave_delay=60.0
-save/encryption_on_exports_only=true
-animations/join_default_length=0.5
-animations/leave_default_length=0.5
-animations/leave_default_wait=true
-animations/join_default_wait=true
-text/input_action="interact"
-text/autocolor_names=true
-text/autopauses={}
-layout/style_list=["res://Dialogic/main_theme.tres"]
-layout/default_style="res://Dialogic/main_theme.tres"
-text/split_at_new_lines=true
-glossary/default_case_sensitive=true
-glossary/glossary_files=["res://Dialogic/main_glossary.tres"]
-variables={
-"has_shotgun": "0",
-"using_bowl": "0"
-}
-choices/hotkey_behaviour=1
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/dialogic/plugin.cfg", "res://addons/proton_scatter/plugin.cfg")
+enabled=PackedStringArray("res://addons/proton_scatter/plugin.cfg")
 
 [filesystem]
 
@@ -185,3 +127,7 @@ shoot={
 , Object(InputEventJoypadMotion,"resource_local_to_scene":false,"resource_name":"","device":-1,"axis":5,"axis_value":1.0,"script":null)
 ]
 }
+
+[internationalization]
+
+locale/translations=PackedStringArray("res://Assets/translation/translation_data.en.translation")

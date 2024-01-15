@@ -36,7 +36,7 @@ func on_enter() -> void:
 	shotgun_reset_sway_value = shotgun.sway_max_deg
 	shotgun.sway_max_deg = shotgun_sway_limit
 	GameManager.update_reticle_mode.emit(GameManager.ReticleMode.AIMING)
-	print("Entering state: %s" % name)
+	#print("Entering state: %s" % name)
 	anim.play("Idle", 0.1)
 
 

@@ -1,0 +1,132 @@
+{
+	"nodes": [
+		{
+			"type": "choice",
+			"prompt": "H-hey... w-why do you need a gun??? I was just messing around earlier?",
+			"character": "Margaret",
+			"options": [
+				{
+					"text": "Purchase gun",
+					"action": ""
+				},
+				{
+					"text": "Shoot Margaret",
+					"action": "jump 7"
+				},
+				{
+					"text": "Put gun back",
+					"action": "jump 11"
+				}
+			]
+		},
+		{
+			"type": "text",
+			"character": "Me",
+			"content": "Just self defense. I gotta be safe if I'm walking around late at night"
+		},
+		{
+			"type": "text",
+			"character": "Margaret",
+			"content": "I guess that makes sense."
+		},
+		{
+			"type": "text",
+			"character": "Margaret",
+			"content": "But damn dude... I never thought anyone would actually buy it. I always figured it was there to scare off freaks"
+		},
+		{
+			"type": "signal",
+			"name": "story_beat",
+			"args": [
+				"7"
+			]
+		},
+		{
+			"type": "signal",
+			"name": "cutscene",
+			"args": [
+				"\"kill_peryton\""
+			]
+		},
+		{
+			"type": "action",
+			"code": "end"
+		},
+		{
+			"type": "text",
+			"character": "Margaret",
+			"content": "W-w-w-what are you doing?????"
+		},
+		{
+			"type": "signal",
+			"name": "story_beat",
+			"args": [
+				"9"
+			]
+		},
+		{
+			"type": "signal",
+			"name": "cutscene",
+			"args": [
+				"\"kill_margaret\""
+			]
+		},
+		{
+			"type": "action",
+			"code": "end"
+		},
+		{
+			"type": "signal",
+			"name": "player_has_shotgun",
+			"args": [
+				"false"
+			]
+		},
+		{
+			"type": "action",
+			"code": "set shotgun false"
+		},
+		{
+			"type": "text",
+			"character": "Margaret",
+			"content": "Something else I can help you with??"
+		},
+		{
+			"type": "text",
+			"character": "Me",
+			"content": "Yeah I need some scratch paper? These algorithms are really kicking my ass"
+		},
+		{
+			"type": "text",
+			"character": "Margaret",
+			"content": "Damn, sorry to hear that. I guess we don't have much, but I can give you some receipt paper?"
+		},
+		{
+			"type": "text",
+			"character": "Me",
+			"content": "It'll have to do. I literally can't afford to fail this class."
+		},
+		{
+			"type": "text",
+			"character": "Margaret",
+			"content": "Sheesh. That's rough buddy"
+		},
+		{
+			"type": "text",
+			"character": "Margaret",
+			"content": "Here's some paper"
+		},
+		{
+			"type": "text",
+			"character": "Margaret",
+			"content": "Have [wave]a great night![/wave]"
+		},
+		{
+			"type": "signal",
+			"name": "story_beat",
+			"args": [
+				"7"
+			]
+		}
+	]
+}

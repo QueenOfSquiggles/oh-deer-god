@@ -1,8 +1,0 @@
-char_furfur: [wave]aaaaahhhhhh[/wave]
-char_me: Oh god oh fuck why did I do that????
-char_me: It was like my fingers moved on their own?
-char_furfur: [shake] Well done mortal [/shake]
-char_me: Wha-huh?
-char_furfur: [shake][wave]YOU HAVE TERMINATED MY VASSAL! WITH THIS MOMENT MY PACT IS FULFILLED AND THE MORTAL'S FLESH BECOMES MY OWN![/wave][/shake]
-char_peryton: [i]Please human, I promise I am a friend. Come to the forest. We need your help, and you need ours[/i]
-do GameManager.set_story_beat(10)

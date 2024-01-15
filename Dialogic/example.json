@@ -1,41 +1,60 @@
 {
-	"nodes":[
+	"nodes": [
 		{
-			"type":"text",
-			"character":"Bob",
-			"content":"Lorem Ipsum"
+			"type": "text",
+			"character": "Bob",
+			"content": "Lorem Ipsum"
 		},
 		{
-			"type":"signal",
-			"name":"on_enter_dialog",
-			"args":[
+			"type": "signal",
+			"name": "on_enter_dialog",
+			"args": [
 				"with",
 				"me"
 			]
 		},
 		{
-			"type":"choice",
+			"type": "signal",
+			"name": "story_beat",
+			"args": [
+				"1"
+			]
+		},
+		{
+			"type": "choice",
 			"prompt": "this is a choice",
 			"character": "Jane Doe",
-			"options":[
+			"options": [
 				{
-					"text":"something",
-					"requires":"shotgun > 0",
-					"action":"jal 4"
+					"text": "something",
+					"action": ""
 				},
 				{
-					"text":"or other",
-					"action":"end"
+					"text": "or other",
+					"action": ""
+				},
+				{
+					"text": "and yet another",
+					"action": "set bonus true"
 				}
 			]
 		},
 		{
-			"type":"text",
-			"content":"Lorem Ipsum"
+			"type": "text",
+			"content": "I eat ass BTW",
+			"requires": "bonus == true"
 		},
 		{
-			"type":"action",
-			"code":"CoreGlobals.config.graphics.use_bloom = false"
+			"type": "action",
+			"code": "set based true"
+		},
+		{
+			"type": "text",
+			"content": "another fucking lorem ipsum. With data {{ bonus }}"
+		},
+		{
+			"type": "text",
+			"content": "trans.text_parse_test"
 		}
 	]
 }

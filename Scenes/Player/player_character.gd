@@ -12,7 +12,6 @@ class_name PlayerCharacter
 @export var look_speed := 0.06
 var has_shotgun := false
 
-
 func _ready() -> void:
 	state_action_moving.on_aim.connect(Callable( \
 		fsm, "push_state") \

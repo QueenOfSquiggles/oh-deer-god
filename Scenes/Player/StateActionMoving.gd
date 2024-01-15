@@ -28,7 +28,7 @@ func _ready() -> void:
 
 func on_enter() -> void:
 	is_active = true
-	print("Starting %s" % name)
+	#print("Starting %s" % name)
 	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
 	# clear out axis buffers
 	if GameManager.look_axis:

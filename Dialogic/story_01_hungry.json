@@ -1,0 +1,46 @@
+{
+	"nodes": [
+		{
+			"type": "choice",
+			"character": "Me",
+			"prompt": "I don't think I can do my homework until I've had something to eat",
+			"options": [
+				{
+					"text": "Find some food",
+					"action": "jump 5"
+				},
+				{
+					"text": "Give up",
+					"action": ""
+				}
+			]
+		},
+		{
+			"type": "text",
+			"character": "Me",
+			"content": "Yeah maybe this just isn't worth it."
+		},
+		{
+			"type": "signal",
+			"name": "queue_free_me",
+			"args": []
+		},
+		{
+			"type": "action",
+			"code": "end"
+		},
+		{
+			"type": "text",
+			"character": "Me",
+			"content": "Maybe there's something in the fridge?"
+		},
+		{
+			"type": "action",
+			"code": "set using_bowl false"
+		},
+		{
+			"type": "action",
+			"code": "set shotgun false"
+		}
+	]
+}

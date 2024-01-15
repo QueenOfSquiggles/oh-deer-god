@@ -1,0 +1,46 @@
+{
+	"nodes": [
+		{
+			"type": "text",
+			"character": "Margaret",
+			"content": "Something else I can help you with??"
+		},
+		{
+			"type": "text",
+			"character": "Me",
+			"content": "Yeah I need some scratch paper? These algorithms are really kicking my ass"
+		},
+		{
+			"type": "text",
+			"character": "Margaret",
+			"content": "Damn, sorry to hear that. I guess we don't have much, but I can give you some receipt paper?"
+		},
+		{
+			"type": "text",
+			"character": "Me",
+			"content": "It'll have to do. I literally can't afford to fail this class."
+		},
+		{
+			"type": "text",
+			"character": "Margaret",
+			"content": "Sheesh. That's rough buddy"
+		},
+		{
+			"type": "text",
+			"character": "Margaret",
+			"content": "Here's some paper"
+		},
+		{
+			"type": "text",
+			"character": "Margaret",
+			"content": "Have [wave]a great night![/wave]"
+		},
+		{
+			"type": "signal",
+			"name": "story_beat",
+			"args": [
+				"7"
+			]
+		}
+	]
+}

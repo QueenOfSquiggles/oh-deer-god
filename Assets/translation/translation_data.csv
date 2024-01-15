@@ -1,0 +1,2 @@
+keys,en
+trans.text_parse_test,"This is some translated text, with a parsed variable: {{  bonus  }}"

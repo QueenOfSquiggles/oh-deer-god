@@ -1,0 +1,46 @@
+{
+	"nodes": [
+		{
+			"type": "text",
+			"character": "Furfur",
+			"content": "[wave]aaaaahhhhhh[/wave]"
+		},
+		{
+			"type": "text",
+			"character": "Me",
+			"content": "Oh god oh fuck why did I do that???"
+		},
+		{
+			"type": "text",
+			"character": "Me",
+			"content": "It was like my fingers moved on their own?"
+		},
+		{
+			"type": "text",
+			"character": "Furfur",
+			"content": "[shake] Well done mortal [/shake]"
+		},
+		{
+			"type": "text",
+			"character": "Me",
+			"content": "Wha-huh?"
+		},
+		{
+			"type": "text",
+			"character": "Furfur",
+			"content": "[shake][wave]YOU HAVE TERMINATED MY VASSAL! WITH THIS MOMENT MY PACT IS FULFILLED AND THE MORTAL'S FLESH BECOMES MY OWN![/wave][/shake]"
+		},
+		{
+			"type": "text",
+			"character": "Peryton",
+			"content": "[i]Please human, I promise I am a friend. Come to the forest. We need your help, and you need ours[/i]s"
+		},
+		{
+			"type": "signal",
+			"name": "story_beat",
+			"args": [
+				"10"
+			]
+		}
+	]
+}

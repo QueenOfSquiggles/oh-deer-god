@@ -1,0 +1,13 @@
+{
+	"nodes": [
+		{
+			"type": "text",
+			"character": "Me",
+			"content": "There. Now I'm not eating it straight out of the box like an animal"
+		},
+		{
+			"type": "action",
+			"code": "set using_bowl true"
+		}
+	]
+}

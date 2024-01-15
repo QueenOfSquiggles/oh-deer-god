@@ -57,15 +57,15 @@ func set_story_beat(n_beat : StoryBeat) -> void:
 		return
 	story_progress = n_beat
 	on_story_progress_changes.emit(story_progress)
-	print(story_progress)
+	#print(story_progress)
 
-func trigger_dialog_track(track_name : String) -> Node:
+func trigger_dialog_track(track_name : String) -> void:
 	request_player_can_move.emit(false)
-	current_track = Dialogic.start(track_name)
-	current_track.tree_exiting.connect( \
+	var file_name := "res://Dialogic/{0}.json".format([track_name])
+	CoreDialog.load_track_file(file_name)
+	CoreDialog.event_bus.track_ended.connect( \
 		Callable(self, "emit_signal") \
-		.bind("request_player_can_move", true), CONNECT_DEFERRED)
-	return current_track 
+		.bind("request_player_can_move", true), CONNECT_DEFERRED | CONNECT_ONE_SHOT)
 
 func give_player_shotgun() -> void:
 	player_has_shotgun.emit(true)
@@ -82,15 +82,30 @@ func get_player() -> PlayerCharacter:
 #region Internals
 
 func _ready() -> void:
+	CoreDialog.init_event_bus()
+	await RenderingServer.frame_post_draw
 	_load()
 	CoreGlobals.config.graphics.mark_dirty() # forces loading of saved/default graphics settings (includes window and FSR settings)
 	print(story_progress)
-	Dialogic.signal_event.connect(_internal_dialogic_event)
+	CoreDialog.event_bus.track_signal.connect(_internal_dialogic_event)
 	update_reticle_mode.emit(ReticleMode.HIDDEN)
 
-func _internal_dialogic_event(event_data) -> void:
-	if event_data == "queue_free_me":
-		get_tree().quit()
+func _internal_dialogic_event(signal_name : String, _args: Array) -> void:
+	match signal_name:
+		"queue_free_me": 
+			get_tree().quit()
+		"story_beat":
+			var beat :=  int(_args.front()) as StoryBeat
+			set_story_beat(beat)
+		"cutscene":
+			var scene :=  String(_args.front())
+			load_cutscene(scene)
+			pass
+		"player_has_shotgun":
+			var flag := String(_args.front()).to_lower() == "true"
+			set_player_has_shotgun(flag)
+		_:
+			push_error("Unhandled dialog signal event!! %s %s" % [signal_name, str(_args)])
 
 func _load() -> void:
 	var sdb := SaveDataBuilder.new()

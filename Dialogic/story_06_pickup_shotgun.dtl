@@ -1,6 +1,0 @@
-char_me: A shotgun???
-- I could use some self defense
-	set {has_shotgun} = 1
-	do GameManager.give_player_shotgun()
-- What would I need that for??
-	Yeah. No reason for that

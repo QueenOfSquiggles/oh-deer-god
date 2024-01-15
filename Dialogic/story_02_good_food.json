@@ -1,0 +1,16 @@
+{
+	"nodes": [
+		{
+			"type": "text",
+			"character": "Me",
+			"content": "That looks delicious. Now to just check out"
+		},
+		{
+			"type": "signal",
+			"name": "story_beat",
+			"args": [
+				"2"
+			]
+		}
+	]
+}
