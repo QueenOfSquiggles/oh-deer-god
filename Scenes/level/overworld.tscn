@@ -51,7 +51,7 @@ size = Vector3(12.9219, 24.226, 152.408)
 [sub_resource type="BoxShape3D" id="BoxShape3D_gyofe"]
 size = Vector3(3, 31.4244, 145.322)
 
-[sub_resource type="Resource" id="Resource_a6em0"]
+[sub_resource type="Resource" id="Resource_m38qr"]
 script = ExtResource("27_r47ng")
 spacing = Vector3(4, 4, 4)
 enabled = true
@@ -60,7 +60,7 @@ custom_seed = 0
 restrict_height = true
 reference_frame = 0
 
-[sub_resource type="Resource" id="Resource_dh15b"]
+[sub_resource type="Resource" id="Resource_koq30"]
 script = ExtResource("28_vgmip")
 position = Vector3(1, 0, 1)
 rotation = Vector3(0, 0, 0)
@@ -71,7 +71,7 @@ custom_seed = 0
 restrict_height = false
 reference_frame = 2
 
-[sub_resource type="Resource" id="Resource_lit8c"]
+[sub_resource type="Resource" id="Resource_eoex1"]
 script = ExtResource("28_i5riy")
 mask = "res://Assets/trees_clusterize_noise_map.tres"
 mask_rotation = 0.25
@@ -87,7 +87,7 @@ custom_seed = 0
 restrict_height = false
 reference_frame = 0
 
-[sub_resource type="Resource" id="Resource_ohivc"]
+[sub_resource type="Resource" id="Resource_fli8v"]
 script = ExtResource("28_rdfne")
 ray_direction = Vector3(0, -1, 0)
 ray_length = 10.0
@@ -103,7 +103,7 @@ custom_seed = 0
 restrict_height = false
 reference_frame = 0
 
-[sub_resource type="Resource" id="Resource_0ktnu"]
+[sub_resource type="Resource" id="Resource_ukp0y"]
 script = ExtResource("31_sk2cl")
 negative_shapes_only = false
 enabled = true
@@ -112,9 +112,9 @@ custom_seed = 0
 restrict_height = false
 reference_frame = 0
 
-[sub_resource type="Resource" id="Resource_baxl3"]
+[sub_resource type="Resource" id="Resource_ifscr"]
 script = ExtResource("26_353ry")
-stack = Array[Resource("res://addons/proton_scatter/src/modifiers/base_modifier.gd")]([SubResource("Resource_a6em0"), SubResource("Resource_dh15b"), SubResource("Resource_lit8c"), SubResource("Resource_ohivc"), SubResource("Resource_0ktnu")])
+stack = Array[Resource("res://addons/proton_scatter/src/modifiers/base_modifier.gd")]([SubResource("Resource_m38qr"), SubResource("Resource_koq30"), SubResource("Resource_eoex1"), SubResource("Resource_fli8v"), SubResource("Resource_ukp0y")])
 
 [sub_resource type="Resource" id="Resource_k05n4"]
 script = ExtResource("31_sbps3")
@@ -144,7 +144,7 @@ near = 0.001
 environment = ExtResource("1_h2hbf")
 
 [node name="PlayerCharacter" parent="." instance=ExtResource("2_x2u1l")]
-transform = Transform3D(-0.970448, 0, 0.241311, 0, 1, 0, -0.241311, 0, -0.970448, -68.0748, 1.00305, -55.8496)
+transform = Transform3D(0.708758, 0, 0.705452, 0, 1, 0, -0.705452, 0, 0.708758, -259.529, 1.2, -68.2684)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(0.0697565, 0.274966, 0.95892, 0, -0.961261, 0.275637, 0.997564, -0.0192275, -0.0670543, 0, 3.7839, 0)
@@ -1797,7 +1797,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -208.191, 0, -91.746)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 41.636, 0, -21.6541)
 script = ExtResource("25_20gos")
 keep_static_colliders = true
-modifier_stack = SubResource("Resource_baxl3")
+modifier_stack = SubResource("Resource_ifscr")
 Performance/use_chunks = true
 Performance/chunk_dimensions = Vector3(15, 15, 15)
 

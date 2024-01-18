@@ -2,7 +2,7 @@ extends Node
 
 const GAME_DATA_PATH := "user://game_data.json"
 
-const STARTING_BEAT := StoryBeat.b00_HUNGRY
+const STARTING_BEAT := StoryBeat.b06_GET_SHOTGUN
 enum StoryBeat {
 	# see obsidian notes for details
 	b00_HUNGRY=0,
@@ -61,7 +61,9 @@ func set_story_beat(n_beat : StoryBeat) -> void:
 
 func trigger_dialog_track(track_name : String) -> void:
 	request_player_can_move.emit(false)
-	var file_name := "res://Dialogic/{0}.json".format([track_name])
+	var file_name := track_name
+	if not file_name.begins_with("res://"):
+		file_name = "res://Dialogic/{0}.json".format([track_name])
 	CoreDialog.load_track_file(file_name)
 	CoreDialog.event_bus.track_ended.connect( \
 		Callable(self, "emit_signal") \

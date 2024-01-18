@@ -1,4 +1,4 @@
-[gd_scene load_steps=44 format=3 uid="uid://gevlg8kjkcyg"]
+[gd_scene load_steps=46 format=3 uid="uid://gevlg8kjkcyg"]
 
 [ext_resource type="PackedScene" uid="uid://8oq7kwhgi78e" path="res://Scenes/Interactables/dialog_provider.tscn" id="1_l0q2p"]
 [ext_resource type="PackedScene" uid="uid://cinnxhgdxhxgn" path="res://Assets/shopmart_ltd.glb" id="2_ra1wr"]
@@ -16,6 +16,7 @@
 [ext_resource type="PackedScene" uid="uid://dybbae8cgiaj0" path="res://AssetPacks/Mini Mark Pack/breads.glb" id="14_42rnb"]
 [ext_resource type="PackedScene" uid="uid://cq8f4008ym1a6" path="res://Scenes/Interactables/shop_mart_doors.tscn" id="15_1fnv3"]
 [ext_resource type="PackedScene" uid="uid://ciw3gp5rwg5t6" path="res://Scenes/Character/MargaretChar.tscn" id="15_ucy1e"]
+[ext_resource type="Script" path="res://Scenes/Interactables/MargaretCheckoutEnd.gd" id="17_i5lp1"]
 [ext_resource type="PackedScene" uid="uid://bdx44wrt3xm8c" path="res://AssetPacks/Weapon Pack/Models/GLTF format/shotgun.glb" id="17_m2cvf"]
 [ext_resource type="PackedScene" uid="uid://cl6erm34ptkgx" path="res://Assets/creepy_person.glb" id="18_0ralj"]
 [ext_resource type="Script" path="res://Scenes/level/KillMargaret.gd" id="18_juvdv"]
@@ -23,6 +24,9 @@
 [ext_resource type="Script" path="res://Scenes/level/KillPeryton.gd" id="20_bsnx7"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_vrssc"]
+size = Vector3(1.2793, 1.56909, 1.30957)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_xtfgm"]
 size = Vector3(1, 1.56909, 1)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_12ahx"]
@@ -385,18 +389,21 @@ dialogic_track = "story_03_checkout"
 active_story_beat = Array[int]([2])
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Interactables/MargaretCheckOut1"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.024292, 0)
+transform = Transform3D(1, 0, -2.98023e-08, 0, 1, 0, 2.98023e-08, 0, 1, 0, -0.024292, 0)
 shape = SubResource("BoxShape3D_vrssc")
 
 [node name="MargaretCheckOut2" parent="Interactables" instance=ExtResource("1_l0q2p")]
 active_name = "Margaret"
 transform = Transform3D(0.858897, 0, -0.512148, 0, 1, 0, 0.512148, 0, 0.858897, -3.01284, 0.945916, 2.98887)
+script = ExtResource("17_i5lp1")
+track_has_shotgun = "res://Dialogic/story_06_checkout.json"
+track_no_shotgun = "res://Dialogic/story_06_papers_not_shotgun.json"
 dialogic_track = "story_06_checkout"
 active_story_beat = Array[int]([6])
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Interactables/MargaretCheckOut2"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.024292, 0)
-shape = SubResource("BoxShape3D_vrssc")
+transform = Transform3D(1, 0, -2.98023e-08, 0, 1, 0, 2.98023e-08, 0, 1, 0, -0.024292, 0)
+shape = SubResource("BoxShape3D_xtfgm")
 
 [node name="EnterKonbini" parent="Interactables" instance=ExtResource("1_l0q2p")]
 transform = Transform3D(0.838633, 0, -0.544698, 0, 1, 0, 0.544698, 0, 0.838633, 0, 0, 0)

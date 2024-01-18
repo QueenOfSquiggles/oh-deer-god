@@ -45,7 +45,7 @@
 			"type": "signal",
 			"name": "cutscene",
 			"args": [
-				"\"kill_peryton\""
+				"kill_peryton"
 			]
 		},
 		{

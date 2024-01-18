@@ -6,7 +6,7 @@ enum TriggerMode {
 	TRIGGER_COLLIDE,
 	TRIGGERE_BOTH
 }
-@export var dialogic_track := ""
+@export_file("*.json") var dialogic_track := ""
 @export var active_story_beat : Array[GameManager.StoryBeat] = []
 @export var queue_free_on_inactive := true
 @export var trigger_mode := TriggerMode.TRIGGER_INTERACT
