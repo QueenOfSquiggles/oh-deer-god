@@ -50,7 +50,7 @@ func load_cutscene(cutscene : String) -> void:
 			request_player_can_move.emit(false)
 			cutscene_kill_peryton.emit()
 		_: 
-			push_warning("Unhandled cutscene! '%s'" % cutscene)
+			push_warning("Unhandled cutscene! %s" % cutscene)
 
 func set_story_beat(n_beat : StoryBeat) -> void:
 	if story_progress == n_beat:
@@ -64,8 +64,8 @@ func trigger_dialog_track(track_name : String) -> void:
 	var file_name := track_name
 	if not file_name.begins_with("res://"):
 		file_name = "res://Dialogic/{0}.json".format([track_name])
-	CoreDialog.load_track_file(file_name)
-	CoreDialog.event_bus.track_ended.connect( \
+	SqoreDialog.load_track_file(file_name)
+	SqoreDialog.event_bus.track_ended.connect( \
 		Callable(self, "emit_signal") \
 		.bind("request_player_can_move", true), CONNECT_DEFERRED | CONNECT_ONE_SHOT)
 
@@ -84,12 +84,12 @@ func get_player() -> PlayerCharacter:
 #region Internals
 
 func _ready() -> void:
-	CoreDialog.init_event_bus()
+	SqoreDialog.init_event_bus()
 	await RenderingServer.frame_post_draw
 	_load()
-	CoreGlobals.config.graphics.mark_dirty() # forces loading of saved/default graphics settings (includes window and FSR settings)
+	Sqore.config.graphics.mark_dirty() # forces loading of saved/default graphics settings (includes window and FSR settings)
 	print(story_progress)
-	CoreDialog.event_bus.track_signal.connect(_internal_dialogic_event)
+	SqoreDialog.event_bus.track_signal.connect(_internal_dialogic_event)
 	update_reticle_mode.emit(ReticleMode.HIDDEN)
 
 func _internal_dialogic_event(signal_name : String, _args: Array) -> void:

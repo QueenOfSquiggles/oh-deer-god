@@ -1,0 +1,28 @@
+[gd_resource type="SqoreConfig" load_steps=9 format=3 uid="uid://d1qjqha282lxj"]
+
+[sub_resource type="GameAudioSettings" id="GameAudioSettings_wkcmc"]
+
+[sub_resource type="GameControlsSettings" id="GameControlsSettings_ji6fp"]
+mappings_style = 1
+
+[sub_resource type="LabelSettings" id="LabelSettings_ec8b3"]
+
+[sub_resource type="DialogSettings" id="DialogSettings_671s0"]
+character_name_label_style = SubResource("LabelSettings_ec8b3")
+
+[sub_resource type="GameGameplaySettings" id="GameGameplaySettings_wxfcl"]
+
+[sub_resource type="GameGraphicsSettings" id="GameGraphicsSettings_g7rfr"]
+
+[sub_resource type="UserModifications" id="UserModifications_jg46u"]
+
+[sub_resource type="VFXStack" id="VFXStack_tabj8"]
+
+[resource]
+graphics = SubResource("GameGraphicsSettings_g7rfr")
+controls = SubResource("GameControlsSettings_ji6fp")
+gameplay = SubResource("GameGameplaySettings_wxfcl")
+audio = SubResource("GameAudioSettings_wkcmc")
+vfx_stack = SubResource("VFXStack_tabj8")
+dialog = SubResource("DialogSettings_671s0")
+user_mods = SubResource("UserModifications_jg46u")

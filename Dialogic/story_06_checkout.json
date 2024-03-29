@@ -68,7 +68,7 @@
 			"type": "signal",
 			"name": "cutscene",
 			"args": [
-				"\"kill_margaret\""
+				"kill_margaret"
 			]
 		},
 		{

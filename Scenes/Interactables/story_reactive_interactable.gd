@@ -37,4 +37,4 @@ func _do_thing() -> void:
 		return
 	GameManager.trigger_dialog_track(dialogic_track)
 	if is_one_shot:
-		CoreDialog.event_bus.track_ended.connect(Callable(self, "queue_free"), CONNECT_ONE_SHOT)
+		SqoreDialog.event_bus.track_ended.connect(Callable(self, "queue_free"), CONNECT_ONE_SHOT)

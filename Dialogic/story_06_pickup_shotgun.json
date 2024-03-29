@@ -24,6 +24,10 @@
 			"code": "end"
 		},
 		{
+			"type": "text",
+			"content": "(you grab the shotgun)"
+		},
+		{
 			"type": "signal",
 			"name": "player_has_shotgun",
 			"args": [

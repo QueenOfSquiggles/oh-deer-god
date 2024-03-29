@@ -12,6 +12,8 @@ config_version=5
 
 squiggles_core/loaders=PackedStringArray()
 squiggles_core/game_settings="res://squiggles_config.tres"
+sqore/loaders=PackedStringArray()
+sqore/game_settings="res://sqore_config.tres"
 
 [application]
 

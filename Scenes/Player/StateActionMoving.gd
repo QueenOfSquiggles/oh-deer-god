@@ -91,7 +91,7 @@ func do_interact() -> void:
 		return
 	if not Input.is_action_just_pressed("interact"):
 		return
-	interact_ray.call_deferred_thread_group("do_interact")
+	interact_ray.call_deferred("do_interact")
 
 func update_anim() -> void:
 	var track := "walking" if actor.velocity.length_squared() > 1.0 else "Idle"
